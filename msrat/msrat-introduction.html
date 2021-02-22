@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+	<title>MSRATS</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="/css/github.css" type="text/css" media="screen">
+	<!--[if lt IE 9]>
+	<script src="js/html5.js"></script>
+	<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	<script src="/js/jquery1.7.2.min.js"></script>
+	<script src="/js/script.js"></script>
+</head>
+<body>
+	<h1 id="msrats-metrics-based-software-reliability-assessment-on-spreadsheet">MSRATS: Metrics-Based Software Reliability Assessment on Spreadsheet</h1>
+
+<p>Excelによるソフトウェア信頼性モデルの推定（以下の説明は <a href="rsrat.html">Rsrat</a> の記述を読んでから見た方が良いです）</p>
+
+<h2 id="機能">機能</h2>
+
+<ul>
+  <li>SRATS, SRATS2010 と同様に時刻データ，個数データから NHPP モデルの推定</li>
+  <li>モデル：指数，ガンマ，パレート，切断正規，対数正規，切断ロジスティック，対数ロジスティック，切断極値（最大），対数極値（最大），切断極値（最小），対数極値（最小）</li>
+  <li>ロジスティック回帰によるテストメトリクスを扱うモデルの推定</li>
+  <li>ポアソン回帰によるデザインメトリクスを扱うモデルの推定</li>
+</ul>
+
+<h2 id="インストール">インストール</h2>
+
+<ul>
+  <li>RのDLLを流用するので，Rをインストールする必要があります（RをインストールしなくてもRのDLLをコピーしても可）</li>
+  <li>インストール手順
+    <ul>
+      <li>MSRATS_yyyymmdd.zip を<a href="MSRATS20140603.zip">ダウンロード</a>より入手する（yyyymmddはバージョン）．</li>
+      <li>zipを解凍し，setup.exe を実行
+        <ul>
+          <li>.NETなど MSRATS を動かすのに必要なものをインストールする場合があります</li>
+        </ul>
+      </li>
+      <li>RのDLLをコピー
+        <ul>
+          <li>Rがインストールされているフォルダ（c:¥Program¥）から以下のDLLを MSRATS.dll がインストールされたフォルダにコピー
+            <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>R.dll
+Rblas.dll
+Rgraphapp.dll
+Riconv.dll
+Rlapack.dll
+Rzlib.dll
+</code></pre></div>            </div>
+          </li>
+          <li>MSRATS.dllは環境によってどこにインストールされてるか異なります（？）．ユーザの場合，AppData以下にあると思いますが，検索機能を使った方が良いと思います．</li>
+        </ul>
+      </li>
+      <li>動作環境：次の環境で動作した実績があります
+        <ul>
+          <li>Windows 7 64bit, Windows 8.1 64bit</li>
+          <li>Excel 2010 32bit</li>
+        </ul>
+      </li>
+      <li>アンインストール
+        <ul>
+          <li>プログラムの削除から行ってください</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="起動">起動</h2>
+
+<ul>
+  <li>Excelを起動したら，自動的にアドインとして登録されていると思います．</li>
+</ul>
+
+<h2 id="nhppの推定">NHPPの推定</h2>
+
+<ul>
+  <li>基本操作は SRATS2010 と同じなので https://okamumu.github.io/SRATS2010/index.html を参照してください．</li>
+  <li>ただし，モデル詳細をダブルクリックで表示することができません．</li>
+</ul>
+
+<h2 id="ロジットモデル">ロジットモデル</h2>
+
+<ul>
+  <li>動的なメトリクスを利用して，フォールト発見確率に対する回帰モデルを構築します．</li>
+  <li>このモデルでは個数データしか扱えません</li>
+  <li>使用例
+    <ul>
+      <li>
+        <p>例えば，下のようなデータシートを用意します（上のA,..,Dはシートの列，左の1,..,5はシートの行を表す）</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th> </th>
+              <th>A</th>
+              <th>B</th>
+              <th>C</th>
+              <th>D</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>faults</td>
+              <td>days</td>
+              <td>coverage</td>
+              <td>work</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>2</td>
+              <td>1</td>
+              <td>0.1</td>
+              <td>2.0</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>10</td>
+              <td>2</td>
+              <td>0.2</td>
+              <td>5.0</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>1</td>
+              <td>3</td>
+              <td>0.7</td>
+              <td>3.0</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>0</td>
+              <td>4</td>
+              <td>0.9</td>
+              <td>1.0</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>セル範囲 A2:E5 を選んで，「アドイン」-&gt;「LogitSRGM」を選びます．</li>
+      <li>このとき選択した最も左の列は発見個数を表す列になるようにしてください．</li>
+      <li>左から２番目以降は要因になるので対象とする要因を選択するようにしてください．</li>
+      <li>フォームが現れたら「Estimate」のボタンを押すと推定を行います．</li>
+      <li>Logit と cloglog のリンク関数のモデルを同時に推定します．</li>
+      <li>Modelsの枠内の上段が，各メトリクスに対する回帰係数 M1, M2, …</li>
+      <li>Modelsの下段に AIC などの指標が表示されます．</li>
+      <li>Models の上段，下段のどちらかで Logit か cloglog を選択し，Report を押すと結果を出力するシート名やグラフ描画を行うチェックボックスがあるフォームが表示されます．</li>
+      <li>このフォームで OK を押すとロジットのモデルによる推定結果が出力されます．</li>
+      <li>出力結果はSRATS2010とほぼ同じですが，信頼度関数とフォールト発見率のグラフがありません．フォールト発見率のグラフの代わりに日ごとの発見フォールト数（棒グラフ）とモデルで推定された期待発見数（折れ線）のグラフが描画されます．</li>
+      <li>要因選択の機能は Excel にはありません．</li>
+      <li>罰則付き最尤法におけるlambda値はフォームの下のバーで調節できます．</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="ポアソン回帰モデル">ポアソン回帰モデル</h2>
+
+<ul>
+  <li>ソフトウェアモジュールに対する静的なメトリクス（設計に関する，コード行数，複雑度など）と総フォールト数に関する回帰式を利用してすべてのモジュールに関するパラメータを同時に行います．</li>
+  <li>使用例
+    <ul>
+      <li>
+        <p>例えば，下のようなデータシートを用意します（上のA,..,Dはシートの列，左の1,..,5はシートの行を表す）</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th> </th>
+              <th>A</th>
+              <th>B</th>
+              <th>C</th>
+              <th>D</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>モジュール名</td>
+              <td>LOC</td>
+              <td>COMPLEXITY</td>
+              <td>CLASSES</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Webapps</td>
+              <td>1</td>
+              <td>0.1</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Jasper</td>
+              <td>2</td>
+              <td>0.2</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Servlet</td>
+              <td>3</td>
+              <td>0.7</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Tester</td>
+              <td>4</td>
+              <td>0.9</td>
+              <td>1</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>セル範囲 B2:E5 を選んで，「アドイン」-&gt;「MSRATS」を選びます．</li>
+      <li>選択した行数で対象とするモジュールの数がきまり，Modules のリストに Module 1, 2, .. として表示されます．</li>
+      <li>各モジュールに適用するモデルを選択するために，Modules のリストの Module 1, Module 2, … のいずれかの行を選択し，ダブルクリックします．</li>
+      <li>ダブルクリックすると，NHPP の場合は SRATS と同じフォームが現れます．</li>
+      <li>あらかじめ Modules リストの「Model」でプルダウンリストから Logit から CLogLog? を選んでからダブルクリックすると LogitSRGM と同じフォームが現れます．</li>
+      <li>SRATSあるいはLogitSRGMのフォームを使って，各モジュールのフォールトデータを選択します（Rangeの横のボタンを押すと Excelシートのセル範囲を選べるようになります）．</li>
+      <li>SRATS, LogitSRGM のフォームで OKボタンを押すと現在のフォームで選んでいるモデル（Expなど）が選ばれた上で，フォームが close し，MSRATS フォームに戻ります．</li>
+      <li>上述の作業（各モジュールのフォールトデータとモデルの選択）をすべてのモジュールに対して行います．</li>
+      <li>データ選択とモデル選択が完了したら，「Estimate」を押すことですべてのモジュールとメトリクスを考慮したうえで，各モジュールに割り当てたモデルのパラメータ推定を行います．</li>
+      <li>結果の表示はまず，Modules リストをダブルクリックして SRATS または LogitSRGMのフォームを表示します．</li>
+      <li>以降は，SRATS, LogitSRGM で行ったように，「モデル選択」，「Report」とすると各モジュールの信頼性評価結果がシートにレポートされます．</li>
+      <li>要因選択の機能は Excel にはありません．</li>
+      <li>罰則付き最尤法におけるlambda値はフォームの下のバーで調節できます</li>
+    </ul>
+  </li>
+</ul>
+
+</body>
+</html>

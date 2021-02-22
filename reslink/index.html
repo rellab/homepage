@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<script type="text/javascript" src="scripts/prototype.js"></script>
+<script type="text/javascript" src="scripts/YahhoCal.js"></script>
+<script type="text/javascript" src="scripts/reslink.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>Conference Links</title>
+</head>
+<body>
+<div>
+<div class="topmenuelem"><a href="../">top</a></div> | 
+<div id="intl" name="intl" class="topmenuelem">International Conference</div> | 
+<div id="dmst" name="dmst" class="topmenuelem">Domestic Conference</div> |
+<div class="topmenuelem"><a href="edit/index.html">Login</a></div> 
+</div>
+
+<div id="tbltitle" name="tbltitle" class="title">International Conference</div>
+<div id="serach" name="search" class="searchmenuelem">
+  Search: 
+  <input type="text" id="searchtext" name="searchtext" class="searchtext" value="" />
+</div>
+
+<div id="startdate" name="startdate" class="searchmenuelem">
+  Start Date (ex. 2009/1/1.  Blank is current date.): 
+  <input type="text" id="sdatetext" name="sdatetext" />
+</div>
+   <table id="conftab" name="conftab">
+   <thead id="tblheader" name="tblheader">
+     <tr>
+     <th id="dateheader" name="dateheader" class="down">Date</th>
+     <th id="confheader" name="confheader" class="norm">Conference Name</th>
+     <th id="locatheader" name="locatheader" class="norm">Location</th>
+     <th id="deadheader" name="deadheader" class="norm">Deadline</th>
+     <th id="remkheader" name="remkheader" class="norm">Remarks</th>
+   </tr>
+   </thead>
+   <tbody id="resultrec" name="resultrec">
+   </tbody>
+   <tfoot id="tblfooter" name="tblfooter">
+     <tr>
+     <th id="datefooter" name="datefooter" class="norm">Date</th>
+     <th id="conffooter" name="conffooter" class="norm">Conference Name</th>
+     <th id="locatfooter" name="locatfooter" class="norm">Location</th>
+     <th id="deadfooter" name="deadfooter" class="norm">Deadline</th>
+     <th id="remkfooter" name="remkfooter" class="norm">Remarks</th>
+   </tr>
+   </tfoot>
+</table>
+<hr />
+<p>Dependable Systems Lab.</p>
+
+</body>
+</html>

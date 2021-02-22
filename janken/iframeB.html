@@ -1,0 +1,90 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+<meta name="keywords" content="じゃんけん">
+<meta name="description" content="">
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="js/mt.js"></script>
+<script type="text/javascript" src="js/agent.js"></script>
+<script type="text/javascript" src="js/graph.js"></script>
+<script type="text/javascript">
+
+	var kenGIF = ["images/g.gif", "images/c.gif", "images/p.gif"];
+
+	var mt = new MersenneTwister();
+	var field = new JankenField();
+	var agent = new QLearningAgent(0.1, 0.5, 0.3, mt);
+
+    google.load('visualization', '1.0', {'packages':['corechart']});
+    google.setOnLoadCallback(drawChart);
+    function drawChart() {
+    	drawWinChart(field, 'Ｂさんに対する勝率', 'chartb_div');
+    }
+
+	var fightCall = function(ken) {
+		var ken2 = agent.next();
+		document.getElementById("myken").innerHTML = "あなた<img src='" + kenGIF[ken] + "' border='0'>"
+		document.getElementById("tekiken").innerHTML = "あいて<img src='" + kenGIF[ken2] + "' border='0'>"
+		var result = field.fight(ken, ken2);
+		switch (result) {
+		case 1:
+			document.getElementById("jmsg1").innerHTML = "あなたの勝ち";
+			break;
+		case -1:
+			document.getElementById("jmsg1").innerHTML = "あなたの負け";
+			break;
+		case 0:
+			document.getElementById("jmsg1").innerHTML = "引き分け";
+			break;
+		}
+		document.getElementById("jmsg0").innerHTML = field.total() + "戦" + field.winAgent1 + "勝"
+			+ field.winAgent2 + "負" + field.evenAgents + "分け";
+		agent.feedback(result, ken);
+//		qtable();
+//		drawChart();
+	}
+
+	var qtable = function() {
+		document.getElementById("qstate_div").innerHTML = agent2.state;
+		document.getElementById("qken_div").innerHTML = agent2.ken;
+		document.getElementById("qtable_div").innerHTML = "";
+		for (var i=0; i<9; i++) {
+			document.getElementById("qtable_div").innerHTML
+				+= "<tr><td>" + agent2.Q[i][0]
+				 + "</td><td>" + agent2.Q[i][1]
+				 + "</td><td>" + agent2.Q[i][2] + "</td></tr>"
+		}
+	}
+
+</script>
+</head>
+
+<body>
+
+<table align="center">
+<tr><td align="center">
+Ｂさんと対戦
+<div class="field" align="center">
+<div id="jmsg0" align="center">0戦0勝0敗</div>
+<div aligh="center" style="width: 150px; height: 100px;">
+<div id="myken" class="kenleft">あなた<img src="images/g.gif" border='0'></div>
+<div id="tekiken" class="kenright">あいて<img src="images/g.gif" border='0'></div>
+</div>
+<div class="fieldmsg" id="jmsg1"></div>
+</div>
+<span>
+<button type="button" onclick="fightCall(KEN.GU)">グー</button>
+<button type="button" onclick="fightCall(KEN.CHOKI)">チョキ</button>
+<button type="button" onclick="fightCall(KEN.PA)">パー</button>
+</span>
+</td>
+<td>
+<button type="button" onclick="drawChart()">draw</button>
+<div id="chartb_div"></div>
+</td></tr>
+</table>
+
+</body>
+</html>

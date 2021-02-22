@@ -1,0 +1,211 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+<title>じゃんけんの実験</title>
+<meta name="keywords" content="じゃんけん">
+<meta name="description" content="">
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+<![endif]-->
+<!-- <script src="../js/jquery1.7.2.min.js"></script>
+<script src="../js/script.js"></script>
+ -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="js/mt.js"></script>
+<script type="text/javascript" src="js/agent.js"></script>
+<script type="text/javascript" src="js/graph.js"></script>
+<script type="text/javascript">
+
+	var kenGIF = ["images/g.gif", "images/c.gif", "images/p.gif"];
+
+	var mt = new MersenneTwister();
+	var field = new JankenField();
+	var field2 = new JankenField();
+	var agent1 = new RandomAgent(mt);
+	var agent2 = new QLearningAgent(0.1, 0.5, 0.3, mt);
+	var agent3 = new MimicAgent(mt);
+
+    google.load('visualization', '1.0', {'packages':['corechart']});
+    google.setOnLoadCallback(drawChart);
+    function drawChart() {
+    	drawWinChart(field, 'Ａさんに対する勝率', 'chart_div');
+    	drawWinChart(field2, 'Ｂさんに対する勝率', 'chartb_div');
+    	drawGCPChart(field.statistics0, 'あなたのグー・チョキ・パーの割合', 'gcpchart_div');
+    	drawGCPChart(field.statistics[KEN.GU], 'グーの後に出す手', 'gchart_div');
+    	drawGCPChart(field.statistics[KEN.CHOKI], 'チョキの後に出す手', 'cchart_div');
+    	drawGCPChart(field.statistics[KEN.PA], 'パーの後に出す手', 'pchart_div');
+    }
+
+	var fightCall = function(ken) {
+		var ken2 = agent1.next();
+		var ken3 = agent2.next();
+		document.getElementById("myken").innerHTML = "あなた<img src='" + kenGIF[ken] + "' border='0'>"
+		document.getElementById("tekiken").innerHTML = "あいて<img src='" + kenGIF[ken2] + "' border='0'>"
+		var result = field.fight(ken, ken2);
+		var result2 = field2.fight(ken, ken3);
+		switch (result) {
+		case 1:
+			document.getElementById("jmsg1").innerHTML = "あなたの勝ち";
+			break;
+		case -1:
+			document.getElementById("jmsg1").innerHTML = "あなたの負け";
+			break;
+		case 0:
+			document.getElementById("jmsg1").innerHTML = "引き分け";
+			break;
+		}
+		document.getElementById("jmsg0").innerHTML = field.total() + "戦" + field.winAgent1 + "勝"
+			+ field.winAgent2 + "負" + field.evenAgents + "分け";
+		agent1.feedback(result, ken);
+		agent2.feedback(result2, ken);
+//		qtable();
+//		drawChart();
+	}
+
+	var qtable = function() {
+		document.getElementById("qstate_div").innerHTML = agent2.state;
+		document.getElementById("qken_div").innerHTML = agent2.ken;
+		document.getElementById("qtable_div").innerHTML = "";
+		for (var i=0; i<9; i++) {
+			document.getElementById("qtable_div").innerHTML
+				+= "<tr><td>" + agent2.Q[i][0]
+				 + "</td><td>" + agent2.Q[i][1]
+				 + "</td><td>" + agent2.Q[i][2] + "</td></tr>"
+		}
+	}
+
+</script>
+</head>
+
+<body>
+
+<div align="right"><a href="../index.php">&gt; &gt;ディペンダブルシステム論研究室ページへ</a></div>
+
+<h2>じゃんけんの実験</h2>
+
+<p>
+ここではじゃんけんを科学してみます．
+対戦相手は「適当なＡさん」と「読みのするどいＢさん」の二人です．
+最初にＡさんと対戦してもらいます．
+百戦くらいやってみて下さい．
+</p>
+
+<div align="center">
+Ａさんと対戦
+<div class="field" align="center">
+<div id="jmsg0" align="center">0戦0勝0敗</div>
+<div aligh="center" style="width: 150px; height: 100px;">
+<div id="myken" class="kenleft">あなた<img src="images/g.gif" border='0'></div>
+<div id="tekiken" class="kenright">あいて<img src="images/g.gif" border='0'></div>
+</div>
+<div class="fieldmsg" id="jmsg1"></div>
+</div>
+<span>
+<button type="button" onclick="fightCall(KEN.GU)">グー</button>
+<button type="button" onclick="fightCall(KEN.CHOKI)">チョキ</button>
+<button type="button" onclick="fightCall(KEN.PA)">パー</button>
+</span>
+</div>
+
+<!-- <div id="qstate_div"></div>
+<div id="qken_div"></div>
+<table id="qtable_div"></table>
+ -->
+<p>
+結果はどうでしたか？おそらく勝ち・負け・引き分けには，それほど差がないと思います．
+勝敗をグラフにすると以下のようになります．
+</p>
+
+<table align="center">
+<caption><button type="button" onclick="drawChart()">draw</button>（draw ボタンを押してください）</caption>
+<tr><td>
+<div id="chart_div"></div>
+</td></tr>
+</table>
+
+<p>
+実はＡさんは，全くランダムにグー・チョキ・パーのいずれかを選択するという
+方針で手を決めていました．
+このとき，じゃんけんにおける確率的な公平性が保たれて，勝ち・敗け・引き分けと
+なる確率がほほ三分の一となることがわかります（<a href="kaisetsu.html" TARGET="_blank">解説参照</a>）．
+</p>
+
+<p>
+では，これからじゃんけんを確率的な観点から分析してみます．
+</p>
+
+<p>
+じゃんけんの勝率をあげるには，あいての「くせ」（<a href="kaisetsu.html" TARGET="_blank">解説参照</a>）を読むことが必須です．
+そこで，あなたの手の傾向を見てみます．
+</p>
+
+<table align="center">
+<!-- <caption>図２．あなたのグー・チョキ・パーの割合</caption>
+ --><tr><td>
+<div id="gcpchart_div"></div>
+</td></tr>
+</table>
+
+<p>
+いかがでしょうか？
+ボタン配置の問題でチョキが多くなってる場合が多いですが，
+あなたが普通にグー・チョキ・パーを選択していれば，目を見張るほどの違いはないと思います．
+言い換えれば，均等にランダムに選択されているので「くせ」を読むことは難しいかもしれません．
+</p>
+
+<p>
+次に，二つの系列で考えてみます．
+つまり，あなたが出した手を順番に並べて（時間に沿って並んでいるので時系列と呼びます）「グー，グー」や「パー，グー」と言った列がいくつ現れるかを見てみます．
+</p>
+
+<table align="center">
+<!-- <caption>図３．グー・チョキ・パー後のグー・チョキ・パーの割合</caption>
+ --><tr><td>
+<div id="gchart_div"></div>
+</td><td>
+<div id="cchart_div"></div>
+</td><td>
+<div id="pchart_div"></div>
+</td></tr>
+</table>
+
+<p>
+いかがでしょうか？
+先程の一系列だけで見た場合よりも，手のかたよりが顕著になっていると思います．
+別の言い方をすれば，「次に出す手は前の手に依存する傾向にある」，
+「前の手と次の手は互いに関連している」と言えます．
+この性質が，確率過程論における「相関」や「マルコフ性」などと呼ばれる重要な要因
+で，確率的にある物事を予測する場合の基礎理論となります．
+</p>
+
+<p>
+実は先程，Ａさんとじゃんけんをやってもらいましたが，
+その陰で，Ｂさんとも対戦していました．
+Ｂさんは最初に読みがするどいと書きましたが，上記のようなあなたのじゃんけんにおける
+「くせ」を確率的に表現し，最善と考えられる手を打ってきます．
+結果を見てみると・・・
+</p>
+
+<table align="center">
+<!-- <caption>図４．対戦相手Ｂに対する勝率</caption>
+ --><tr><td>
+<div id="chartb_div"></div>
+</td></tr>
+</table>
+
+<p>
+個人差があるので，断言できませんが，おそらく「くせ」が顕著に現れていた人の勝率（勝利数）は減っていると思います．
+</p>
+
+<p>
+最後にＢさんと対戦してみてください．百戦やって勝ち越せますか？
+また，もう少し詳しい解説を知りたい人は<a href="kaisetsu.html" TARGET="_blank">解説ページ</a>を参照してください．
+</p>
+
+<iframe src="iframeB.html" name="vsB" frameborder="0" scrolling="no" width="100%" height="100%"></iframe>
+
+</body>
+</html>

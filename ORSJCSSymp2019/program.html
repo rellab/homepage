@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>program.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+	font-size: 14px;
+	padding: 0 12px;
+	line-height: 22px;
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	color: #4080D0;
+	text-decoration: none;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+	font-size: inherit;
+	line-height: auto;
+}
+
+a:hover {
+	color: #4080D0;
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left: 5px solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 14px;
+	line-height: 19px;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+.mac code {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+/** Theming */
+
+.vscode-light,
+.vscode-light pre code {
+	color: rgb(30, 30, 30);
+}
+
+.vscode-dark,
+.vscode-dark pre code {
+	color: #DDD;
+}
+
+.vscode-high-contrast,
+.vscode-high-contrast pre code {
+	color: white;
+}
+
+.vscode-light code {
+	color: #A31515;
+}
+
+.vscode-dark code {
+	color: #D7BA7D;
+}
+
+.vscode-light pre:not(.hljs),
+.vscode-light code > div {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre:not(.hljs),
+.vscode-dark code > div {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre:not(.hljs),
+.vscode-high-contrast code > div {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+.vscode-light blockquote,
+.vscode-dark blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.vscode-high-contrast blockquote {
+	background: transparent;
+	border-color: #fff;
+}
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family:  "Meiryo", "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+</head>
+<body>
+<h1 id="2019-orsj-chugoku-and-shikoku-branch-symposium-on-stochastic-modeling">2019 ORSJ Chugoku and Shikoku Branch Symposium on Stochastic Modeling</h1>
+<ul>
+<li>Date: May 18, 2019 13:30-17:20</li>
+<li>Location: Reception hall in Hiroshima university faculty club</li>
+</ul>
+<h2 id="program">Program</h2>
+<p>発表はすべて英語で行われます．</p>
+<ul>
+<li>13:30-14:20　講演：Kishor S. Trivedi 氏（Duke University）</li>
+<li>題目：Uncertainty Propagation through  Stochastic Models</li>
+<li>概要：The uncertainty propagation is to investigate the effect of errors in model input parameters on the system output measure in probability models. In this talk, we present a moment-based approach of the uncertainty propagation of model input parameters. The presented approach requires only the fist two moments of model parameters, and has an advantage in terms of computation over the closed-form, numerical and sampling-based approaches for uncertainty propagation. Also, we present the properties of moment-based approach by comparing the existing Bayes estimation for the uncertainty propagation in a simple reliability model. An availability model of a server with virtual machines is used to illustrate the applicability of our method in practical problems.</li>
+</ul>
+<hr>
+<ul>
+<li>14:30-15:20　講演：井上 文彰 氏（大阪大学）</li>
+<li>題目：Analysis of the Stationary Distribution of the Age of Information</li>
+<li>概要：Recently, studies on a metric called the age of information (AoI) have been attracting a considerable attention of research communities. AoI is a metric for the freshness of information, which is defined as the elapsed time since the latest information is generated. Usually, queueing models are used to formulate the AoI, so that AoI is represented as a continuous-time stationary stochastic process. In most previous works, only the time-average (mean) of the AoI is analyzed, and the probability distribution of the AoI is rarely discussed. In this talk, we derive a general formula for the stationary distribution of the AoI, which holds for a wide class of systems. In addition, an application of the general formula to single-server queueing systems are presented.</li>
+</ul>
+<hr>
+<ul>
+<li>15:30-16:20　講演：Tuan Phung-Duc 氏（筑波大学）</li>
+<li>題目：Queueing Analysis of Autoscaling Algorithms for Cloud Systems</li>
+<li>概要：Cloud service has become very popular in our modern information society. Cloud systems are supported by data centers where a huge number of servers are available, consuming a large amount of energy. While energy-saving is a crucial issue, most of data centers are designed for their peak traffic of users. Thus, we need a mechanism that can balance the energy consumption and the performance of users. Autoscaling is such a mechanism that adjusts the computing resource according to the workload in the system. In this talk, we present queueing models of data centers with autoscaling techniques and their analysis. These models not only provide the trade-off between performance and energy consumption but their analyses also have some theoretical challenging. Interestingly, the same models are also used for resource scaling of 5G wireless systems.</li>
+</ul>
+<hr>
+<ul>
+<li>16:30-17:20　講演：Junjun Zheng 氏（立命館大学）</li>
+<li>題目：Towards more secure systems: A modeling and analysis framework of intrusion-tolerant systems with periodic vulnerability checking strategy</li>
+<li>概要：Computer security has been one of important concerns in the modern society. Security issues are usually caused by malicious attacks from adversary by exploiting software vulnerabilities. Intrusion tolerant techniques, a significant countermeasure against security threats, have been widely applied to protect computer security. Another of interest is the application timing of security patch, since patching the vulnerable system before a malicious attack occurs is the most efficient way to guarantee the system security. In this paper, we introduce a modeling and analysis framework of an intrusion-tolerant system (ITS), where the system undergoes the patch management with a periodic vulnerability checking strategy, and evaluate the system security from availability aspect. The framework consists of a composite stochastic reward net (SRN), characterizing the attack behavior of adversary and the system behaviors under reactive defense strategies, and a corresponding Markov regenerative process (MRGP) model derived from SRN. Upon the analysis of some security attributes, the optimal application timing of security patch is determined to achieve a more secure system.</li>
+</ul>
+
+</body>
+</html>

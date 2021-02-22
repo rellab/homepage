@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Rsrat</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="/css/github.css" type="text/css" media="screen">
+	<!--[if lt IE 9]>
+	<script src="js/html5.js"></script>
+	<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	<script src="/js/jquery1.7.2.min.js"></script>
+	<script src="/js/script.js"></script>
+</head>
+<body>
+	<h1 id="rsrat-software-reliability-assessment-tool-on-r">Rsrat: Software Reliability Assessment Tool on R</h1>
+
+<p>Rによるソフトウェア信頼性モデルの推定</p>
+
+<h2 id="機能">機能</h2>
+
+<ul>
+  <li>時刻データ，個数データからの NHPP モデルの推定
+    <ul>
+      <li>SRATS2010 と同じモデルが扱える（指数，ガンマ，パレート，切断正規，対数正規，切断ロジスティック，対数ロジスティック，切断極値（最大），対数極値（最大），切断極値（最小），対数極値（最小））</li>
+    </ul>
+  </li>
+  <li>ロジスティック回帰による動的メトリクス（d-metrics）を扱うモデルの推定
+    <ul>
+      <li>logit, cloglog が利用可能</li>
+    </ul>
+  </li>
+  <li>ポアソン回帰によるデザインメトリクスを扱うモデルの推定
+    <ul>
+      <li>モジュール毎にNHPPもしくはロジットモデルを適用</li>
+      <li>静的メトリクス（s-metrics）による総フォールト数の回帰</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="インストール">インストール</h2>
+
+<p>devtools によりインストールします．Windows/MacOSX/Linux のいずれもおおよそ以下の手順になります．</p>
+
+<ol>
+  <li>R および Rstudio のインストール（<a href="https://www.google.co.jp/search?ei=TgeeWszEAsK70gSy85a4Bw&amp;q=r+rstudio+%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB&amp;oq=r+rstudio+%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB&amp;gs_l=psy-ab.3..0j0i8i30k1.7640162.7640162.0.7641045.1.1.0.0.0.0.129.129.0j1.1.0....0...1c.2.64.psy-ab..0.1.129....0.yR_NFhlmj6w">Google検索</a>）</li>
+  <li>パッケージをコンパイルするための環境整備．以下のいずれかの方法で C/C++/Fortran をコンパイルできる環境を整えます．
+    <ul>
+      <li>Windows: Windows の場合は Rtools をインストールすると MinGW でのコンパイル環境が簡単に構築できるのでお勧めです．Cygwin などを自分でインストールしてもできます．</li>
+      <li>MacOSX: C/C++ については Xcode をインストールすることで対応できます．Fortran については gfortran をインストールしてください（brew などがお勧めです）．</li>
+      <li>Linux: gcc/gfortran を yum や apt でインストールしてください．</li>
+    </ul>
+  </li>
+  <li>devtools のインストール
+    <ul>
+      <li>R を起動して以下のコマンドを入力してください．
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> install.packages(pkgs="devtools")
+</code></pre></div>        </div>
+      </li>
+      <li>Rstudio は右下の Packages タブ -&gt; Install をクリックして <code class="highlighter-rouge">devtools</code> を入力してインストールすることができます．</li>
+    </ul>
+  </li>
+  <li>Rsrat のインストール
+    <ul>
+      <li>R/Rstudio を起動して以下のコマンドを入力してください．
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> library(devtools)
+ devtools::install_github("okamumu/Rsrat")
+</code></pre></div>        </div>
+        <p>必要なパッケージのダウンロードとコンパイルで <code class="highlighter-rouge">DONE (Rsrat)</code> が出ればインストール完了していると思われます．</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="パッケージの読み込み">パッケージの読み込み</h2>
+
+<ul>
+  <li>R/Rstudio を起動して以下のコマンドを入力します．
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>library(Rsrat)
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="nhpp-モデル">NHPP モデル</h2>
+
+<p>※ R （コンソール）を利用しているとして説明します．Rstudio の場合は適宜読み替えてください．</p>
+
+<p>以下のコマンドで例となるバグデータが得られます．</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>data(dacs)
+</code></pre></div></div>
+<p>例えば <code class="highlighter-rouge">sys1g</code> は日ごとの発見バグ数（個数データ）を表しており，これをモデルを使って推定・評価するためには，以下のコマンドを実行します．</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>result &lt;- fit.srm.nhpp(fault=sys1g)
+</code></pre></div></div>
+<p><code class="highlighter-rouge">fit.srm.nhpp</code> 関数の引数は</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>help(fit.srm.nhpp)
+</code></pre></div></div>
+<p>として確認してください．<code class="highlighter-rouge">result</code> には推定結果が納められています（<code class="highlighter-rouge">help(fit.srm.nhpp)</code> の Value を参照）．また，AIC で最も良いモデルが <code class="highlighter-rouge">result$srm</code> に格納されています．<code class="highlighter-rouge">result$srm</code> は NHPP 型のオブジェクトになっているので，属性やメソッドについては <code class="highlighter-rouge">help("NHPP")</code> を参照してください．</p>
+
+<p>例えば，残存バグ数は</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>result$srm$residual(t = sum(result$srm$data$time))
+</code></pre></div></div>
+<p>とすれば得られます．<code class="highlighter-rouge">result$srm$data</code> は推定に使ったデータを表しています．また，累積バグ数のグラフは以下のようにして描くことができます．</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mvfplot(data=result$srm$data, time=time, fault=fault, type=type, mvf=list(result$srm))
+</code></pre></div></div>
+<p>関数 <code class="highlighter-rouge">mvfplot</code> の引数は <code class="highlighter-rouge">help(mvfplot)</code> を参照してください．</p>
+
+<p>また，<code class="highlighter-rouge">sys1</code> は前のバグから次のバグを発見するまでの時間間隔のデータ（時間データ）を表しており，最後の負の値は最後のバグが発見されてからの経過時間を表しています．この場合は次のようにして推定します．</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>result &lt;- fit.srm.nhpp(time = head(sys1, -1), te = -tail(sys1, 1))
+</code></pre></div></div>
+
+<h2 id="動的メトリクスによるモデル">動的メトリクスによるモデル</h2>
+
+<p>動的なメトリクスとは，投入したテストケース数や労力，テストカバレッジ，チームの混乱度合いなどのテストの進捗に伴って変化する量とします．このモデルでは動的メトリクスが，バグ発見能力（バグ発見確率）に影響を与えるものと仮定した回帰モデルを使ってテスト工程における発見バグ数の振る舞いをモデル化しています．</p>
+
+<p>各テスト期間における動的なメトリクスを利用するため，このモデルでは個数データしか扱えません．例として次のデータを使います．</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>data(dmet)
+dmet.ds1
+</code></pre></div></div>
+<p>上記のデータは</p>
+<ul>
+  <li>day: テストの日付</li>
+  <li>fault: その日に見つかったバグ数</li>
+  <li>tc: その日に投入したテストケース数</li>
+  <li>ctc: tc の累積値</li>
+  <li>cov: その日に投入したテストケースで増えた C0 カバレッジ（ccov の増分値）</li>
+  <li>ccov: その日までに投入したテストケースに対する C0 カバレッジ
+を納めたデータフレームとなっています．</li>
+</ul>
+
+<p>モデルパラメータの推定（回帰係数などの推定）は以下の関数で行います．</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>result &lt;- fit.srm.logit(formula = fault ~ tc + ctc + cov + ccov, data = dmet.ds1)
+</code></pre></div></div>
+<p>上記は，tc, ctc, cov, ccov の四つの動的メトリクスとバグ発見確率の関係を回帰しています．結果を表示すると以下のようになります．</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>...
+
+Link function: logit
+
+      omega  (Intercept)           tc          ctc          cov         ccov  
+  66.393730    -3.297887     0.006964     0.022476    10.032076   -16.773099  
+Maximum LLF: -37.1562
+AIC: 86.3124
+Convergence: TRUE
+</code></pre></div></div>
+<p>上記で，<code class="highlighter-rouge">omega</code> は総バグ数に対する推定値（予測値），<code class="highlighter-rouge">(Intercept)</code>, <code class="highlighter-rouge">tc</code>, <code class="highlighter-rouge">ctc</code>, <code class="highlighter-rouge">cov</code>, <code class="highlighter-rouge">ccov</code> は各動的メトリクスに対する回帰係数で，正の値はバグ発見確率が上がる，負の値はバグ発見確率が下がることを意味しています．また <code class="highlighter-rouge">(Intercept)</code> はメトリクスに関係ない定数で，各動的メトリクスが 0 の場合の基本となるバグ発見確率が <code class="highlighter-rouge">exp(-3.297887)</code> であることを示しています．</p>
+
+<p>統計的に影響のあるメトリクスを選択（変数増減法を適用）するためには以下のようにします．</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>result &lt;- step(result)
+</code></pre></div></div>
+
+<p><code class="highlighter-rouge">formula</code> の書式や <code class="highlighter-rouge">step</code> の使い方は R の線形回帰 <code class="highlighter-rouge">lm</code> や一般化線形回帰 <code class="highlighter-rouge">glm</code> と同じなのでそちらも参考にしてください．また，<code class="highlighter-rouge">help(fit.srm.logit)</code> でその他の引数や戻り値について調べることができます．NHPP と同様に <code class="highlighter-rouge">result$srm</code> が推定されたモデルのオブジェクトになっており，<code class="highlighter-rouge">help("dGLM")</code> でクラス属性やメソッドが確認できます．</p>
+
+<p>例えば，各日ごとの FFP (Fault-Free Probability: バグが存在しない確率) は次のように計算できます．</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>result$srm$ffp(t = 1:result$srm$data$len)
+</code></pre></div></div>
+<p>また，日ごとの発見バグ数は次のようにするとグラフ描画できます．</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dmvfplot(fault = result$srm$data$fault, dmvf = list(result$srm))
+</code></pre></div></div>
+
+<h2 id="静的メトリクスによるモデル">静的メトリクスによるモデル</h2>
+
+<p>テストを通じて大きく変化しないメトリクスを静的メトリクスと呼んでいます．主に，ソフトウェア製品に係わるもので，例えば，ソフトウェアの規模や複雑性などテストを通じて大きく変化しないものを静的メトリクスとします．このモデルでは，静的メトリクスとソフトウェア内の初期バグ数（テスト開始前のバグ数）との関係を表す回帰モデル（ポアソン回帰）を利用します．</p>
+
+<p>これまでのモデルと異なり，複数のソフトウェアに対するバグデータを使います．複数のソフトウェアは，例えば，ソフトウェアのサブモジュール毎のバグデータや，同じドメインで利用する全く異なるソフトウェアのバグデータなどいろいろ考えられます．大まかな手順は以下になります．</p>
+
+<ol>
+  <li>各ソフトウェアのバグデータ（個数データ or 時間データ）を収集．</li>
+  <li>各ソフトウェアのバグデータからそれぞれ独立に NHPP のモデルを決定する．動的メトリクスのデータを収集している場合は動的メトリクスのモデルも適用できます．</li>
+  <li>各ソフトウェアのメトリクスデータとバグデータをまとめてポアソン回帰モデルを使って推定．</li>
+</ol>
+
+<p>以下，例を用いて実行します．まず，Tomcat5 のサブモジュール毎のデータを読み込みます．</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>data(tomcat5)
+</code></pre></div></div>
+<p>上記は以下のサブモジュール毎のバグ数（個数データ）を集計しています．</p>
+<ul>
+  <li>tomcat5.catalina</li>
+  <li>tomcat5.connector</li>
+  <li>tomcat5.jasper</li>
+  <li>tomcat5.servlets</li>
+  <li>tomcat5.tester</li>
+  <li>tomcat5.webapps</li>
+</ul>
+
+<p>まず各モデルに対して適切な NHPP を <code class="highlighter-rouge">fit.srm.nhpp</code> を用いて選びます．</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>alldata &lt;- list(
+  catalina=tomcat5.catalina,
+  connector=tomcat5.connector,
+  jasper=tomcat5.jasper,
+  servlets=tomcat5.servlets,
+  tester=tomcat5.tester,
+  webapps=tomcat5.webapps
+)
+allsrms &lt;- lapply(alldata, function(d) fit.srm.nhpp(time=d$time, fault=d$fault)$srm)
+</code></pre></div></div>
+
+<p><code class="highlighter-rouge">allsrms</code> には AIC で選ばれた最良のモデル（のオブジェクト）が格納されています．次に <code class="highlighter-rouge">tomcat5.smet</code> には各モジュールとその静的メトリクスが格納された以下のようなデータフレームです．</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>LOC    St   Br   Co   Fn  Mc   Ac
+catalina  125462 39386 19.2 34.4 4543  90 2.79
+connector 168482 65829 19.2 26.9 5912 175 3.37
+jasper     41861 15557 19.2 26.8 1691  90 2.88
+servlets   15480  1944  8.0 66.5  400  26 1.45
+tester     12677  4750 19.7 30.2  409  54 3.36
+webapps    37782 12851  9.5 31.2 1035  39 2.32
+</code></pre></div></div>
+
+<p>上記のメトリクスは次の通りです．</p>
+<ul>
+  <li>LOC: コード行数</li>
+  <li>St: ステートメント数</li>
+  <li>Br: ブランチ割合（ブランチ数 / ステートメント数）</li>
+  <li>Co: コメント行数</li>
+  <li>Fn: メソッド数</li>
+  <li>Mc: 最大複雑度</li>
+  <li>Ac: 平均複雑度</li>
+</ul>
+
+<p>コード行数だけを総バグ数と関連づける場合は，formula を以下のように指定して <code class="highlighter-rouge">fit.srm.poireg</code> を呼び出します．</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>result &lt;- fit.srm.poireg(formula= ~ LOC, data=tomcat5.smet, srms=allsrms)
+</code></pre></div></div>
+<p>変数増減法で影響のある静的メトリクスを選択するには step を使って，例えば以下のようにします．</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>result &lt;- step(result, direction = "both", scope = formula(~ LOC + St + Br + Co + Fn + Mc + Ac))
+</code></pre></div></div>
+<p>結果として次のように回帰係数が推定された場合</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Link function: log
+  (Intercept)           LOC            St            Ac
+ 2.765160e+00  5.704863e-05 -1.433555e-04  4.806722e-01
+</code></pre></div></div>
+<p>コード行数と平均複雑度が増えるとバグが増加することを表しているが，ステートメント数が増加するとバグが減少することを表している．これまでと同様に <code class="highlighter-rouge">result$srm</code> には推定されたモデルのオブジェクトが格納されている．ただし，複数のモデルを同時に扱うので各モジュールのモデルは <code class="highlighter-rouge">result$srm$srms</code> のリストにそれぞれ格納されている（<code class="highlighter-rouge">help("sGLM")</code> を参照）．そのため，例えばモジュール webapps の累積バグ数は次のコマンドで描画できる．</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mvfplot(data=result$srm$srms$webapps$data, time=time, fault=fault, type=type, mvf=list(result$srm$srms$webapps))
+</code></pre></div></div>
+
+<!-- 罰則付き最尤法
+要因の回帰係数に対する罰則付き最尤法?を行うことができます．
+controlにリストで list(lambda=0.1) のように 0 以外の正の数値を与えることで罰則の強さを決められます．
+logit.result <- srat.logit(formula=faults ~ ., data=metricsdat, control=list(lambda=1.0))
+結果の $abic を最小にするようにlambda値を選ぶ（ABIC基準）と良いですが，自動でlambda値を決定する機能はないので注意してください
+その他のオプション
+srat.nhpp と同様に推定に関する設定を control で変更できます．変更できる設定は
+srat.option.logit
+で参照してください．
+-->
+
+</body>
+</html>

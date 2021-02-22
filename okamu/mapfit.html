@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+ <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+  <base href="" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Hiroyuki Okamura, Hiroshma University, Software Reliability, MAP, PH" />
+  <meta name="title" content="Home" />
+  <meta name="author" content="Hiroyuki Okamura" />
+  <meta name="description" content="" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>mapfit</title>
+  <script type="text/javascript" src="media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="media/system/js/caption.js"></script>
+
+  <link rel="stylesheet" href="templates/system/css/system.css" type="text/css" />
+  <link rel="stylesheet" href="templates/system/css/general.css" type="text/css" />
+
+  <link rel="stylesheet" type="text/css" href="templates/colorsoft/css/template.css" />
+  <!--[if IE 6]><link rel="stylesheet" href="/okamu/templates/colorsoft/css/template.ie6.css" type="text/css" media="screen" /><![endif]-->
+  <!--[if IE 7]><link rel="stylesheet" href="/okamu/templates/colorsoft/css/template.ie7.css" type="text/css" media="screen" /><![endif]-->
+  <script type="text/javascript" src="templates/colorsoft/script.js"></script>
+ </head>
+<body>
+<div id="art-page-background-glare">
+    <div id="art-page-background-glare-image"></div>
+</div>
+<div id="art-main">
+<div class="art-Sheet">
+    <div class="art-Sheet-body">
+<div class="module_search"></div>
+<div class="art-nav">
+	<div class="l"></div>
+	<div class="r"></div>
+<ul class="art-menu">
+  <li class="item2"><a href="index.html"><span class="l"> </span><span class="r"> </span><span class="t">Home</span></a></li>
+  <li class="item3"><a href="profile.html"><span class="l"> </span><span class="r"> </span><span class="t">プロフィール</span></a></li>
+  <li class="item4"><a href="activity.html"><span class="l"> </span><span class="r"> </span><span class="t">研究活動</span></a></li>
+  <li class="item5"><a href="research.html"><span class="l"> </span><span class="r"> </span><span class="t">研究内容</span></a></li>
+  <li class="item17"><a href="paper.html"><span class="l"> </span><span class="r"> </span><span class="t">研究業績</span></a></li>
+  <li class="item6"><a href="software.html"><span class="l"> </span><span class="r"> </span> <span class="t">公開ソフトウェア</span></a></li>
+</ul></div>
+
+
+<div class="art-contentLayout">
+
+
+<div class="art-content-sidebar1">
+
+<div class="art-Post">
+    <div class="art-Post-body">
+<div class="art-Post-inner">
+<div class="art-PostContent">
+<div class="art-article"><h1>mapfit: MAP/PH Parameter Estimation Tool</h1>
+<h2>Overview</h2>
+mapfit is an R package for estimating MAP (Markovian Arrival Process) and PH (Phase-Type Distribution) parameters. MAP and PH are a useful tool for analyzing system performance for non-Markovian models by approximating it with Markov models. The package enables us to determine MAP/PH parameters from empirical data or theoretical distributions.
+The estimation algorithms in this package are based on our research results:
+<ul>
+<li> H. Goto, H. Okamura and T. Dohi, A note on parameter estimation for phase-type distribution in canonical form, Proceedings of 2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006), pp. 577--584, World Scientific, Singapore, 2006. </li>
+<li> H. Okamura, T. Dohi and K. S. Trivedi, Markovian arrival process parameter estimation with group data, IEEE/ACM Transactions on Networking, vol. 17, no. 4, pp. 1326--1339, 2009. </li>
+<li>H. Okamura and T. Dohi, Faster maximum likelihood estimation algorithms for Markovian arrival processes, Proceedings of 6th International Conference on Quantitative Evaluation of Systems (QEST 2009), pp. 73--82, IEEE Computer Society Press, Los Alamitos, 2009. </li>
+<li>H. Okamura, T. Dohi and K. S. Trivedi, An improvement of EM algorithm for PH distributions with group data, Proceedings of 4th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2010), pp. 532--539, McGraw-Hill, Taiwan, 2010. </li>
+<li>H. Okamura, T. Dohi and K. S. Trivedi, A refined EM algorithm for PH distributions, Performance Evaluation, 68(10), 938--954, 2011.</li>
+<li>H. Okamura, T. Dohi and K. S. Trivedi, Improvement of EM algorithm for phase-type distributions with grouped and truncated data, Applied Stochastic Models and Business and Industry, 29(2), 141--156, 2013.</li>
+</ul>
+Furthermore, we have a plan to implement the following estimation algorithms into the package:
+<ul>
+<li>H. Okamura, Y. Kamahara and T. Dohi, Estimating Markov-modulated compound Poisson process, Proceedings of 2nd International Conference on Performance Evaluation Methodologies and Tools (VALUETOOLS 2007), 10 pages, ACM Press, 2007. </li>
+<li>Y. Yamaguchi, H. Okamura and T. Dohi, Variational Bayesian approach for estimating parameters of a mixture of Erlang distributions, Communications in Statistics -Theory and Methods, vol. 39, no. 3, pp. 2333--2350, 2010. </li>
+<li>H. Okamura, H. Kishikawa and T. Dohi, Application of deterministic annealing EM algorithm to Markovian arrival parameter estimation, Proceedings of 2010 Symposia and Workshop on Ubiquitous, Autonomic and Trusted Computing (The 2nd International Symposium on Multidisciplinary Emerging Networks &amp; Systems (MENS-2010)), pp. 352--357, IEEE Computer Society Press, Los Alamitos, 2010. </li>
+</ul>
+<h2>Installation &amp; Usage</h2>
+mapfit is provided as a R package on CRAN (<a href="http://cran.r-project.org">http://cran.r-project.org</a>)
+</ol>
+<h2>Contacts</h2>
+If there is any trouble, contact us.
+
+</div><span class="article_separator">&nbsp;</span>
+</div>
+<div class="cleared"></div>
+
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+
+
+
+</div>
+
+
+</div>
+<div class="cleared"></div>
+
+
+<div class="art-Footer">
+ <div class="art-Footer-inner">
+  <div class="art-Footer-text">
+  <p>Copyright &copy; 2009 Hiroyuki Okamura.<br />
+All Rights Reserved.</p>
+
+    </div>
+ </div>
+ <div class="art-Footer-background"></div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+<div class="cleared"></div>
+<!--<p class="art-page-footer">Designed by <a href="http://www.jellydot.co.za">Jellydot Design</a>.</p>-->
+</div>
+
+</body>
+</html>

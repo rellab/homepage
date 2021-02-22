@@ -1,0 +1,143 @@
+/* Base Css */
+
+body {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  color:#333333;
+  font-size:20pt;
+  font-weight:bold;
+  padding-top:30px;
+  padding-bottom:10px;
+}
+
+h2{
+  font-size:16pt;
+  font-weight:bold;
+  border-style:solid;
+  border-color:#5297CD;
+  border-top-width:0px;
+  border-bottom-width:2px;
+  border-left-width:32px;
+  border-right-width:0px;
+  padding-top:10px;
+  padding-bottom:0px;
+  padding-left:5px;
+  padding-right:20px;
+}
+
+h3{
+  font-size:16pt;
+  font-weight:bold;
+  border-style:solid;
+  border-color:#5297CD;
+  border-top-width:0px;
+  border-bottom-width:0px;
+  border-left-width:16px;
+  border-right-width:0px;
+  padding-top:10px;
+  padding-bottom:0px;
+  padding-left:5px;
+  padding-right:20px;
+}
+
+/* a */
+a:link {
+  text-decoration: none;
+  background-color: transparent;
+  /*  color: #ED3235;*/
+}
+a:visited {
+  text-decoration: none;
+  background-color: transparent;
+  /*  color: #808080;*/
+}
+a:hover, a:focus {
+  background-color: transparent;
+  color: red;
+}
+
+/* field */
+.field {
+  font-family: 'Arial', 'Tahoma', sans-serif;
+  font-size: 12pt;
+  width: 250px;
+  height: 200px;
+  border-style: solid;
+  border-color: #5297CD;
+  border-width: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-image: url("./images/b029.gif")
+}
+
+.kenleft {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-color: #5297CD;
+  border-width: 0px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 20px;
+  background-color: transparent;
+}
+
+.kenright {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-color: #5297CD;
+  border-width: 0px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 0px;
+  background-color: transparent;
+}
+
+.fieldmsg {
+  width: 100px;
+  height: 50px;
+  border-style: solid;
+  border-color: #5297CD;
+  border-width: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: transparent;
+}
+
+/* p */
+p {
+  text-indent: 1em;
+  font-size: 14pt;
+}
+
+table {
+  font-size: 12pt;
+}
+
+table caption {
+  font-size: 10pt;
+  /*  background-color: #115566; */
+  color: #111111;
+/*  padding-top: 0.2em;
+padding-bottom: 0.2em; */
+}
+
+ul {
+  font-size: 12pt;
+}
+
+ol {
+  font-size: 12pt;
+}

@@ -1,0 +1,40 @@
+
+<html>
+ <head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>MSRATS: Metrics-Based Software Reliability Assessment Tool on Spreadsheet</title>
+</head>
+<body>
+<h2>MSRATSとは</h2>
+MSRATS (Metrics-Based Software Reliability Assessment Tool on Spreadsheet) は <a href="http://www.srat-app.com/SRATS/">SRATS</a>を拡張して，ソースコードやテストにおけるメトリクスを利用した信頼性評価を可能にします．IPA/SEC 2013年度ソフトウェア工学分野の先導的研究支援事業「次世代ソフトウェア信頼性評価技術の開発とその実装」において開発されました．
+<p>
+MSRATSはC#を用いたExcel AddInとして開発されています．MSRATSは次の特徴を持ちます．
+<ul>
+<li>Excelのスプレッドシートからのデータ入力
+<li>時刻データ・個数データの両方に対応するデータ入力形式
+<li>パラメータ推定および信頼性尺度計算の自動化
+<li>Excelのグラフ描画機能を利用した信頼度関数などのグラフ描画
+</ul>
+次のソフトウェア信頼性評価尺度をメトリクスを考慮したモデルに基づいて算出することができます．
+<ul>
+<li>予測総バグ数：単一のソフトウェアモジュール（プログラム単位orシステム単位）に内在する総バグ数の予測値．
+<li>予測残存バグ数：単一のソフトウェアモジュール（プログラム単位orシステム単位）に現時点で残存しているバグ数の予測値．
+<li>ソフトウェア信頼度関数：一定期間中にバグが発見されない確率．
+<li>FFP(fault-free probability)：現在のモジュールにバグがない確率．
+<li>各種MTTF(mean time to failure)，累積MTTF，瞬間MTTF，条件付きMTTF：バグ発見までの平均時間．
+<li>Median，Betenlife：信頼度が0.5, 0.1になるまでの時間．
+</ul>
+MSRATSで扱えるソフトウェア信頼性モデルは次の通りです．
+<ul>
+<li>11種類の典型的なNHPPモデル
+<li>動的メトリクスを扱うロジスティック回帰によるソフトウェア信頼性モデル
+<li>静的メトリクスを扱うポアソン回帰によるソフトウェア信頼性モデル
+<li>一般化線形ソフトウェア信頼性モデル
+</ul>
+<img src="screen.png">
+<h2>配布</h2>
+ダウンロードを希望する方は下記のアドレスに連絡をください．折り返しご連絡いたします．
+<p>
+<img src="mail.png">
+</body>
+</html>

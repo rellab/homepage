@@ -1,0 +1,90 @@
+/* Base Css */
+
+body {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  color:#333333;
+  font-size:20pt;
+  font-weight:bold;
+  padding-top:30px;
+  padding-bottom:10px;
+}
+
+h2{
+  font-size:16pt;
+  font-weight:bold;
+  border-style:solid;
+  border-color:#5297CD;
+  border-top-width:0px;
+  border-bottom-width:2px;
+  border-left-width:32px;
+  border-right-width:0px;
+  padding-top:10px;
+  padding-bottom:0px;
+  padding-left:5px;
+  padding-right:20px;
+}
+
+h3{
+  font-size:16pt;
+  font-weight:bold;
+  border-style:solid;
+  border-color:#5297CD;
+  border-top-width:0px;
+  border-bottom-width:0px;
+  border-left-width:16px;
+  border-right-width:0px;
+  padding-top:10px;
+  padding-bottom:0px;
+  padding-left:5px;
+  padding-right:20px;
+}
+
+div.eq {
+  font-size:120%;
+}
+
+/* a */
+a:link {
+  text-decoration: none;
+  background-color: transparent;
+  /*  color: #ED3235;*/
+}
+a:visited {
+  text-decoration: none;
+  background-color: transparent;
+  /*  color: #808080;*/
+}
+a:hover, a:focus {
+  background-color: transparent;
+  color: red;
+}
+
+/* p */
+p {
+  text-indent: 1em;
+  font-size: 14pt;
+}
+
+table {
+  font-size: 12pt;
+}
+
+table caption {
+  font-size: 14pt;
+  /*  background-color: #115566; */
+  color: #111111;
+/*  padding-top: 0.2em;
+padding-bottom: 0.2em; */
+}
+
+ul {
+  font-size: 14pt;
+}
+
+ol {
+  font-size: 14pt;
+}

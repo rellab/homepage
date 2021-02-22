@@ -1,0 +1,160 @@
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Inverted Pendulum</title>
+    <script type="text/javascript" src="js/apparatus.js"></script>
+    <script type="text/javascript" src="js/env.js"></script>
+    <script type="text/javascript" src="js/agent.js"></script>
+    <script type="text/javascript">
+    var outerDiv;
+    var canvasDiv;
+    var ctx;
+
+    var cart;
+    var env;
+    var agent;
+
+    var action;
+
+	var time = 0;
+	var episode = 1;
+	var record = 0;
+
+    var MainFrame = {
+        WIDTH : 800,
+        HEIGHT : 480
+    };
+
+    var ApparatusAction = {
+        LEFT : -1,
+        RIGHT : 1,
+        NONE : 0
+    };
+
+    function run() {
+//        while (true) {
+		timeUpdate();
+            if (cart.isMovable()) {
+                if (cart.isFailed()) {
+                    cart.move(action);
+                    cart.drawCart(ctx);
+                } else {
+                    var s = env.getCurrentState();
+//                    action = agent.selectAction();
+
+                    cart.move(action);
+                    agent.setLastAction(action);
+                    cart.drawCart(ctx);
+                    if (cart.isFailed()) {
+						episode++;
+						if(record<time){
+							record = time;
+						}
+						resultUpdate();
+                        console.log('failed!!');
+                        console.log(env.getCurrentState());
+                        console.log(env.getReward(env.getCurrentState()));
+                    }
+					time++;
+                    agent.update(s, env.getCurrentState());
+                }
+            } else {
+				console.log(time);
+				time=0;
+                cart.init();
+                cart.drawCart(ctx);
+                action = ApparatusAction.LEFT;
+            }
+//        }
+    };
+
+    function init() {
+		chg3();
+		episode = 1;
+		time = 0;
+		record = 0;
+		timeUpdate();
+		resultUpdate();
+
+        outerDiv  = document.getElementById("outer");
+        canvasDiv = document.getElementById("canvasContainer");
+
+        document.onkeydown = onDocKeyDown;
+//        document.onmousemove = onDocMouseMove;
+
+        cart = new Apparatus(100, 50, 100, 2);
+        env = new Environment(cart);
+        agent = new Agent(0.1, 0.95, 0.01, env);
+
+        var canvas = document.getElementById('tutorial');
+        if (canvas.getContext){
+            ctx = canvas.getContext('2d');
+            cart.init();
+            cart.drawCart(ctx);
+
+            //setInterval(run, 30);
+        }
+    };
+
+    function onDocKeyDown(e) {
+        if (!e) e = window.event;
+        if (e.key == "ArrowRight") {
+            action = ApparatusAction.RIGHT;
+        } else if (e.key == "ArrowLeft") {
+            action = ApparatusAction.LEFT;
+        } else {
+//            cart.move(0);
+        }
+    };
+
+	var timerID;
+	function chg1(){
+		document.myForm.play.disabled = "true";
+		document.myForm.pause.disabled = "";
+	}
+	function chg2(){
+		document.myForm.play.disabled = "true";
+		document.myForm.fast.disabled = "true";
+		document.myForm.pause.disabled = "";
+	}
+	function chg3(){
+		document.myForm.play.disabled = "";
+		document.myForm.fast.disabled = "";
+		document.myForm.pause.disabled = "true";
+	}
+	function chg4(){
+		document.myForm.play.disabled = "";
+		document.myForm.fast.disabled = "";
+		document.myForm.pause.disabled = "true";
+	}
+	function timeUpdate(){
+		document.getElementById("time").innerHTML = "time: "+time;
+	}
+	function resultUpdate(){
+		// document.getElementById("episode").innerHTML = "episode: "+episode;
+		document.getElementById("record").innerHTML = "record: "+record;
+	}
+    </script>
+    <style type="text/css">
+      canvas { background-color:#FFF; border: 1px solid #999; }
+    </style>
+  </script></head>
+  <body onload="init();">
+  <body>
+<!--     <div id="episode">episode: 0</div>
+ -->    <div id="time">time: 0</div>
+    <div id="record">record: 0</div>
+    <div id="outer">
+      <div id="canvasContainer">
+    <canvas id="tutorial" width="800" height="480"></canvas>
+    <div id="output"></div>
+      </div>
+    </div>
+		<form name="myForm">
+	<input type="button" name="play" value="play" onClick="clearInterval(timerID);timerID = setInterval(run, 30);chg1()"/>
+	<input type="button" name="pause" value="pause" disabled onClick="clearInterval(timerID);chg4()"/>
+    <input type="button" name="fast" value="slow" onClick="clearInterval(timerID);timerID = setInterval(run, 80);chg2()"/>
+<!--	<input type="button" name="reset" value="reset" onClick="clearInterval(timerID);init()"/>
+ -->	</form>
+  </body>
+</html>

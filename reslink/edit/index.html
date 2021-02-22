@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+<script type="text/javascript" src="../scripts/YahhoCal.js"></script>
+<script type="text/javascript" src="scripts/reslinkEdit.js"></script>
+<link rel="stylesheet" type="text/css" href="css/styleEdit.css" />
+<title>Conference Links (Edit)</title>
+</head>
+<body>
+<div>
+<div id="main" name="main" class="topmenuelem"><a href="../index.html">表示画面へ</a></div> | 
+<div id="intl" name="intl" class="topmenuelem">International Conference (Edit)</div> | 
+<div id="dmst" name="dmst" class="topmenuelem">国内研究集会（編集）</div> | 
+<div id="trash" name="trash" class="topmenuelem">ゴミ箱</div> | 
+<div class="topmenuelem"><a href="manual.html" target="_blank">マニュアル</a></div>
+</div>
+
+<div id="tbltitle" name="tbltitle" class="title">International Conference (Edit)</div>
+
+<div id="serach" name="search" class="searchmenuelem">
+  Search: 
+  <input type="text" id="searchtext" name="searchtext" class="searchtext" value="" />
+</div>
+<div class="searchmenuelem"><input type="button" id="add" name="add" value="add new conference.."/></div>
+
+   <table id="conftab" name="conftab" class="tbl">
+   <thead id="tblheader" name="tblheader" class="tbl">
+     <tr>
+     <th class="norm"></th>
+     <th id="sdateheader" name="sdateheader" class="norm">Start Date</th>
+     <th id="edateheader" name="edateheader" class="norm">Etart Date</th>
+     <th id="confheader" name="confheader" class="norm">Conference Name</th>
+     <th id="urlheader" name="urlheader" class="norm">URL</th>
+     <th id="locatheader" name="locatheader" class="norm">Location</th>
+     <th id="deadheader" name="deadheader" class="norm">Deadline</th>
+     <th id="remkheader" name="remkheader" class="norm">Remarks</th>
+   </tr>
+   </thead>
+   <tbody id="resultrec" name="resultrec">
+   </tbody>
+</table>
+<hr />
+<p>Dependable Systems Lab.</p>
+
+</body>
+</html>

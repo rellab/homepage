@@ -1,0 +1,1036 @@
+
+2016年度
+
+【学術雑誌掲載論文】
+
+  <LI>C. Luo, H. Okamura and T. Dohi,“Optimal planning for open source software updates,”<I>Proceedings of the Institution of Mechanical Engineers, Part O: Journal of Risk and Reliability</I>, vol. 230, no.1, pp. 44--53, 2016.
+  <LI>Y. Saito and T. Dohi,“Kernel-based nonparametric estimation methods for a periodic replacement problem with minimal repair,”<I>Proceedings of the Institution of Mechanical Engineers, Part O: Journal of Risk and Reliability</I>, vol. 230, no.1, pp. 54--66, 2016.
+  <LI>H. Okamura and T. Dohi,“PH fitting algorithm and its application to reliability engineering,”<I>Journal of the Operations Research Society of Japan</I>, vol. 59, no. 1, pp. 72--109, 2016.
+  <LI>K. Rinsaka and T. Dohi,“Toward high assurance software systems with adaptive fault management,”<I>Software Quality Journal</I>, vol. 24, pp. 65--85, 2016.
+  <LI>Y. Saito and T. Dohi,“Optimal software release decision based on nonparametric inference approach,”<I>Journal of the Japan Industrial Management Association</I>, vol. 66, pp. 396--405, 2016.
+  <LI>H. Okamura and T. Dohi,“Analysis of optimal restart policies for software systems,”<I>Journal of the Japan Industrial Management Association</I>, vol. 66, pp. 416--425, 2016.
+
+【査読付国際会議論文】
+
+【査読付国内会議論文】
+
+【書籍】
+ 
+  <LI>H. Okamura and T. Dohi,“PFitting phase-type distributions and Markovian arrival processes: algorithms and tools,”<I>Principles of Performance and Reliability Modeling and Evaluation: Essays in Honor of Kishor Trivedi on his 70th Birthday</I> (L. Fiondella and A. Puliafito, eds.), pp. ??--??, Springer, London, 2016.
+  <LI>M. Begum and T. Dohi,“Prediction interval of cumulative number of software faults using multilayer perceptron,”<I>Applied Computing & Information Technology</I> (R. Lee, ed.), Studies in Computational Intelligence, vol. 619, pp. 43--58, Springer International Publishing, Switzerland, 2016.
+
+【基調講演・招待講演】
+
+【国際会議口頭発表】
+
+【国内会議口頭発表】
+
+
+2015年度
+
+【学術雑誌掲載論文】
+
+  <LI>J. Zheng, H. Okamura and T. Dohi,“Availability importance measures for virtualized system with live migration,”<I>Applied Mathematics</I>, vol. 6, pp. 359--372, 2015. 
+  <LI>K. Shibata, K. Rinsaka and T. Dohi,“M-SRAT: Metrics-based software reliability assessment tool,”<I>International Journal of Performability Engineering</I>, vol. 11, no. 4, pp. 369-380, 2015.
+  <LI>Y. Saito and T. Dohi,“Stochastic marksmanship contest games with random termination -- survey and applications,”<I>Journal of the Operations Research Society of Japan</I>, vol. 58, no. 3, pp. 223--246, 2015. 
+  <LI>Y. Saito and T. Dohi,“Software reliability assessment via non-parametric maximum likelihood estimation,”<I>IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences (A)</I>, vol. E98-A, no. 10, pp. 2042--2050, 2015.
+  <LI>H. Okamura, J. Guan, C. Luo and T. Dohi,“Quantifying resiliency of virtualized system with software rejuvenation,”<I>IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences (A)</I>, vol. E98-A, no. 10, pp. 2051--2059, 2015.
+  <LI>T. Imanaka and T. Dohi,“Software reliability modeling based on Burr XII distributions,”<I>IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences (A)</I>vol. E98-A, no. 10, pp. 2091--2095, 2015.
+  <LI>H. Okamura, Z. Yi and T. Dohi,“Network survivability modeling and analysis for power-aware MANETs by Markov regenerative processes,”<I>Telecommunication Systems Journal</I>, vol. 60, pp. 471--484, 2015. 
+  <LI>J. Zheng, H. Okamura and T. Dohi,“Survivability analysis of VM-based intrusion tolerant systems,”<I>IEICE Transactions on Information & Systems (D)</I>, vol. E98-D, no. 12, pp. 2082--2090, 2015.
+  <LI>Z. Yi and T. Dohi,“Toward highly dependable power-aware mobile ad hoc network -- survivability evaluation framework --,”<I>IEEE Access</I>, vol. 3, pp. 2665--2676, 2015.
+  <LI>H. Okamura, S. Miyata and T. Dohi,“A Markov decision process approach to dynamic power management in a cluster system,”<I>IEEE Access</I>, vol. 3, pp. 3039--3047, 2015. 
+
+【解説論文】
+
+  <LI>土肥正, 岡村寛之,“次世代ソフトウェア信頼性評価技術の開発に向けて,”<I>SEC ジャーナル</I>, vol. 10, no. 10, pp. 28--35, 2015. 
+
+【査読付国際会議論文】
+
+  <LI>H. Okamura and T. Dohi,“A note on variational Bayes approach for software reliability growth model with normal distribution,”<I>Proceedings of the 9th International Conference on Mathematical Methods in Reliability, --Theory, Methods and Applications -- (MMR-2015)</I>,  pp. 41--48, 2015. 
+  <LI>Y. Saito and T. Dohi,“Nonparametric maximum likelihood estimator with software fault count data,”<I>Proceedings of the 9th International Conference on Mathematical Methods in Reliability, --Theory, Methods and Applications -- (MMR-2015)</I>,  pp. 49--55, 2015. 
+  <LI>S. Tokumoto and T. Dohi,“Interval estimation of optimal software rejuvenation policy,”<I>Proceedings of the 9th International Conference on Mathematical Methods in Reliability, --Theory, Methods and Applications -- (MMR-2015)</I>,  pp. 1085--1092, 2015. 
+  <LI>Z. Yi and T. Dohi,“A simulation approach to quantify network survivability on MANETs,”<I>Proceedings of The 5th IEEE International Workshop on Network Technologies and Security, Administration and Protection (NETSAP 2015)</I>, pp. 268--273, IEEE CPS, 2015.
+  <LI>H. Okamura, M. Gong and T. Dohi,“A note on optimal allocation of testing-resources with architecture-based software reliability model,”<I>Proceedings of The 2015 International Conference on Quality, Reliability, Risk, Maintenance, and Safety Engineering (QR2MSE 2015)</I>, vol. I, pp. 8--13, 2015.
+  <LI>Y. Saito and T. Dohi,“Robustness of non-homogeneous gamma process-based software reliability models,”<I>Proceedings of The 2015 IEEE International Conference on Software Quality, Reliability and Security (QRS 2015)</I>, pp. 75--84, IEEE CPS, 2015.
+  <LI>H. Okamura, Y. Takekoshi and T. Dohi,“Fine-grained software reliability estimation using software testing inputs,”<I>Proceedings of The 2015 IEEE International Conference on Software Quality, Reliability and Security (QRS 2015)</I>, pp. 85--92, IEEE CPS, 2015.
+  <LI>Z. Yi and T. Dohi,“Survivability analysis with border effects for power-aware mobile ad hoc network,”<I>Proceedings of The 12th IEEE International Conference on Advanced and Trusted Computing (ATC 2015)</I>, pp. 476--483, IEEE CPS, 2015.
+  <LI>H. Okamura, S. Miyata and T. Dohi,“Optimal power-aware design in a cluster system: Markov decision process approach,”<I>Proceedings of The 12th IEEE International Conference on Advanced and Trusted Computing (ATC 2015)</I>, pp. 527--532, IEEE CPS, 2015.
+  <LI>H. Okamura and T. Dohi,“mapfit: An R-based tool for PH/MAP parameter estimation,”<I>The 14th International Conference on Quantitative Evaluation of Systems (QEST2015)</I> (J. Campos and B.R. Haverkort, eds.), Lecture Notes in Computer Science, vol. 9295, pp. 105--112, Springer-Verlag, 2015.
+  <LI>H. Okamura and T. Dohi,“Towards comprehensive software reliability evaluation in open source software,”<I>Proceedings of The 24th International Symposium on Software Reliability Engineering (ISSRE 2015)</I>, pp. 121--129, IEEE CPS, 2015.
+  <LI>Z. Yi, T. Dohi and H. Okamura,“Survivability quantification of wireless ad hoc network taking account of border effects,”<I>Proceedings of The 21st IEEE Pacific Rim International Symposium on Dependable Computing (PRDC 2015)</I>, pp. 149--158, IEEE CPS, 2015.
+  <LI>J. Zheng, H. Okamura and T. Dohi,“Component importance measures for real-time computing systems in the presence of common-cause failures,”<I>Proceedings of The 21st IEEE Pacific Rim International Symposium on Dependable Computing (PRDC 2015)</I>, pp. 301--310, IEEE CPS, 2015.
+
+【査読付国内会議論文】
+
+  <LI>小澤公貴，土肥正,“報酬構造を考慮したテストケース生成と信頼性評価の効率性,”ソフトウェアシンポジウム '15 論文集, ソフトウェア技術者協会, 10 pages, 和歌山 (June 14--17, 2015). 
+  <LI>岡村寛之，中原良太，土肥正,“ユーザ視点に基づいたソフトウェアアップデート計画に関する一考察,”ソフトウェアシンポジウム '15 論文集, ソフトウェア技術者協会, 6 pages, 和歌山 (June 14--17, 2015). 
+
+【基調講演・招待講演】
+
+   <LI>T. Dohi,“Trend renewal processes: definition, estimation and application,”was presented at <I>Workshop on Quality, Reliability, Maintenance, and Safety Engineering, University of Science and Technology Beijing</I> (Invited Talk), Beijing, China, April 7, 2015.
+   <LI>T. Dohi,“Optimal power-aware design in a cluster system: Markov decision process approach,”was presented at <I>China-Japan Object Social Modeling Seminar</I> (Invited Talk), Beijing, China, August 10, 2015, in conjunction with <I>The 2015 Smart World Congress</I>, Beijing, China, August 10--14, 2015.
+   <LI>T. Dohi,“Survivability quantification of wireless ad hoc network taking account of border effects,”was presented at <I>The International Workshop on Big Data for Petroleum Engineering, China University of Petroleum</I> (Invited Talk), Qingdao, China, August 16, 2015.
+   <LI>土肥正,“実証ソフトウェア信頼性工学～現状と課題～,”2015年第2回アシュアランスシステム研究会 [電子情報通信学会ディペンダブルコンピューティング研究専門委員会第二種研究会] (招待講演), 東広島, 12月22日, 2015.
+
+【国際会議口頭発表】
+
+   <LI>Y. Saito and T. Dohi,“Nonparametric maximum likelihood estimator with software fault count data,”was presented at <I>The 9th International Conference on Mathematical Methods in Reliability, --Theory, Methods and Applications -- (MMR-2015)</I>, Tokyo, Japan, June 1--4, 2015.
+   <LI>S. Tokumoto and T. Dohi,“Interval estimation of optimal software rejuvenation policy,”was presented at <I>The  9th International Conference on Mathematical Methods in Reliability, --Theory, Methods and Applications -- (MMR-2015)</I>, Tokyo, Japan, June 1--4, 2015.
+   <LI>Z. Yi and T. Dohi,“A simulation approach to quantify network survivability on MANETs,”was presented at <I>The 5th IEEE International Workshop on Network Technologies and Security, Administration and Protection (NETSAP 2015)</I> in conjunction with <I>The 39th Annual International Computer Software and Applications Conference (COMPSAC 2015)</I>, Taichung, Taiwan, July 1--5, 2015.
+   <LI>M. Begum and T. Dohi,“Prediction interval of cumulative number of software faults using multilayer perceptron,”was presented at <I>The 3rd International Conference on Applied Computing & Information Technology (ACIT2015)</I>, Okayama, Japan, July 12--16, 2015.
+   <LI>H. Okamura, M. Gong and T. Dohi,“A note on optimal allocation of testing-resources with architecture-based software reliability model,”was presented at <I>The 2015 International Conference on Quality, Reliability, Risk, Maintenance, and Safety Engineering (QR2MSE 2015)</I>, Beijing, China, July 21--24, 2015. 
+   <LI>Y. Saito and T. Dohi,“Robustness of non-homogeneous gamma process-based software reliability models,”was presented at <I>The 2015 IEEE International Conference on Software Quality, Reliability and Security (QRS 2015)</I>,  Vancouver, Canada, August 3--5, 2015.
+   <LI>H. Okamura, Y. Takekoshi and T. Dohi,“Fine-grained software reliability estimation using software testing inputs,”was presented at <I>The 2015 IEEE International Conference on Software Quality, Reliability and Security (QRS 2015)</I>, Vancouver, Canada, August 3--5, 2015.
+   <LI>Z. Yi and T. Dohi,“Survivability analysis for power-aware mobile ad hoc network taking account of border effects,”was presented at <I>The 12th IEEE International Conference on Advanced and Trusted Computing (ATC 2015)</I>, Beijing, China, August 10--14, 2015.
+   <LI>H. Okamura and T. Dohi,“mapfit: An R-based tool for PH/MAP parameter estimation,”was presented at <I>The 12th International Conference on Quantitative Evaluation of Systems (QEST2015)</I>, Madrid, Spain, September 1--3, 2015.
+   <LI>H. Okamura and T. Dohi,“Towards comprehensive software reliability evaluation in open source software,”was presented at <I>The 24th International Symposium on Software Reliability Engineering (ISSRE 2015)</I>, Washington DC, USA, November 2--5, 2015.
+   <LI>Z. Yi, T. Dohi and H. Okamura,“Survivability quantification of wireless ad hoc network taking account of border effects,”was presented at <I>The 21st IEEE Pacific Rim International Symposium on Dependable Computing (PRDC 2015)</I>, Zhangjiajie, China, November 18--20, 2015.
+   <LI>J. Zheng, H. Okamura and T. Dohi,“Component importance measures for real-time computing systems in the presence of common-cause failures,”was presented at <I>The 21st IEEE Pacific Rim International Symposium on Dependable Computing (PRDC 2015)</I>, Zhangjiajie, China, November 18--20, 2015.
+
+【国内会議口頭発表】
+
+  <LI>岡村寛之, 中原良太, 土肥正,“最適ソフトウェアアップデート戦略について,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 118--119, 東京, 3月26日--27日, 2015. 
+  <LI>小澤公貴, 土肥正,“設計情報を考慮したテストケース生成とソフトウェア信頼性評価,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 120--121, 東京, 3月26日--27日, 2015. 
+  <LI>斎藤靖洋, 土肥正,“フォールト発見数データを用いた完全単調性に基づく平均値関数のノンパラメトリック推定について,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 130--131, 東京, 3月26日--27日, 2015. 
+  <LI>岡村寛之, 土肥正,“テスト環境要因を考慮したソフトウェア信頼性モデルの拡張,”日本オペレーションズ・リサーチ学会秋季研究発表会アブストラクト集, pp. ?--?, 北九州, 9月10日--11日, 2015. 
+  <LI>齋藤靖洋, 土肥正,“トレンド再生過程の故障率関数に対するノンパラメトリック最尤推定法,”平成27年度電気・情報関連学会中国支部第66回連合大会講演論文集, p.?, 宇部, 10月17日, 2015. 
+  <LI>J. Zheng, H. Okamura and T. Dohi,“A note on mean time to security failure of VM-based intrusion tolerant systems,”平成27年度電気・情報関連学会中国支部第66回連合大会講演論文集, p.?, 宇部, 10月17日, 2015. 
+  <LI>L. Li, H. Okamura and T. Dohi,“A note on time-based software rejuvenation policy with wait time limits,”平成27年度電気・情報関連学会中国支部第66回連合大会講演論文集, p.?, 宇部, 10月17日, 2015. 
+  <LI>M. Begum and T. Dohi,“Prediction interval of software fault-detection time using back propagation algorithm,”平成27年度電気・情報関連学会中国支部第66回連合大会講演論文集, p.?, 宇部, 10月17日, 2015. 
+  <LI>易志鵬, 土肥正,“A note on network connectivity for MANETs with border effect,”平成27年度電気・情報関連学会中国支部第66回連合大会講演論文集, p.?, 宇部, 10月17日, 2015. 
+  <LI>小澤公貴, 土肥正,“報酬構造を用いたテストケース生成における報酬値割当てに関する一考察,”平成27年度電気・情報関連学会中国支部第66回連合大会講演論文集, p.?, 宇部, 10月17日, 2015. 
+  <LI>J. Zhend, H. Okamura and T. Dohi,“A note on reliability importance measures for real-time computing systems,”電子情報通信学会技術研究報告 (信頼性研究会), vol.115, no. 47, pp. 1--6, 隠岐の島, 5月22日, 2015. 
+  <LI>C. Luo, H. Okamura and T. Dohi,“Performance analysis towards queueing system with FCWR discipline,”電子情報通信学会技術研究報告 (信頼性研究会), vol.115, no. 47, pp. 7--12, 隠岐の島, 5月22日, 2015. 
+  <LI>齋藤靖洋, 土肥正,“非同次ガンマ過程に基づいたソフトウェア信頼性におけるノンパラメトリック推定,”電子情報通信学会技術研究報告 (信頼性研究会), vol.115, no. 47, pp. 13--18, 隠岐の島, 5月22日, 2015. 
+  <LI>Z. Yi and T. Dohi,“Simulation approach to quantify network survivability on MANETs,”電子情報通信学会技術研究報告 (信頼性研究会), vol.115, no. 47, pp. 19--24, 隠岐の島, 5月22日, 2015. 
+  <LI>H. Okamura, C. Luo and T. Dohi,“A note on software aging estimation using hidden Markov model,”電子情報通信学会技術研究報告 (信頼性研究会), vol.115, no. 101, pp. 7--12, 東京, 6月19日, 2015. 
+  <LI>齋藤靖洋, 土肥正,“非定常べき乗則過程に基づいたソフトウェア信頼性評価,”電子情報通信学会技術研究報告 (信頼性研究会), vol.115, no. 101, pp. 13--18, 東京, 6月19日, 2015. 
+  <LI>H. Okamura and T. Dohi,“Improvement of EM algorithm for PH distributions with right-censored data,”電子情報通信学会技術研究報告 (信頼性研究会), vol.???, no. ???, pp. ?--?, むつ市, 7月31日, 2015. 
+  <LI>齋藤靖洋, 土肥正,“故障率関数に基づいたトレンド再生過程のノンパラメトリック最尤推定法,”電子情報通信学会技術研究報告 (信頼性研究会), vol.115, no. 379, pp. 7--12, 東京, 12月18日, 2015. 
+  <LI>H. Okamura, M. Gong and T. Dohi,“A note on optimal allocation of testing-resources with Halstead software metrics,”電子情報通信学会技術研究報告 (信頼性研究会), vol.115, no. 379, pp. 13--18, 東京, 12月18日, 2015. 
+  <LI>土肥正,“実証ソフトウェア信頼性工学～現状と課題～,”2015年度第2回電子情報通信学会アシュアランスシステム研究会技術研究報告, pp. 1-8, 東広島, 12月22日, 2015. 
+  <LI>J. Zheng, H. Okamura aand T. Dohi“A note on Markov-based component importance analysis of real-time computing systems in a warm standby configuration,”2015年度第2回電子情報通信学会アシュアランスシステム研究会技術研究報告, pp. 9--14, 東広島, 12月22日, 2015. 
+  <LI>C. Li, C. Luo, H. Okamura aand T. Dohi“A note on performance evaluation of system wwith CPU utilization data,”2015年度第2回電子情報通信学会アシュアランスシステム研究会技術研究報告, pp. 9--14, 東広島, 12月22日, 2015. 
+
+
+2014年度
+
+【学術雑誌掲載論文】
+
+  <LI>C. Luo, H. Okamura and T. Dohi,“Performance evaluation of snapshot isolation in distributed database system under failure-prone environment,”<I>Journal of Supercomputing</I>, vol. 70, no. 3, pp. 1156--1179, 2014. 
+  <LI>H. Okamura, R. Watanabe and T. Dohi,“Variational Bayes for phase-type distribution,”<I>Communications in Statistics -Simulation and Computation</I>, vol. 43, no. 8, pp. 2031--2044, 2014. 
+  <LI>X. Xiao and T. Dohi,“ Interval estimation method for decision making in wavelet-based software reliability assessment,”<I>IEICE Transactions on Information & Systems (D)</I>, vol. E97-D, no. 5, pp. 1058--1068, 2014. 
+  <LI>H. Okamura, K. Yamamoto and T. Dohi,“Transient analysis of software rejuvenation policies in virtualized system: phase-type expansion approach,”<I>Quality Technology and Quantitative Management Journal</I>, vol. 11, no. 3, pp. 335--352, 2014. 
+  <LI>T. Dohi,“Availability and performability analysis for a service degradation process with condition-based preventive maintenance I -- formulation and optimization,”<I>International Journal of Strategic Engineering Asset Management</I>, vol. 2, no. 1, pp. 80--97, 2014.
+  <LI>T. Dohi,“Availability and performability analysis for a service degradation process with condition-based preventive maintenance II -- estimation and simulation,”<I>International Journal of Strategic Engineering Asset Management</I>, vol. 2, no. 1, pp. 98--115, 2014.
+  <LI>S. Tokumoto, T. Dohi and W. Y. Yun,“Bootstrap confidence interval of optimal age replacement policy,”<I>International Journal of Reliability, Quality and Safety Engineering</I>, vol. 21, no. 4, pp. 98--115, 2014.
+  <LI>X. Xiao and T. Dohi,“Exponential-like software reliability models based on binomial process,”<I>International Journal of Reliability and Quality Performance</I>, vol. 6, no. 2, pp. 79--87, 2014.
+  <LI>Y. Saito, T. Dohi and W. Y. Yun,“Uncertainty analysis for a periodic replacement problem with minimal repair: parametric bootstrapping,”<I>International Journal of Industrial Engineering</I>, vol. 21, no. 6, pp. 337--347, 2014. 
+
+【解説論文】
+
+  <LI>土肥正,“ソフトウェアエージングとは？”，日本信頼性学会誌（学会誌特集：ソフトウェアのエージングと若化）, vol. 36, no. 1, pp. 2--9, 2014. 
+  <LI>岡村寛之, 土肥正,“ソフトウェア若化モデルとその動向”，日本信頼性学会誌（学会誌特集：ソフトウェアのエージングと若化）, vol. 36, no. 1, pp. 10--15, 2014. 
+
+【査読付国際会議論文】
+
+  <LI>H. Okamura and T. Dohi,“A novel framework of software reliability evaluation with software reliability growth models and software metrics,”<I>Proceedings of The 15th IEEE International Symposium on High Assurance Systems Engineering (HASE 2014)</I>, pp. 97--104, IEEE CPS, 2014.
+  <LI>H. Okamura, J. Guan, C. Luo and T. Dohi,“Quantifying resiliency of virtualized system with software rejuvenation,”<I>Proceedings of The 2014 International Conference on Quality, Reliability, Risk, Maintenance, and Safety Engineering (QR2MSE 2014)</I>, 6 pages, 2014.
+  <LI>K. Shibata, K. Rinsaka and T. Dohi,“M-SRAT: Metrics-based software reliability assessment tool,”<I>Proceedings of The 2014 International Conference on Quality, Reliability, Risk, Maintenance, and Safety Engineering (QR2MSE 2014)</I>, 5 pages, 2014.
+  <LI>T. Imanaka and T. Dohi,“Burr XII distribution-based software reliability modeling,”<I>Proceedings of The 6th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2014)</I>, pp. 176--183, McGraw-Hill, Taiwan, 2014. 
+  <LI>C. Luo, H. Okamura and T. Dohi,“Optimized patch applying schedule within multiplex software architecture,”<I>Proceedings of The 6th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2014)</I>, pp. 311--318, McGraw-Hill, Taiwan, 2014. 
+  <LI>H. Okamura, Y. Takekoshi and T. Dohi,“Fine-grained software reliability estimation using software testing inputs,”<I>Proceedings of The 6th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2014)</I>, pp. 365--372, McGraw-Hill, Taiwan, 2014. 
+  <LI>H. Okamura and T. Dohi,“Maximum penalized likelihood estimation for phase-type software reliability growth model,”<I>Proceedings of The 6th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2014)</I>, pp. 373--380, McGraw-Hill, Taiwan, 2014. 
+  <LI>Y. Saito, T. Dohi and W. Y. Yun,“A kernel-based estimation for a periodic replacement policy with minimal repair,”<I>Proceedings of The 6th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2014)</I>, pp. 405--412, McGraw-Hill, Taiwan, 2014. 
+  <LI>Y. Saito and T. Dohi,“Nonparametric maximum likelihood estimation of NHPP-based software reliability model,”<I>Proceedings of The 6th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2014)</I>, pp. 413--420, McGraw-Hill, Taiwan, 2014. 
+  <LI>T. Koga, T. Dohi and H. Okamura,“Optimal reliability design for real-time systems with dynamic voltage and frequency scaling,”<I>Proceedings of The 20th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC 2014)</I>, pp. 213--222, IEEE CPS, 2014.
+  <LI>H. Okamura, Y. Kunimoto and T. Dohi,“Coarse-grained parallel uniformization for continuous-time Markov chains,”<I>Proceedings of The 20th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC 2014)</I>, pp. 116--124, IEEE CPS, 2014.
+
+【査読付国内会議論文】
+
+  <LI>今富政喜，土肥正,“運用プロファイルと報酬構造を考慮したテストケース生成法,”ソフトウェアシンポジウム '14 論文集, ソフトウェア技術者協会, 10 pages, 秋田 (June 9--11, 2014). 
+  <LI>竹腰祐輝，岡村寛之，土肥正,“テスト情報分析に基づいた定量的ソフトウェア信頼性評価手法に関する一考察,”ソフトウェアシンポジウム '14 論文集, ソフトウェア技術者協会, 9 pages, 秋田 (June 9--11, 2014). 
+
+【書籍】
+
+　<LI>日本信頼性学会 (編), 新版 信頼性ハンドブック, 第IV部編集, 日科技連, 東京, 2014 (ISBN: 978-4-8171-9519-7). 
+  <LI>H. Okamura, T. Dohi and S. Osaki,“A dynamic programming approach for sequential preventive maintenance policies with two failure modes”，<I>Reliability Modeling with Applications - Essays in Honor of Professor Toshio Nakagawa on His 70th Birthday</I> (S. Nakamura, C. H. Qian and  M. Chen, eds.), pp. 3--16, World Scientific, Singapore, 2014.
+  <LI>土肥正,“確率過程 (I) マルコフ過程と信頼性”，「新版 信頼性ハンドブック」（日本信頼性学会 編）, 第IV部, 第3章, 信頼性の理論, pp. 482--485, 日科技連, 東京, 2014. 
+  <LI>土肥正,“確率過程 (II) 再生過程”，「新版 信頼性ハンドブック」（日本信頼性学会 編）, 第IV部, 第3章, 信頼性の理論, pp. 487--489, 日科技連, 東京, 2014. 
+  <LI>土肥正,“セミマルコフ過程”，「新版 信頼性ハンドブック」（日本信頼性学会 編）, 第IV部, 第3章, 信頼性の理論, pp. 489--491, 日科技連, 東京, 2014. 
+  <LI>土肥正,“耐侵入システム”，「新版 信頼性ハンドブック」（日本信頼性学会 編）, 第V部 重要産業における信頼性・安全性確保に事例, pp. 667--671, 日科技連, 東京, 2014. 
+
+--> 岡村先生追加
+
+【基調講演・招待講演】
+
+   <LI>T. Dohi,“Nonparametric software reliability modeling and prediction,”was presented at <I>The 2014 International Conference on Quality, Reliability, Risk, Maintenance, and Safety Enggineering (QR2MSE 2014)</I> (Keynote Talk), Dalian, China, July 22--25, 2014.
+   <LI>土肥正,“ソフトウェアエージングと若化,”第10回ソフトウェア信頼性研究会ワークショップ (The 10th Forum on Reliable Computer Software: FORCE 2014) (基調講演), 尾道, 12月6日--7日, 2014.
+
+【国際会議口頭発表】
+
+   <LI>H. Okamura and T. Dohi,“A novel framework of software reliability evaluation with software reliability growth models and software metrics,”was presented at <I>The 15th IEEE International Symposium on High Assurance Systems Engineering (HASE 2014)</I>, Miami, USA, January 9--11, 2014.
+   <LI>H. Okamura, J. Guan, C. Luo and T. Dohi,“Quantifying resiliency of virtualized system with software rejuvenation,”was presented at <I>The 2014 International Conference on Quality, Reliability, Risk, Maintenance, and Safety Engineering (QR2MSE 2014)</I>, Dalian, China, July 22--25, 2014. 
+   <LI>K. Shibata, K. Rinsaka and T. Dohi,“M-SRAT: Metrics-based software reliability assessment tool,”was presented at <I>The 2014 International Conference on Quality, Reliability, Risk, Maintenance, and Safety Engineering (QR2MSE 2014)</I>, Dalian, China, July 22--25, 2014. 
+   <LI>T. Imanaka and T. Dohi,“Burr XII distribution-based software reliability modeling,”was presented at <I>The 6th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2014)</I>, Sapporo, Japan, August 21--23, 2014. 
+   <LI>C. Luo, H. Okamura and T. Dohi,“Optimized patch applying schedule within multiplex software architecture,”was presented at <I>The 6th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2014)</I>, Sapporo, Japan, August 21--23, 2014. 
+   <LI>H. Okamura, Y. Takekoshi and T. Dohi,“Fine-grained software reliability estimation using software testing inputs,”was presented at <I>The 6th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2014)</I>, Sapporo, Japan, August 21--23, 2014. 
+   <LI>H. Okamura and T. Dohi,“Maximum penalized likelihood estimation for phase-type software reliability growth model,”was presented at <I>The 6th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2014)</I>, Sapporo, Japan, August 21--23, 2014. 
+   <LI>Y. Saito, T. Dohi and W. Y. Yun,“A kernel-based estimation for a periodic replacement policy with minimal repair,”was presented at <I>The 6th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2014)</I>, Sapporo, Japan, August 21--23, 2014. 
+   <LI>Y. Saito and T. Dohi,“Nonparametric maximum likelihood estimation of NHPP-based software reliability model,”was presented at <I>The 6th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2014)</I>, Sapporo, Japan, August 21--23, 2014. 
+   <LI>T. Koga, T. Dohi and H. Okamura,“Optimal reliability design for real-time systems with dynamic voltage and frequency scaling,”was presented at <I>The 20th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC 2014)</I>, Singapore, November 18--21, 2014. 
+   <LI>H. Okamura, Y. Kunimoto and T. Dohi,“Coarse-grained parallel uniformization for continuous-time Markov chains,”was presented at <I>The 20th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC 2014)</I>, Singapore, November 18--21, 2014. 
+
+【国内会議口頭発表】
+
+  <LI>岡村寛之, 土肥正,“位相型ソフトウェア信頼度成長モデルのパラメータ推定に関する一工夫,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 52--53, 大阪, 3月6日--7日, 2014. 
+  <LI>C. Luo, H. Okam,ura and T. Dohi,“Estimating CPU utilization data in PaaS environment,”平成26年度電気・情報関連学会中国支部第65回連合大会講演論文集, p. 188, 広島, 10月25日, 2014. 
+  <LI>今中隆裕, 土肥正,“Burr XII 分布に基づいたソフトウェア信頼性評価モデル,”電子情報通信学会技術研究報告 (信頼性研究会), vol.114, no. 47, pp. 41--46, 名古屋, 5月23日, 2014. 
+  <LI>岡村寛之, 土肥正,“罰則付き最尤法による位相型分布の推定に関する考察,”電子情報通信学会技術研究報告 (信頼性研究会), vol.114, no. 78, pp. 7--12, 東京, 6月13日, 2014. 
+  <LI>今富政喜, 土肥正,“報酬構造を考慮したテストケース自動生成の改良について,”電子情報通信学会技術研究報告 (信頼性研究会), vol.114, no. 170, pp. 7--12, 函館, 8月1日, 2014. 
+  <LI>H. Okamura, J. Gang, C. Luo and T. Dohi,“Quantifying resiliency of virtualized system with software rejuvenation,”電子情報通信学会技術研究報告 (信頼性研究会), vol.114, no. 170, pp. 13--18, 函館, 8月1日, 2014. 
+  <LI>齋藤靖洋, 諸賀司, 土肥正,“ノンパラメトリックソフトウェア最適リリース問題,”電子情報通信学会技術研究報告 (信頼性研究会), vol.114, no. 256, pp. 1--6, 霧島, 10月17日, 2014. 
+  <LI>H. Okamura, C. Luo and T. Dohi,“ A note on optimal schedule for applying security patches,”電子情報通信学会技術研究報告 (信頼性研究会), vol.114, no. 379, pp. 7--11, 東京, 12月19日, 2014. 
+
+
+2013年度
+
+【学術雑誌掲載論文】
+
+  <LI>B. Zhou, H. Okamura and T. Dohi,“Enhancing performance of random testing through Markov chain Monte Carlo methods,”<I>IEEE Transactions on Computers</I>, vol. 62, no. 1, pp. 186--192, 2013. 
+  <LI>X. Xiao and T. Dohi,“A study on applying extreme value distribution to NHPP-based SRM,”<I>Information</I>, vol. 162, no. 1(B), pp. 575--580, 2013. 
+  <LI>X. Xiao and T. Dohi,“On the role of Weibull-type distributions in NHPP-based software reliability modeling,”<I>International Journal of Performability Engineering</I>, vol. 9, no. 2, pp. 123--132, 2013. 
+  <LI>X. Xiao and T. Dohi,“Wavelet shrinkage estimation for NHPP-based software reliability models,”<I>IEEE Transactions on Reliability</I>, vol. 62, no. 1, pp. 211--225, 2013. 
+  <LI>H. Okamura and T. Dohi,“Dynamic software rejuvenation policies in a transaction-based system under Markovian arrival processes,”<I>Performance Evaluation</I>, vol. 70, no. 3, pp. 197--211, 2013.
+  <LI>H. Okamura, T. Dohi and S. Osaki,“Software reliability growth models with normal failure time distributions,”<I>Reliability Engineering and System Safety</I>, vol. 116, pp. 135--141, 2013.
+  <LI>H. Okamura, M. Tokuzane and T. Dohi,“Quantitative security evaluation for software system from vulnerability database,”<I>Journal of Software Engineering and Applications</I>, vol. 6, no. 4A, pp. 15--23, 2013.
+  <LI>S. Hiroyama, T. Dohi and H. Okamura,“Aperiodic checkpoint placement algorithms -- survey and comparison --,”<I>Journal of Software Engineering and Applications</I>, vol. 6, no. 4A, pp. 41--53, 2013.
+  <LI>S. Ukimoto and T. Dohi,“A software cost model with reliability constraint under two operational scenarios,”<I>International Journal of Software Engineering and Its Applications</I>, vol. 7, no. 3, pp. 427--438, 2013. 
+  <LI>H. Okamura, T. Dohi and K. S. Trivedi,“Improvement of expectation-maximization algorithm for phase-type distributions with grouped and truncated data,”<I>Applied Stochastic Models in Business and Industry</I>, vol. 29, pp. 141-156, 2013. 
+  <LI>X. Xiao and T. Dohi,“A measurement-based approach for estimating error rate of a web server system,”<I>International Journal of Reliability and Safety</I>, vol. 17, no. 1, pp. 1-16, 2013.
+  <LI>H. Okamura, T. Hirata and T. Dohi,“Semi-parametric approach for software reliability evaluation using mixed gamma distributions,”<I>International Journal of Software Engineering and Its Applications</I>, vol. 7, no. 4, pp. 401--414, 2013. 
+  <LI>H. Okamura, H. Kishikawa and T. Dohi,“Application of deterministic annealing EM algorithm to MAP/PH parameter estimation,”<I>Telecommunication Systems Journal</I>, vol. 54, no. 1, pp. 79--90, 2013. 
+  <LI>X. Xiao and T. Dohi,“Estimating software intensity function based on translation-invariant Poisson smoothing approach,”<I>IEEE Transactions on Reliability</I>, vol.62, no. 4, pp. 930--945, 2013. 
+  <LI>H. Okamura and T. Dohi,“Optimal trigger time of software rejuvenation under probabilistic opportunities,”<I>IEICE Transactions on Information & Systems (D)</I>, vol. E96-D, no. 9, pp. 1933--1940, 2013.
+
+【解説論文】
+
+  <LI>古賀俊孝, 土肥正, 岡村寛之,“消費電力制約を伴う実時間組込みシステムの信頼性設計”，日本信頼性学会誌（学会誌特集：信頼性モデリングと最適化）, vol. 35, no. 1, pp. 24--30, 2013. 
+
+【査読付国際会議論文】
+
+  <LI>M. Kimura, S. Inoue, Y. Taoda, T. Dohi and Y.  Kakuda,“A novel method based on VANET for alleviating traffic congestion in urban transportations,”<I>Proceedings of the 11th International Symposium on Autonomous Decentralized Systems (ISADS 2013)</I>, pp. 1--7, IEEE CPS, 2013. 
+  <LI>S. Ukimoto and T. Dohi,“A software cost model with reliability constraint under two operational scenarios,”<I>Advanced Science and Technology Letters</I>, vol. 19, pp. 236--239, SERSC, 2013. 
+  <LI>H. Okamura, T. Hirata and T. Dohi,“NHPP-based software reliability model with mixed gamma distribution,”<I>Advanced Science and Technology Letters</I>, vol. 19, pp. 240--243, SERSC, 2013. 
+  <LI>T. Kaneishi and T. Dohi,“Software reliability modeling and evaluation under incomplete knowledge on fault distribution,”<I>Proceedings of the 7th IEEE International Conference on Software Security and Reliability (SERE-2013)</I>, pp. 3--12, IEEE CPS, 2013. 
+  <LI>Y. Doi and T. Dohi,“Workload-dependent optimal checkpoint placement,”<I>Proceedings of the 8th International Conference on Mathematical Methods in Reliability, --Theory, Methods and Applications -- (MMR-2013)</I>,  pp. 74--78, 2013. 
+  <LI>J. Zheng, H. Okamura and T. Dohi,“Sensitivity analysis of reliability function for virtualized system,”<I>Proceedings of the 8th International Conference on Mathematical Methods in Reliability, --Theory, Methods and Applications -- (MMR-2013)</I>,  pp. 229--232, 2013. 
+  <LI>C. Luo, H. Okamura and T. Dohi,“Modeling and analysis of multi-version concurrent control,”<I>Proceedings of The 37th Annual International Computer Software and Applications Conference (COMPSAC 2013)</I>, pp. 53--58, IEEE CPS, 2013.
+  <LI>D. Kuwa and T. Dohi,“Generalized logit-based software reliability modeling with metrics data,”<I>Proceedings of The 37th Annual International Computer Software and Applications Conference (COMPSAC 2013)</I>, pp.246--255, IEEE CPS, 2013.
+  <LI>B. Wu, X. Xiao and T. Dohi,“Confidence interval of optimal software-testing resource-allocation policy,”<I>Proceedings of The 17th International Conference on Industrial Engineering Theory, Applications and Practicee (IJIE 2013)</I>, pp. 129--135, 2013.
+  <LI>Y. Saito, T. Dohi and W. Y. Yun,“Applying parametric bootstrap methods for a block replacement problem with minimal repair,”<I>Proceedings of The 17th International Conference on Industrial Engineering Theory, Applications and Practicee (IJIE 2013)</I>, pp. 136--142, 2013.
+  <LI>S. Ikemoto, T. Dohi and H. Okamura,“Estimating software reliability with static project data in incremental development processes,”<I>Proceedings of 2013 Joint Conference of the 23rd International Workshop on Software Measurement (IWSM-2013) and the 8th International Conference on Software Process and Product Measurement (MENSURA-2013)</I>, pp. 219--224, IEEE CPS, 2013.
+  <LI>H. Okamura and T. Dohi,“SRATS: Software reliability assessment tool on spreadsheet,”<I>Proceedings of The 24th International Symposium on Software Reliability Engineering (ISSRE 2013)</I>, pp. 100--117, IEEE CPS, 2013.
+  <LI>S. Ikemoto, T. Dohi and H. Okamura,“Quantifying software test process and product reliability simultaneously,”<I>Proceedings of The 24th International Symposium on Software Reliability Engineering (ISSRE 2013)</I>, pp. 108--117, IEEE CPS, 2013.
+  <LI>H. Okamura, C. Luo and T. Dohi,“Estimating response time distribution of server application in software aging phenomenon,”<I>Proceedings of IEEE 5th International Workshop on Software Aging and Rejuvenation (WoSAR-2013)</I>, 4 pages, IEEE CPS, 2013. 
+  <LI>D. Kuwa and T. Dohi,“Generalized Cox proportional hazards regression-based software reliability modeling with metrics data,”<I>Proceedings of The 19th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC 2013)</I>, pp. 328--337, IEEE CPS, 2013.
+
+
+【査読付国内会議論文】
+
+  <LI>竹腰祐輝，岡村寛之，土肥正,“テストケース距離空間に基づいたソフトウェア信頼性評価手法に関する考察,”ソフトウェアシンポジウム '13 論文集, ソフトウェア技術者協会, 8 pages, 岐阜 (July 7--10, 2013). 
+  <LI>肖霄，土肥正,“プロジェクト類似性に基づいた線形重回帰モデルによるソフトウェア開発労力の予測,”ソフトウェアエンジニアリングシンポジウム2013 (SES2013) 論文集, 情報処理学会, 8 pages, 東京 (September 9--10, 2013). 
+
+【書籍】
+　
+　<LI>T. Dohi and T. Nakagawa (eds.), <I>Stochastic Reliability and Maintenance Modeling - Essays in Honor of Professor Shunji Osaki on his 70th Birthday</I>, Springer, London, 2013 (ISBN: 978-1-4471-4971-2). 
+  <LI>H. Okamura and T. Dohi,“Application of EM algorithm to NHPP-based software reliability assessment”，<I>Stochastic Reliability and Maintenance Modeling - Essays in Honor of Professor Shunji Osaki on his 70th Birthday</I> (T. Dohi and T. Nakagawa, eds.), pp. 285--313, Springer, London, 2013.
+
+【基調講演・招待講演】
+
+   <LI>T. Dohi,“Towards empirical software reliability engineering,”was presented at <I>The 5th International Conference on Advanced Science and Technology (AST 2013)</I> (Keynote Talk), Yeosoo, Korea, April 26--27, 2013. 
+   <LI>土肥正,“何故, 今, ソフトウェア信頼性評価なのか？,”ソフトウェアテストシンポジウム 2013 四国 (JaSST'13 Shikoku) (招待講演), 高松, 7月19日, 2013.
+   <LI>T. Dohi,“Recent advances on software reliability modeling,”was presented at <I>Seminar on Software Reliability in 2013: Theory and Practice (IEEE Reliability Society French Chapter, IEEE Reliability Society)</I> (Invited Talk), Paris, France, September 5, 2013.
+   <LI>T. Dohi,“Recent advancement of software reliability engineering,”was presented at <I>The 17th International Conference on Industrial Engineering Theory, Applications and Practicee (IJIE 2013)</I> (Keynote Talk), Busan, Korea, October 6--9, 2013.
+
+【国際会議口頭発表】
+
+   <LI>M. Kimura, S. Inoue, Y. Taoda, T. Dohi and Y.  Kakuda,“A novel method based on VANET for alleviating traffic congestion in urban transportations,”was presented at <I>The 11th International Symposium on Autonomous Decentralized Systems (ISADS 2013)</I>, Mexico City, Mexico, March 6--8, 2013. 
+   <LI>S. Ukimoto and T. Dohi, “A software cost model with reliability constraint under two operational scenarios,”was presented at <I>The 2nd International Conference on Software Technology (SoftTech 2013)</I>, Yeosoo, Korea, April 26--27, 2013. 
+   <LI>H. Okamura, T. Hirata and T. Dohi, “NHPP-based software reliability model with mixed gamma distribution,”was presented at <I>The 2nd International Conference on Software Technology (SoftTech 2013)</I>, Yeosoo, Korea, April 26--27, 2013. 
+   <LI>T. Kaneishi and T. Dohi,“Software reliability modeling and evaluation under incomplete knowledge on fault distribution,”was presented at <I>The 7th IEEE International Conference on Software Security and Reliability (SERE-2013)</I>, Washington DC, USA, June 18--20, 2013. 
+   <LI>J. Zheng, H. Okamura and T. Doh, “Sensitivity analysis of reliability function for virtualized system,”was presented at <I>The 8th International Conference on Mathematical Methods in Reliability, --Theory, Methods and Applications -- (MMR-2013)</I>, Stellenbosch, South Africa, July 1--4, 2013.
+   <LI>Y. Doi and . Dohi, “Workload-dependent optimal checkpoint placement,”was presented at <I>The 8th International Conference on Mathematical Methods in Reliability, --Theory, Methods and Applications -- (MMR-2013)</I>, Stellenbosch, South Africa, July 1--4, 2013.
+   <LI>D. Kuwa and T. Dohi,“Generalized logit-based software reliability modeling with metrics data,”was presented at <I>The 37th Annual International Computer Software and Applications Conference (COMPSAC 2013)</I>, Kyoto, Japan, July 22--26, 2013.
+   <LI>C. Luo, H. Okamura and T. Dohi,“Modeling and analysis of multi-version concurrent control,”was presented at <I>The 37th Annual International Computer Software and Applications Conference (COMPSAC 2013)</I>, Kyoto, Japan, July 22--26, 2013.
+   <LI>Y. Saito, T. Dohi and W. Y. Yun,“Applying parametric bootstrap methods for a block replacement problem with minimal repair,”was presented at <I>The 17th International Conference on Industrial Engineering Theory, Applications and Practicee (IJIE 2013)</I>, Busan, Korea, October 6--9, 2013.
+   <LI>B. Wu, X. Xiao and T. Dohi,“Confidence interval of optimal software-testing resource-allocation policy,”will be presented at <I>The 17th International Conference on Industrial Engineering Theory, Applications and Practicee (IJIE 2013)</I>, Busan, Korea, October 6--9, 2013.
+   <LI>S. Ikemoto, T. Dohi and H. Okamura,“Estimating software reliability with static project data in incremental development processes,”was presented at <I>The 2013 Joint Conference of the 23rd International Workshop on Software Measurement (IWSM-2013) and the 8th International Conference on Software Process and Product Measurement (MENSURA-2013)</I>, Ankara, Turkey, October 23--26, 2013.
+   <LI>S. Ikemoto, T. Dohi and H. Okamura,“Quantifying software test process and product reliability simultaneously,”was presented at <I>The 24th International Symposium on Software Reliability Engineering (ISSRE 2013)</I>, Los Angels, USA, November 4--7, 2013. 
+   <LI>H. Okamura and T. Dohi,“SRATS: Software reliability assessment tool on spreadsheet,”was presented at <I>The 24th International Symposium on Software Reliability Engineering (ISSRE 2013)</I>, Los Angels, USA, November 4--7, 2013. 
+   <LI>C. Luo, H. Okamura and T. Dohi,“Characteristic analysis of quantitative definition of resiliency measure,”was presented at <I>The 24th IEEE International Symposium on Software Reliability Engineering (ISSRE-2013)</I> (Fast Abstract), Los Angels, USA, November 4--7, 2013. 
+   <LI>H. Okamura, C. Luo and T. Dohi,“Estimating response time distribution of server application in software aging phenomenon,”was presented at <I>IEEE 5th International Workshop on Software Aging and Rejuvenation (WoSAR-2013)</I>, in conjunction with <I>The 24th IEEE International Symposium on Software Reliability Engineering (ISSRE-2013)</I>, Los Angels, USA, November 4--7, 2013. 
+   <LI>D. Kuwa and T. Dohi,“Generalized Cox proportional hazards regression-based software reliability modeling with metrics data,”was presented at <I>The 19thIEEE Pacific Rim International Symposium on Dependable Computing (PRDC 2013)</I>, Vancouver, Canada, December 2-4, 2013.
+
+【国内会議口頭発表】
+
+  <LI>国元勇佑，岡村寛之，土肥正,“連続時間マルコフ連鎖過渡解析の並列化に関する一考察,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 102--103, 東京, 3月5日--6日, 2013. 
+  <LI>C. Luo, H. Okamura and T. Dohi,“Resiliency analysis for virtualized systems with disaster recovery,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 34--35, 徳島, 9月11日--12日, 2013. 
+  <LI>斎藤靖洋，土肥正,“確率的打切りを考慮した射撃ゲームにおける最適シュタッケルベルグ戦略について,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 140--141, 徳島, 9月11日--12日, 2013. 
+  <LI>鄭俊俊，岡村寛之, 土肥正,“On numerical computation for optimal rejuvenation policy in virtualized system,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 168--169, 徳島, 9月11日--12日, 2013. 
+  <LI>易志鵬，土肥正,“Survivability analysis for a wireless ad hoc network with border effects,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 170--171, 徳島, 9月11日--12日, 2013. 
+  <LI>竹腰祐輝, 岡村寛之, 土肥正,“システムテストケースの類似度に着目したソフトウェア信頼性評価,”平成25年度電気・情報関連学会中国支部第64回連合大会講演論文集, p. 143, 岡山, 10月19日, 2013. 
+  <LI>邱国龍, 土肥正,“ソフトウェア欠陥密度の区間推定に関する考察,”平成25年度電気・情報関連学会中国支部第64回連合大会講演論文集, p.198, 岡山, 10月19日, 2013. 
+  <LI>J. Guan, H. Okamura and T. Dohi,“Quantitative resiliency analysis for virtualized system,”平成25年度電気・情報関連学会中国支部第64回連合大会講演論文集, p. 201, 岡山, 10月19日, 2013. 
+  <LI>土井優希, 土肥正,“ワークロードに基づくCP/リスタートモデルに関する考察,”平成25年度電気・情報関連学会中国支部第64回連合大会講演論文集, p.260, 岡山, 10月19日, 2013. 
+  <LI>J. Zheng, H. Okamura and T. Dohi,“A note on parametric sensitivity analysis of dynamic fault trees,”平成25年度電気・情報関連学会中国支部第64回連合大会講演論文集, p. 289, 岡山, 10月19日, 2013. 
+  <LI>齋藤靖洋, 土肥正, Won Young Yun,“小修理を伴うブロック取替え問題に対するパラメトリックブートストラップ法の適用,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 113, no. 44, pp. 13--18, 尾道, 5月17日, 2013. 
+  <LI>C. Luo, J. Guan, H. Okamura and T. Dohi,“Toward quantification of system resiliency based on Markov models,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 113, no. 44, pp. 19--24, 尾道, 5月17日, 2013. 
+  <LI>J. Zheng, H. Okamura and T. Dohi,“A note on sensitivity of transient solutions of continuous-time Markov chains,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 113, no. 44, pp. 25--30, 尾道, 5月17日, 2013. 
+  <LI>X. Xiao and T. Dohi,“Interval estimation for wavelet-based nonparametric software reliability model via bootstrapping,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 113, no. 44, pp. 31--36, 尾道, 5月17日, 2013.
+  <LI>土井優希, 土肥正,“システムワークロードに基づいた最適チェックポイント配置,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 113, no. 80, pp. 17--22, 東京, 6月14日, 2013. 
+  <LI>岡村寛之, 土肥正,“ソフトウェアメトリクスとフォールト記録による高精度フォールト予測,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 113, no. 162, pp. 13--18, 紋別, 7月26日, 2013. 
+  <LI>久和大祐, 土肥正,“メトリクスデータを活用した一般化 Cox 回帰に基づくソフトウェア信頼性モデリング,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 113, no. 162, pp. 19--24, 紋別, 7月26日, 2013. 
+  <LI>H. Okamura, Y. Takekoshi and T. Dohi,“Fine-grained software reliability estimation using software testing inputs,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 113, no. 348, pp. 13--18, 東京, 12月13日, 2013. 
+  <LI>X. Xiao and T. Dohi,“A comparative study of NHPP-based software reliability models with exponentiated distributions,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 113, no. 348, pp.19--24, 東京, 12月13日, 2013. 
+
+
+2012年度
+
+【学術雑誌掲載論文】
+
+  <LI>X. Xiao, H. Okamura and T. Dohi,“NHPP-based software reliability models using equilibrium distribution,”<I>IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences (A)</I>, vol. E95-A, no. 5, pp. 894--902, 2012. 
+  <LI>X. Xiao and T. Dohi,“A comparative study of data transformations for wavelet shrinkage estimation with application to software reliability assessment,”<I>Advances in Software Engineering</I>, vol. 2012, pp. 1--9, 2012. 
+  <LI>T. Ishii, T. Dohi and H. Okamura,“Software reliability prediction based on least squares estimation,”<I>Quality Technology and Quantitative Management Journal</I>, vol. 9, no. 3, pp. 243--264, 2012. 
+  <LI>T. Dohi, H. Okamura and K. S. Trivedi,“Comparison of software cost models with rejuvenation under two steady-state criteria,”<I>International Journal of Reliability and Quality Performance</I>, vol. 3, no. 1, pp. 1--13, 2012. 
+  <LI>T. Dohi and T. Uemura,“An adaptive mode control algorithm of a scalable intrusion tolerant architecture,”<I>Journal of Computer and System Sciences</I>, vol. 78, no. 6, pp. 1751--1774, 2012. 
+  <LI>S. Ikemoto and T. Dohi,“Exponential regression-based software reliability model and its computational aspect,”<I>IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences (A)</I>, vol. E95-A, no. 9, pp. 1461--1468, 2012. 
+  <LI>X. Xiao and T. Dohi,“Software failure time data analysis via wavelet-based approach,”<I>IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences (A)</I>, vol. E95-A, no. 9, pp. 1490--1497, 2012. 
+  <LI>B. Zhou, H. Okamura and T. Dohi,“Application of Markov chain Monte Carlo random testing to test case prioritization in regression testing,”<I>IEICE Transactions on Information & Systems (D)</I>, vol. E95-D, no. 9, pp. 2219--2226, 2012. 
+  <LI>Z. Yi and T. Dohi,“Survivability analysis for a wireless ad hoc network based on semi-Markov model,”<I>IEICE Transactions on Information & Systems (D)</I>, vol. E95-D, no. 12, pp. 2844--2851, 2012.
+  <LI>T. Ishii and T. Dohi,“Two-dimensional software defect models with test execution history,”<I>Journal of ISRN Software Engineering</I>, vol. 2012, pp. 1--12, 2012. 
+
+【査読付国際会議論文】
+
+  <LI>H. Okamura and T. Dohi,“Optimal time-out policy in dynamic power management,”<I>Proceedings of the 2nd International Conference on Computer and Management (CAMAN-2012)</I>, pp. 916--919, IEEE CPS, 2012. 
+  <LI>Y. Saito and T. Dohi,“Nash equilibrium strategy for a software release game,”<I>Proceedings of the 2nd International Conference on Computer and Management (CAMAN-2012)</I>, pp. 3822--3825, IEEE CPS, 2012. 
+  <LI>S. Ikemoto, T. Dohi and H. Okamura,“Estimating software reliability via pseudo maximum likelihood method,”<I>Proceedings of 27th ACM Symposium on Applied Computing (SAC-2012)</I>, pp. 1171--1176, ACM, 2012. 
+  <LI>S. Ukimoto, T. Dohi and H. Okamura,“Software testing-resource allocation with operational profile,”<I>Proceedings of 27th ACM Symposium on Applied Computing (SAC-2012)</I>, pp. 1203--1208, ACM, 2012.
+  <LI>X. Xiao and T. Dohi,“Robust wavelet shrinkage estimation without data transform for software reliability assessment,”<I>Proceedings of the 6th IEEE International Conference on Software Security and Reliability (SERE-2012)</I>, pp. 215--224, IEEE CPS, 2012. 
+  <LI>S. Tokumoto and T. Dohi,“Risk-based intelligent software release planning,”<I>Proceedings of The 9th IEEE International Conference on Ubiquitous Intelligence and Computing (UIC 2012)</I>, pp. 240--247, IEEE CPS, 2012. 
+  <LI>T. Dohi, H. Okamura and K. S. Trivedi,“Optimizing software rejuvenation policies under interval reliability criteria,”<I>Proceedings of The 9th IEEE International Conference on Autonomic and Trusted Computing (ATC 2012)</I>, pp. 478--485, IEEE CPS, 2012. 
+  <LI>C. Luo, H. Okamura and T. Dohi,“Model-based performance optimization of generalized snapshot isolation in database system,”<I>Proceedings of The 9th IEEE International Conference on Autonomic and Trusted Computing (ATC 2012)</I>, pp. 494--500, IEEE CPS, 2012. 
+  <LI>J. Zheng, H. Okamura and T. Dohi,“Component importance analysis of virtualized system,”<I>Proceedings of The 9th IEEE International Conference on Autonomic and Trusted Computing (ATC 2012)</I>, pp. 462--469, IEEE CPS, 2012. 
+  <LI>K. Hari and T. Dohi,“Dependability modeling and analysis of random port hopping,”<I>Proceedings of 2012 Symposia and Workshop on Ubiquitous, Autonomic and Trusted Computing (The Third International Symposium on Multidisciplinary Emerging Networks and Systems (MENS2012))</I>, pp. 586--593, IEEE CPS, 2012. 
+  <LI>N. Bessio and T. Dohi,“Comparing checkpoint and rollback recovery schemes in a cluster system,”<I>The 12th International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP 2012) Part II</I> (Y. Xiang, et al. eds.), Lecture Notes in Computer Science, vol. 7439, pp. 531--545, Springer-Verlag, 2012.   
+  <LI>Z. Yi, T. Dohi and H. Okamura,“Survivability modeling and analysis for a power-aware wireless ad hoc network,”<I>Proceedings of 4th International Workshop on Reliable Networks Design and Modeling (RNDM 2012)</I>, pp. 813--819, IEEE CPS, 2012. 
+  <LI>K. Hari, T. Dohi and K. S. Trivedi,“Fast optimization algorithms for designing cellular networks with guard channel,”<I>Proceedings of The 31st International Symposium on Reliable Distributed Systems (SRDS 2012)</I>, pp. 249--254, IEEE CPS, 2012. 
+  <LI>T. Imanaka and T. Dohi,“NHPP-based software reliability modeling with zero-truncation and zero-inflation,”<I>Proceedings of 2012 Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2012)</I>, pp. 160--167, McGraw-Hill, Taiwan, 2012. 
+  <LI>T. Koga and T. Dohi,“Reliability optimization for real-time systems with series and parallel task processing with dynamic voltage and frequency scaling,”<I>Proceedings of 2012 Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2012)</I>, pp. 263--270, McGraw-Hill, Taiwan, 2012. 
+  <LI>H. Okamura and T. Dohi,“Application of hierarchical Bayesian modeling to discrete-time software reliability growth model,”<I>Proceedings of 2012 Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2012)</I>, pp. 382--389, McGraw-Hill, Taiwan, 2012. 
+  <LI>S. Tokumoto, T. Dohi and W. Y. Yun,“Confidence interval of optimal age replacement policy,”<I>Proceedings of 2012 Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2012)</I>, pp. 494--501, McGraw-Hill, Taiwan, 2012. 
+  <LI>R. Watanabe, H. Okamura and T. Dohi,“Variational Bayes for discrete phase-type distributions,”<I>Proceedings of 2012 Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2012)</I>, pp. 542--549, McGraw-Hill, Taiwan, 2012. 
+  <LI>X. Xiao and T. Dohi,“Binomial software reliability model using equilibrium distribution,”<I>Proceedings of 2012 Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2012)</I>, pp. 558--565, McGraw-Hill, Taiwan, 2012. 
+  <LI>K. Yamamoto, H. Okamura and T. Dohi,“Transient analysis of software rejuvenation policies in virtualized system,”<I>Proceedings of 2012 Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2012)</I>, pp. 574--580, McGraw-Hill, Taiwan, 2012. 
+  <LI>H. Okamura, M. Tokuzane and T. Dohi,“Security evaluation for software system with vulnerability life cycleand user profiles,”<I>Proceedings of 2012 Workshop on Dependable Transportation/Recent Advances in Software Dependability (WDTS-RASD 2012)</I>, pp. 39--44, IEEE CPS, 2012.  
+  <LI>S. Tokumoto, T. Dohi and W. Y. Yun,“Towards development of risk-based checkpointing scheme via parametric bootstrapping,”<I>Proceedings of 2012 Workshop on Dependable Transportation/Recent Advances in Software Dependability (WDTS-RASD 2012)</I>, pp. 50--55, IEEE CPS, 2012. 
+  <LI>H. Okamura and T. Dohi,“Optimization of opportunity-based software rejuvenation policy,”<I>Proceedings of IEEE 4th International Workshop on Software Aging and Rejuvenation (WoSAR-2012)</I>, pp. 283--286, IEEE CPS, 2012. 
+  <LI>R. Watanabe, H. Okamura and T. Dohi,“An efficient MCMC algorithm for continuous PH distributions,”<I>Proceedings of The 2012 Winter Simulation Conference</I> (C. Laroque, J. Himmelspach, R. Pasupathy, O. Rose and A. M. Uhrmacher, eds.), 12 pages, 2012. 
+
+【査読付国内会議論文】
+
+  <LI>池本真也, 土肥正,“マルコフポアソン回帰モデルに基づいたソフトウェア信頼性評価,”ソフトウェアシンポジウム '12 論文集, ソフトウェア技術者協会, 6 pages, 福井 (June 12--14, 2012). 
+
+【書籍】
+
+  <LI>B. O. Apduhan, C.-H. Hsu, T. Dohi, K. Ishida, L. T. Yang, J. Ma (eds.), <I>Proceedings of 9th International Conference on Ubiquitous Intelligence and Computing and 9th International Conference on Autonomic and Trusted Computing (UIC/ATC 2012)</I>, IEEE CPS, USA, 2012 (ISBN: 978-1-4673-3084-8).
+  <LI>H. Yamamoto, C. Qian, L. Cui and T. Dohi (eds.), <I>Advanced Reliability and Maintenance Modeling V -- Basis of Reliability Analyses</I>, McGraw Hill, Taipei, 2012 (ISBN: 978-986-157-888-0). 
+  <LI>K. Iwasaki, T. Yoneda and T. Dohi (eds.), <I>Proceedings of IEEE 18th Pacific Rim International Symposium on Dependable Computing (PRDC 2012)</I>, IEEE CPS, USA, 2012 (ISBN: 978-0-7695-4885-2). 
+
+【基調講演・招待講演】
+
+   <LI>T. Dohi,“Towards quantitative software reliability assessment in incremental development processes,”was presented at <I>Research Seminar in Department of Industrial Engineering, Pusan National University</I> (Invited Talk), Busan, Korea, September 13, 2011.
+   <LI>T. Dohi,“Environmental diversity techniques of software systems - from checkpoint restart to software rejuvenation -,”was presented at <I>Future Generation Information Technology 2011 (FGIT 2011)</I> (Plenary Talk), Jeju Island, Korea, December 8--10, 2011.
+
+【国際会議口頭発表】
+
+   <LI>H. Okamura and T. Dohi,“Optimal time-out policy in dynamic power management,”was presented at <I>The 2nd International Conference on Computer and Management (CAMAN 2012)</I>, Wuhan, China, March 9--11, 2012. 
+   <LI>Y. Saito and T. Dohi,“Nash equilibrium strategy for a software release game,”was presented at <I>The 2nd International Conference on Computer and Management (CAMAN 2012)</I>, Wuhan, China, March 9--11, 2012. 
+   <LI>S. Ikemoto, T. Dohi and H. Okamura,“Estimating software reliability via pseudo maximum likelihood method,”was presented at <I>The  27th ACM Symposium on Applied Computing (SAC-2012)</I>, Riva del Garda (Treno), Italy, March 25--29, 2012. 
+   <LI>S. Ukimoto, T. Dohi and H. Okamura,“Software testing-resource allocation with operational profile,”was presented at <I>The  27th ACM Symposium on Applied Computing (SAC-2012)</I>, Riva del Garda (Treno), Italy, March 25--29, 2012. 
+   <LI>X. Xiao and T. Dohi,“Robust wavelet shrinkage estimation without data transform for software reliability assessment,”was presented at <I>The 6th IEEE International Conference on Software Security and Reliability (SERE-2012)</I>, Washington DC, USA, June 20--22, 2012. 
+   <LI>S. Tokumoto and T. Dohi,“Risk-based intelligent software release planning,”was presented at <I>The 9th IEEE International Conference on Ubiquitous Intelligence and Computing (UIC 2012)</I>, Fukuoka, Japan, September 4-7, 2012. 
+   <LI>T. Dohi and K. S. Trivedi,“Optimizing software rejuvenation policies under interval reliability criteria,”was presented at <I>The 9th IEEE International Conference on Autonomic and Trusted Computing (ATC 2012)</I>, Fukuoka, Japan, September 4-7, 2012. 
+   <LI>C. Luo, H. Okamura and T. Dohi,“Model-based performance optimization of generalized snapshot isolation in database system,”was presented at  <I>The 9th IEEE International Conference on Autonomic and Trusted Computing (ATC 2012)</I>, Fukuoka, Japan, September 4-7, 2012. 
+   <LI>J. Zheng, H. Okamura and T. Dohi,“Component importance analysis of virtualized system,”was presented at  <I>The 9th IEEE International Conference on Autonomic and Trusted Computing (ATC 2012)</I>, Fukuoka, Japan, September 4-7, 2012. 
+   <LI>K. Hari and T. Dohi,“Dependability modeling and analysis of random port hopping,”was presented at  <I>The Third International Symposium on Multidisciplinary Emerging Networks and Systems (MENS2012)</I>, Fukuoka, Japan, September 4-7, 2012. 
+   <LI>N. Bessio and T. Dohi, “Comparing checkpoint and rollback recovery schemes in a cluster system,”was presented at <I>The 12th International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP 2012)</I>, Fukuoka, Japan, September 4-7, 2012. 
+   <LI>Z. Yi, T. Dohi and H. Okamura, “Survivability modeling and analysis for a power-aware wireless ad hoc network,”was presented at <I>The 4th International Workshop on Reliable Networks Design and Modeling (RNDM 2012)</I>, St. Petersburg, Russia, October 3--15, 2012. 
+   <LI>K. Hari, T. Dohi and K. S. Trivedi, “Fast optimization algorithms for designing cellular networks with guard channel,”was presented at <I>The 31st International Symposium on Reliable Distributed Systems (SRDS 2012)</I>, Irvine, USA, October 8--11, 2012. 
+   <LI>T. Imanaka and T. Dohi, “NHPP-based software reliability modeling with zero-truncation and zero-inflation,”was presented at <I>The 2012 Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2012)</I>, Nanjing, China, November 1--3, 2012.
+   <LI>T. Koga and T. Dohi, “Reliability optimization for real-time systems with series and parallel task processing with dynamic voltage and frequency scaling,”was presented at <I>The 2012 Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2012)</I>, Nanjing, China, November 1--3, 2012.
+   <LI>H. Okamura and T. Dohi, “Application of hierarchical Bayesian modeling to discrete-time software reliability growth model,”was presented at <I>The 2012 Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2012)</I>, Nanjing, China, November 1--3, 2012.
+   <LI>S. Tokumoto, T. Dohi and W. Y. Yun, “Confidence interval of optimal age replacement policy,”was presented at <I>The 2012 Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2012)</I>, Nanjing, China, November 1--3, 2012.
+   <LI>R. Watanabe, H. Okamura and T. Dohi, “Variational Bayes for discrete phase-type distributions,”was presented at <I>The 2012 Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2012)</I>, Nanjing, China, November 1--3, 2012.
+   <LI>X. Xiao and T. Dohi, “Binomial software reliability model using equilibrium distribution,”was presented at <I>The 2012 Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2012)</I>, Nanjing, China, November 1--3, 2012.
+   <LI>K. Yamamoto, H. Okamura and T. Dohi, “Transient analysis of software rejuvenation policies in virtualized system,”was presented at <I>The 2012 Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2012)</I>, Nanjing, China, November 1--3, 2012.
+   <LI>H. Okamura, M. Tokuzane and T. Dohi, “Security evaluation for software system with vulnerability life cycleand user profiles,”was presented at <I>2012 Workshop on Recent Advances in Software Dependability (RASD 2012)</I>, in conjunction with <I>The 18th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC 2012)</I>, Niigata, Japan, November 18--19, 2012 
+   <LI>S. Tokumoto, T. Dohi and W. Y. Yun, “Towards development of risk-based checkpointing scheme via parametric bootstrapping,”was presented at <I>2012 Workshop on Recent Advances in Software Dependability (RASD 2012)</I>, in conjunction with <I>The 18th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC 2012)</I>, Niigata, Japan, November 18--19, 2012 
+   <LI>C. Luo, H. Okamura and T. Dohi, “Analysis of fairness in distributed database system with snapshot isolation,”was presented at <I>The 18th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC 2012)</I> (Fast Abstract), Niigata, Japan, November 18--19, 2012 
+   <LI>H. Okamura and T. Dohi, “Optimization of opportunity-based software rejuvenation policy,”was presented at <I>The IEEE 4th International Workshop on Software Aging and Rejuvenation (WoSAR-2012)</I>, in conjunction with <I>The 23rd IEEE International Symposium on Software Reliability Engineering (ISSRE-2011)</I>, Dallas, USA, November 27--30, 2012. 
+   <LI>R. Watanabe, H. Okamura and T. Dohi, “An efficient MCMC algorithm for continuous PH distributions,”was presented at <I>The 2012 Winter Simulation Conference</I>, Berlin, Germany, December 9--12, 2012. 
+
+【国内会議口頭発表】
+
+  <LI>肖霄, 土肥正,“ソフトウェア故障時間解析と条件付き尤度,”日本オペレーションズ・リサーチ学会秋季研究発表会アブストラクト集, pp. 96--97, 名古屋, 9月12日--13日, 2012. 
+  <LI>X. Ban, X. Xiao and T. Dohi,“A study on analogy-based multiple regression model for software effort estimation,”平成24年度電気・情報関連学会中国支部第63回連合大会講演論文集, p. 406, 松江, 10月20日, 2012. 
+  <LI>B. Wu, X. Xiao and T. Dohi,“Optimal allocation of software testing-resources with reliability criterion,”平成24年度電気・情報関連学会中国支部第63回連合大会講演論文集, p. 407, 松江, 10月20日, 2012. 
+  <LI>K. Okumura, H. Okamura and T. Dohi,“Development of software reliability models with kernel methods,”平成24年度電気・情報関連学会中国支部第63回連合大会講演論文集, p. 408, 松江, 10月20日, 2012. 
+  <LI>肖霄, 土肥正,“極値分布に基づいた2項ソフトウェア信頼性モデル,”平成24年度電気・情報関連学会中国支部第63回連合大会講演論文集, p. 409, 松江, 10月20日, 2012. 
+  <LI>W. Zhang, H. Okamura and T. Dohi,“Development of a random regression testing tool with JUnit,”平成24年度電気・情報関連学会中国支部第63回連合大会講演論文集, p. 410, 松江, 10月20日, 2012. 
+  <LI>徳本俊介, 土肥正,“パラメトリックブートストラップ法によるソフトウェア若化スケジューリング,”平成24年度電気・情報関連学会中国支部第63回連合大会講演論文集, p. 411, 松江, 10月20日, 2012. 
+  <LI>齋藤靖洋, 土肥正,“非ゼロ和 2 人 Noisy タイプゲームにおけるナッシュ均衡戦略の存在について,”平成24年度電気・情報関連学会中国支部第63回連合大会講演論文集, p. 412, 松江, 10月20日, 2012. 
+  <LI>渡辺龍, 岡村寛之, 土肥正,“連続位相型分布の変分ベイズ法に関する考察,”平成24年度電気・情報関連学会中国支部第63回連合大会講演論文集, p. 413, 松江, 10月20日, 2012. 
+  <LI>今中隆, 土肥正,“ゼロ切断・ゼロ過剰確率分布に基づいたソフトウェア信頼性モデルの予測評価,”平成24年度電気・情報関連学会中国支部第63回連合大会講演論文集, p. 414, 松江, 10月20日, 2012. 
+  <LI>山本健太, 岡村寛之, 土肥正,“SysML から PetriNet への変換に関する考察,”平成24年度電気・情報関連学会中国支部第63回連合大会講演論文集, p. 415, 松江, 10月20日, 2012. 
+  <LI>池本真也, 土肥正,“ソフトウェアメトリクスに基づいたマルコフポアソン回帰モデルに関する考察,”平成24年度電気・情報関連学会中国支部第63回連合大会講演論文集, p. 416, 松江, 10月20日, 2012. 
+  <LI>宮田諭, 岡村寛之, 土肥正,“マルコフ決定過程によるPCクラスタシステムの最適省電力制御方策に関する一考察,”平成24年度電気・情報関連学会中国支部第63回連合大会講演論文集, p. 417, 松江, 10月20日, 2012. 
+  <LI>古賀俊孝, 土肥正,“消費電力制約を伴う実時間システムの信頼性設計に関する考察,”平成24年度電気・情報関連学会中国支部第63回連合大会講演論文集, p. 418, 松江, 10月20日, 2012. 
+  <LI>古賀俊孝, 土肥正, 岡村寛之,“消費電力制約を伴うシステム信頼性設計に関する考察,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 112, no. 59, pp. 17--22, 出雲, 5月25日, 2012. 
+  <LI>渡辺龍, 岡村寛之, 土肥正,“マルコフ連鎖モンテカルロ法による位相型分布のベイズ推定,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 112, no. 59, pp. 23--28, 出雲, 5月25日, 2012. 
+  <LI>鄭俊俊, 岡村寛之, 土肥正,“仮想化システムにおけるコンポーネントのアベイラビリティ重要度解析,”電子情報通信学会技術研究報告 (信頼性研究会),  vol. 112, no. 59, pp. 29--34, 出雲, 5月25日, 2012. 
+  <LI>肖霄, 土肥正,“2項ソフトウェア信頼性モデルにおけるワイブル型分布の役割について,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 112, no. 59, pp. 35--40, 出雲, 5月25日, 2012. 
+  <LI>肖霄, 土肥正,“2項ソフトウェア信頼性モデルにおける均衡分布の役割について,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 112, no. 82, pp. 19--24, 東京, 6月15日, 2012. 
+  <LI>奥村圭, 岡村寛之, 土肥正,“カーネル法を用いたソフトウェア信頼性評価モデルの構築,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 112, no. 160, pp. 1--4, 苫小牧, 7月27日, 2012. 
+  <LI>徳本俊介, 土肥正, ユンワンヤン,“最適チェックポイント間隔の信頼区間推定,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 112, no. 160, pp. 5--10, 苫小牧, 7月27日, 2012. 
+  <LI>太尾田洋介, 木村光寿, 井上伸二, 土肥正, 角田良明,“VANET を利用した都市交通における渋滞軽減手法とその効果,”電子情報通信学会技術研究報告 (情報ネットワーク研究会), vol. 112, no. 230, pp. 179--184, 東京, 10月10日-12日, 2012. 
+  <LI>岡村寛之, 竹腰祐輝, 土肥正,“テスト位置情報を考慮したソフトウェア信頼性評価手法に関する一考察,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 112, no. 359, pp. 13--17, 東京, 12月14日, 2012. 
+
+
+2011年度
+
+【学術雑誌掲載論文】
+
+  <LI>山口祐介, 岡村寛之, 土肥正,“変分ベイズによるパラメータ相関を考慮した事後分布の近似計算,”日本応用数理学会論文誌, vol. 21, no. 1, pp. 73--88, 2011.
+  <LI>H. Okamura and T. Dohi,“Software safety assessment based on a subordinated Markov chain,”<I>International Journal of Systems Assurance Engineering and Management</I>, vol. 1, no. 3, pp.307--315, 2011. 
+  <LI>S. Mizoguchi and T. Dohi,“A fine-grained algorithm for non-parametric software reliability estimation,”<I>International Journal of Software Engineering and Its Applications</I>, vol. 5, no. 3, pp. 23--36, 2011. 
+  <LI>H. Okamura, T. Dohi and K. S. Trivedi,“A refined EM algorithm for PH distributions,”<I>Performance Evaluation</I>, vol. 68, pp. 938--954, 2011.
+
+【査読付国際会議論文】
+
+  <LI>T. Fujii, T. Dohi and T. Fujiwara, “Towards quantitative software reliability assessment in incremental development processes,”<I>Proceedings of The 33rd International Conference on Software Engineering (ICSE-2011)</I>, pp. 41--50, ACM, 2011. 
+  <LI>L. Z. Jin, T. Dohi and S. Osaki,“Continuous software reliability models --How good are they? --,”<I>Proceedings of the International Conference on Quality, Reliability, Maintenance and Safety Engineering (ICQR2MSE 2011)</I>, pp. 418--423, IEEE CPS, 2011. 
+  <LI>H. Okamura, T. Dohi and S. Osaki,“Software reliability growth model with normal distribution and its parameter estimation,”<I>Proceedings of the International Conference on Quality, Reliability, Maintenance and Safety Engineering (ICQR2MSE 2011)</I>,  pp. 424--429, IEEE CPS, 2011. 
+  <LI>R. Hakozaki and T. Dohi,“Non-parametric bootstrapping in software reliability assessment,”<I>Proceedings of the 7th International Conference on Mathematical Methods in Reliability, --Theory, Methods and Applications -- (MMR-2011)</I>,  pp. 207--213, 2011. 
+  <LI>H. Okamura, T. Hirata and T. Dohi,“Semi-parametric approach for software reliability evaluation using mixed gamma distributions,”<I>Proceedings of the 7th International Conference on Mathematical Methods in Reliability, --Theory, Methods and Applications -- (MMR-2011)</I>,  pp. 390--396, 2011. 
+  <LI>H. Okamura, T. Dohi, S. Shiraishi and M. Abe,“Composite dependability modeling for in-vehicle networks,”<I>Supplemental Proceedings of the 41st Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN-2011)</I>, pp. 240--245, IEEE CPS 2011. 
+  <LI>M. Kimura, S. Inoue, Y. Kakuda and T. Dohi, “A route discovery method for alleviating traffic congestion based on VANETs in urban transportations considering a relation between vehicle density and average velocity,”<I>Proceedings of the 10th International Symposium on Autonomous Decentralized Systems (ISADS-2011)</I>, pp. 299--302, IEEE CPS, 2011. 
+  <LI>H. Okamura and T. Dohi,“Application of reinforcement learning to software rejuvenation,”<I>Proceedings of the 10th International Symposium on Autonomous Decentralized Systems (ISADS-2011)</I>, pp. 647--652, IEEE CPSs, 2011. 
+  <LI>H. Okamura, Y. Etani and T. Dohi,“Quantifying the effectiveness of testing efforts on software fault detection with a logit software reliability growth model,”<I>Proceedings of 2011 Joint Conference of the 21st International Workshop on Software Measurement (IWSM-2011) and the 6th International Conference on Software Process and Product Measurement (MENSURA-2011)</I>, pp. 62--68, IEEE CPS, 2011. 
+  <LI>H. Okamura and T. Dohi,“A POMDP formulation of multistep failure model with software rejuvenation,”<I>Proceedings of IEEE 3rd International Workshop on Software Aging and Rejuvenation (WoSAR-2011)</I>, pp. 14--19, IEEE CPS, 2011. 
+  <LI>Z. Yi and T. Dohi, “Quantitative comparison of survivability models for wireless ad hoc networks,”<I>Proceedings of 2011 Second International Conference on Networking and Computing  (ICNC-2011)</I>, pp. 284--287, IEEE CPS, 2011. 
+  <LI>K. Okumura, H. Okamura and T. Dohi, “On the effect of the order of test cases in the modified exponential software reliability growth model,”<I>Proceedings of 2011 Second International Conference on Networking and Computing  (ICNC-2011)</I>, pp. 294--296, IEEE CPS, 2011. 
+  <LI>T. Dohi,“Environmental diversity techniques of software systems - from checkpoint restart to software rejuvenation -,”<I>Future Generation Information Technology (FGIT 2011)</I> (T.-H. Kim, H. Adeli, D. Slezak, F. E. Sandnes, X. Song, K.-I. Chung and K. P. Arnett, eds.), Lecture Note in Computer Science, vol. 7105, pp. 37--38, Springer-Verlag, 2011.
+  <LI>H. Okamura, T. Dohi and S. Osaki,“Bayesian inference for credible intervals of optimal software release time,”<I>Advances in Software Engineering & Its Applications (ASEA 2011)</I> (T.-H. Kim, H. Adeli, H.-K. Kim, H.-J. Kang, K. J. Kim, A. Kiumi and B.-H. Kang, eds.), Communications in Computer and Information Science, vol. 257, pp. 377--384, Springer-Verlag, 2011.
+  <LI>X. Xiao and T. Dohi,“Estimating software reliability using exreme value distributions,”<I>Advances in Software Engineering & Its Applications (ASEA 2011)</I> (T.-H. Kim, H. Adeli, H.-K. Kim, H.-J. Kang, K. J. Kim, A. Kiumi and B.-H. Kang, eds.), Communications in Computer and Information Science, vol. 257, pp. 399--406, Springer-Verlag, 2011.
+  <LI>T. Kaneishi and T. Dohi,“Parametric bootstrapping for assessing software reliability measures,”<I>Proceedings of 17th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC-2011)</I>, pp. 1--9, IEEE Computer Society Press, 2011. 
+  <LI>X. Xiao and T. Dohi,“Estimating software intensity function via multiscale analysis and its application to reliability assessment,”<I>Proceedings of 17th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC-2011)</I>, pp. 10--19, IEEE CPS, 2011. 
+  <LI>H. Okamura and T. Dohi,“Unification of software reliability models using Markovian arrival processes,”<I>Proceedings of 17th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC-2011)</I>, pp. 20--27, IEEE CPS, 2011. 
+
+【査読付国内会議論文】
+
+  <LI>池本真也, 土肥正,“ソフトウェアメトリクスに基づいた混合ポアソン信頼性モデルに関する考察,”ソフトウェアシンポジウム '11 論文集, ソフトウェア技術者協会, 6 pages, 長崎 (June 8--10, 2011).
+  <LI>岡村寛之, 土肥正,“ソフトウェア信頼性評価尺度の推定精度向上に関するリサンプリング手法の提案,”ソフトウェアシンポジウム '11 論文集, ソフトウェア技術者協会, 10 pages, 長崎 (June 8--10, 2011).
+
+【書籍】
+
+  <LI>T. Dohi and B. Cukic (eds.), <I>Proceedings of IEEE 22nd International Symposium on Software Reliability Engineering (ISSRE 2011)</I>, IEEE CPS, USA, 2011 (ISBN: 978-1-4577-2060-4).
+
+【基調講演・招待講演】
+
+   <LI>T. Dohi,“Software reliability assessment: How important it is!,”was presented at <I>Research Seminar in Department of Industrial Engineering, Pusan National University</I> (Invited Talk), Busan, Korea, December 22, 2010.
+   <LI>T. Dohi,“Software reliability modeling in past, present and future,”was presented at <I>The 2nd International Conference on Advanced Computer Science and Information Technology (AST 2010)</I> (Plenary Talk), Miyazaki, Japan, June 23--25, 2010
+   <LI>T. Dohi and T. Uemura,“Towards autonomic mode control of a scalable intrusion tolerant architecture,”was presented at <I>The 7th International Conference on Autonomic and Trusted Computing (ATC 2010)</I> (Invited Talk), Xi'an, China, October 26--29, 2010. 
+
+【国際会議口頭発表】
+
+   <LI>T. Fujii, T. Dohi and T. Fujiwara, “Towards quantitative software reliability assessment in incremental development processes,”was presented at <I>The 33rd International Conference on Software Engineering (ICSE-2011)</I>, Honolulu, USA, May 21--28, 2011. 
+   <LI>L. Z. Jin, T. Dohi and S. Osaki,“Continuous software reliability models --How good are they? --,”was presented at <I>The International Conference on Quality, Reliability, Maintenance and Safety Engineering (ICQR^2MSE 2011)</I>, Xi'an, China, June 17--19, 2011. 
+   <LI>H. Okamura, T. Dohi and S. Osaki,“Software reliability growth model with normal distribution and its parameter estimation,”was presented at <I>The International Conference on Quality, Reliability, Maintenance and Safety Engineering (ICQR^2MSE 2011)</I>, Xi'an, China, June 17--19, 2011. 
+   <LI>R. Hakozaki and T. Dohi,“Non-parametric bootstrapping in software reliability assessment,”was presented at <I>The 7th International Conference on Mathematical Methods in Reliability, --Theory, Methods and Applications -- (MMR-2010)</I>, Beijing, China, June 20--24, 2011. 
+   <LI>H. Okamura, T. Hirata and T. Dohi,“Semi-parametric approach for software reliability evaluation using mixed gamma distributions,”was presented at <I>The 7th International Conference on Mathematical Methods in Reliability, --Theory, Methods and Applications -- (MMR-2010)</I>, Beijing, China, June 20--24, 2011. 
+   <LI>H. Okamura, T. Dohi, S. Shiraishi and M. Abe,“Composite dependability modeling for in-vehicle networks,”was presented at <I>The 1st International Workshop on Open Systems Dependability: Adaptation to a Changing World (WOSD-2010)</I>, in conjunction with <I>The 41st Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN-2011)</I>, Hong Kong, China, June 27--30, 2011. 
+   <LI>M. Kimura, S. Inoue, Y. Kakuda and T. Dohi, “A route discovery method for alleviating traffic congestion based on VANETs in urban transportations considering a relation between vehicle density and average velocity,”was presented at <I>The 10th International Symposium on Autonomous Decentralized Systems (ISADS-2011)</I>, Kobe, Japan, June 29--July 1, 2011.
+   <LI>H. Okamura and T. Dohi,“Application of reinforcement learning to software rejuvenation,”was presented at <I>The 10th International Workshop on Assurance in Distributed Systems and Networks (ADSN-2010)</I> in conjunction with <I>The 10th International Symposium on Autonomous Decentralized Systems (ISADS-2011)</I>, Kobe, Japan, June 29--July 1, 2011.
+   <LI>H. Okamura, Y. Etani and T. Dohi,“Quantifying the effectiveness of testing efforts on software fault detection with a logit software reliability growth model,”was presented at <I>The Joint Conference of the 21th International Workshop on Software Measurement (IWSM) and the 6th International Conference on Software Process and Product Measurement (Mensura)</I>, Nara, Japan, November 3--4, 2011.
+   <LI>Z. Yi and T. Dohi,“Quantitative comparison of survivability models for wireless ad hoc networks,”was presented at <I>The 2nd International Workshop on Advances in Networking and Computing (WANC-2011)</I>, in conjunction with <I>The Second International Conference on Networking and Computing (ICNC 2011)</I>, Osaka, Japan, November 30 - December 2, 2011.
+   <LI>K. Okumura, H. Okamura and T. Dohi,“On the effect of the order of test cases in the modified exponential software reliability growth model,”was presented at <I>The 2nd International Workshop on Advances in Networking and Computing (WANC-2011)</I>, will be presented at <I>The 2nd International Workshop on Advances in Networking and Computing (WANC-2011)</I>, in conjunction with <I>The Second International Conference on Networking and Computing (ICNC 2011)</I>, Osaka, Japan, November 30, December 2, 2011.
+   <LI>H. Okamura and T. Dohi,“A POMDP formulation of multistep failure model with software rejuvenation,”was presented at <I>The IEEE 3rd International Workshop on Software Aging and Rejuvenation (WoSAR-2011)</I>, in conjunction with <I>The 22nd IEEE International Symposium on Software Reliability Engineering (ISSRE-2011)</I>, Hiroshima, Japan, November 29--December 2, 2011. 
+   <LI>X. Xiao and T. Dohi,“Estimating software failure rate by a Daubechies wavelet estimator,”was presented at <I>The 22nd IEEE International Symposium on Software Reliability Engineering (ISSRE-2011)</I> (Student paper), Hiroshima, Japan, November 29--December 2, 2011. 
+   <LI>Y. Saito and T. Dohi,“Software release game revisited,”was presented at <I>The 22nd IEEE International Symposium on Software Reliability Engineering (ISSRE-2011)</I> (Student paper), Hiroshima, Japan, November 29--December 2, 2011. 
+   <LI>H. Okamura, T. Dohi and S. Osaki,“Bayesian inference for credible intervals of optimal software release time,”was presented at <I>2011 International Conference on Advanced Software Engineering and Its Applications (ASEA 2011</I>, in conjunction with <I>The 3rd International Mega-Conference on Future Generation Information Technology (FGIT 2011)</I>,, Jeju Island, Korea, December 8--10, 2011.
+   <LI>X. Xiao and T. Dohi,“Estimating software reliability using extreme value distribution,”was presented at <I>2011 International Conference on Advanced Software Engineering and Its Applications (ASEA 2011</I>, in conjunction with <I>The 3rd International Mega-Conference on Future Generation Information Technology (FGIT 2011)</I>,, Jeju Island, Korea, December 8--10, 2011.
+   <LI>X. Xiao and T. Dohi,“Estimating software intensity function via multiscale analysis and its application to reliability assessment,”was presented at <I>The 17th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC-2011)</I>, Los Angels, USA, December 12--14, 2011. 
+   <LI>H. Okamura and T. Dohi,“Unification of software reliability models using Markovian arrival processes,”was presented at <I>The 17th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC-2011)</I>, Los Angels, USA, December 12--14, 2011. 
+   <LI>T. Kaneishi and T. Dohi,“Parametric bootstrapping for assessing software reliability measures,”was presented at <I>The 17th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC-2011)</I>, Los Angels, USA, December 12--14, 2011. 
+
+【国内会議口頭発表】
+
+
+
+
+
+
+2010年度
+
+【学術雑誌掲載論文】
+
+  <LI>T. Uemura, T. Dohi and N. Kaio,“Availability analysis of an intrusion tolerant distributed server system with preventive maintenance,”<I>IEEE Transactions on Reliability</I>, vol. 59, no. 1, pp. 18--29, 2010. 
+  <LI>T. Fujii and T. Dohi,“Identifying statistical failure mechanism of web server systems: measurement and reliability analysis,”<I>International Journal of Business Intelligence and Data Mining</I>, vol. 5, no. 2, pp. 156--171, 2010. 
+  <LI>T. Uemura and T. Dohi,“Optimal security patch management policies maximizing system availability,”<I>Journal of Communications</I>, vol. 5, no. 1, pp. 71--80, 2010.
+  <LI>T. Uemura, T. Dohi and N. Kaio,“Dependability analysis of a scalable intrusion tolerant architecture with two detection modes,”<I>Journal of Internet Technology</I>, vol. 11, no. 2, pp. 289--298, 2010.
+  <LI>H. Okamura and T. Dohi,“Comprehensive evaluation of aperiodic checkpointing and rejuvenation schemes in operational software system,”<I>Journal of Systems and Software</I>, vol. 83, pp. 1591--1604, 2010.
+  <LI>X. Xiao and T. Dohi,“Estimating the error rate in an Apache web server system,”<I>International Journal of Software Engineering and Its Applications</I>, vol. 4, no.3, pp. 19--28, 2010. 
+  <LI>Y. Yamaguchi, H. Okamura and T. Dohi,“Variational Bayesian approach for estimating parameters of a mixture of Erlang distributions,”<I>Communications in Statistics -Theory and Methods</I>, vol. 39, no. 3, pp. 2333--2350, 2010.
+  <LI>C.-H. Wang, T. Dohi and W. C. Tsai,“Coordinated procurement/inspection and production model under inspection errors,”<I>Computers & Industrial Engineering</I>, vol. 59, no. 3, pp. 473--478, 2010. 
+  <LI>H. Okamura and T. Dohi,“An EM-based scheme for record value statistics models in software reliability estimation,”<I>International Journal of Advanced Science and Technology</I>, vol. 20, pp. 43--52, 2010.
+  <LI>T. Dohi, N. Shibata and N. Kaio,“Analysis of two economic testing policies in discrete time,”<I>Quality Technology and Quantitative Management Journal</I>, vol. 7, no. 4, pp. 365--376, 2010. 
+
+【解説論文】
+
+  <LI>岡村寛之, 土肥正,“ソフトウェア信頼性評価におけるソフトウェアメトリクスの利用”，日本信頼性学会誌（学会誌特集：最近の信頼性・安全性の理論と応用）, vol. 32, no. 1, pp. 18--25, 2010. 
+
+【査読付国際会議論文】
+
+  <LI>T. Uemura, T. Dohi and N. Kaio,“Availability analysis of an IMS-based VoIP network system,”<I>Computational Science and Its Applications Part IV (ICCSA 2010)</I> (D. Taniar, O. Gervasi, B. Murgante, E. Pardede and B. O. Apduhan, eds.), Lecture Notes in Computer Science, vol. 6019, pp. 441--456, Springer-Verlag, 2010.
+  <LI>B. Zhou, H. Okamura and T. Dohi,“Markov chain Monte Carlo random testing,”<I>Advanced Computer Science and Information Technology (AST/UCMA/ISA/ACN 2010)</I> (T. H. Kim and H. Adeli, eds.), Lecture Notes in Computer Science, vol. 6059, pp. 447--456, Springer-Verlag, 2010.
+  <LI>S. Hiroyama, T. Dohi and H. Okamura,“Comparison of aperiodic checkpoint placement algorithms,”<I>Advanced Computer Science and Information (AST 2010)</I> (G. S. Tomar, R.-S. Chang, O. Gervasi, T. H. Kim and S. K. Bandyopadhyay, eds.), Communications in Computer and Information Science, vol. 74, pp. 145--156, Springer-Verlag, 2010.
+  <LI>H. Okamura, T. Dohi and K. S. Trivedi,“On-line adaptive algorithms in autonomic restart control,”<I>The 7th International Conference on Autonomic and Trusted Computing (ATC 2010)</I> (B. Xie, J. Branke, S. M. Sadjadi, D. Zhang and X. Zhou, eds.), Lecture Notes in Computer Science, vol. 6407, pp. 32--46, Springer-Verlag, 2010. 
+  <LI>T. Dohi and T. Uemura,“Towards autonomic mode control of a scalable intrusion tolerant architecture,”<I>The 7th International Conference on Autonomic and Trusted Computing (ATC 2010)</I> (B. Xie, J. Branke, S. M. Sadjadi, D. Zhang and X. Zhou, eds.), Lecture Notes in Computer Science, vol. 6407, pp. 283--297, Springer-Verlag, 2010. 
+  <LI>H. Okamura, H. Kishitani and T. Dohi,“Application of deterministic annealing EM algorithm to Markovian arrival parameter estimation,”<I>Proceedings of 2010 Symposia and Workshop on Ubiquitous, Autonomic and Trusted Computing (The 2nd International Symposium on Multidisciplinary Emerging Networks & Systems (MENS-2010))</I>, pp. 352--357, IEEE CPS, 2010. 
+  <LI>K. Hari and T. Dohi,“Sensitivity analysis of random port hopping,”<I>Proceedings of 2010 Symposia and Workshop on Ubiquitous, Autonomic and Trusted Computing (The 2nd International Symposium on Multidisciplinary Emerging Networks & Systems (MENS-2010))</I>, pp. 316--321, IEEE CPS, 2010. 
+  <LI>H. Okamura and T. Dohi,“Performance-aware software rejuvenation strategies in a queueing system,”<I>Proceedings of IEEE 2nd International Workshop on Software Aging and Rejuvenation (WoSAR-2010)</I>, 6 pages, IEEE CPS, 2010. 
+  <LI>H. Okamura, Y. Etani and T. Dohi,“A multi-factor software reliability moel based on logistic regression,”<I>Proceedings of 21st IEEE International Symposium on Software Reliability Engineering (ISSRE-2010)</I>, pp. 31--40, IEEE CPS, 2010. 
+  <LI>S. Inoue, K. Kurokawa, Y. Kakuda and T. Dohi,“A method to prolong the lifetime of sensor netwworks by adding new sensor nodes to energy-consumed areas,”<I>Proceedings of the 2nd International Symposium on Aware Computing (ISAC-2010)</I>, pp. 332--337, IEEE CPS, 2010. 
+  <LI>T. Dohi, N. Kaio and S. Osaki,“A stochastic profit model under repair-limit replacement program with imperfect repair,”<I>Proceedings of 4th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2010)</I>, pp. 153--160, McGraw-Hill, Taiwan, 2010. 
+  <LI>T. Ishii, T. Dohi and H. Okamura,“Applying least equares estimation to software reliability prediction,”<I>Proceedings of 4th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2010)</I>, pp. 241--248, McGraw-Hill, Taiwan, 2010. 
+  <LI>T. Dohi, H. Okamura and K. S. Trivedi,“Comparing software cost rate models with rejuvenation,”<I>Proceedings of 4th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2010)</I>, pp. 161--168, McGraw-Hill, Taiwan, 2010. 
+  <LI>T. Dohi, H. Okamura and S. Osaki,“Transient analysis of software availability models with rejuvenation,”<I>Proceedings of 4th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2010)</I>, pp. 169--176, McGraw-Hill, Taiwan, 2010. 
+  <LI>H. Okamura, T. Dohi and K. S. Trivedi,“An improvement of EM algorithm for PH distyributions with group data,”<I>Proceedings of 4th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2010)</I>, pp. 532--539, McGraw-Hill, Taiwan, 2010. 
+  <LI>H. Okamura, T. Dohi and S. Osaki,“A dynamic programming approach for sequential preventive maintenance policies,”<I>Proceedings of 4th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2010)</I>, pp. 540--547, McGraw-Hill, Taiwan, 2010. 
+  <LI>K. Yamana, H. Okamura and T. Dohi,“A note on quasi-Monte Carlo simulation for non-homogeneous Markov chains,”<I>Proceedings of 4th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2010)</I>, pp. 780--787, McGraw-Hill, Taiwan, 2010. 
+  <LI>T. Fujii, T. Dohi, H. Okamura and T. Fujiwara,“A software accerelated life testing model,”<I>Proceedings of 16th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC-2010)</I>, pp. 85--92, IEEE CPS, 2010. 
+  <LI>H. Okamura and T. Dohi,“Estimating computer virus propagation based on Markovian arrival processes,”<I>Proceedings of 16th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC-2010)</I>, pp. 199--206, IEEE CPS, 2010. 
+  <LI>A. Izumi, T. Dohi and N. Kaio,“Deadlock detection scheduling for distributed processes in the presence of system failures,”<I>Proceedings of 16th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC-2010)</I>, pp. 133--140, IEEE CPS, 2010. 
+
+【査読付国内会議論文】
+
+  <LI>岡村寛之, 周搏, 土肥正,“マルコフ連鎖モンテカルロ法によるソフトウェアテストケースの設計,”ソフトウェアテストシンポジウム 2010 東京 (JaSST'10) 論文集, 10 pages, 東京 (Januarry 28--29, 2010).
+
+【書籍】
+
+  <LI>土肥正 (編), 数理解析研究所講究録 1682 不確実・不確定性下での意思決定過程, 京都大学数理解析研究所, Japan, 2010 (ISBN: 1880-2818). 
+  <LI>S. Chukova, J. Haywood and T. Dohi (eds.), <I>Advanced Reliability Modeling IV -- Beyond the Traditional Reliability and Maintainability Approaches</I>, McGraw Hill, Taipei, 2010 (ISBN: 978-986-157-738-8). 
+
+【国際会議口頭発表】
+
+   <LI>T. Uemura, T. Dohi and N. Kaio,“Availability analysis of an IMS-based VoIP network system,”was presented at <I>The 2010 International Conference on Computational Science and Its Applications (ICCSA 2010)</I>, Fukuoka, Japan, March 23--26, 2010.
+   <LI>B. Zhou, H. Okamura and T. Dohi,“MCMC random testing,”was presented at <I>The 2nd International Conference on Advanced Computer Science and Information Technology (AST 2010)</I>, Miyazaki, Japan, June 23--25, 2010. 
+   <LI>S. Hiroyama, T. Dohi and H. Okamura,“Comparison of aperiodic checkpoint placement algorithms,”was presented at <I>The 2nd International Conference on Advanced Computer Science and Information Technology (AST 2010)</I>, Miyazaki, Japan, June 23--25, 2010. 
+   <LI>H. Okamura, T. Dohi and K. S. Trivedi,“On-line adaptive algorithms in autonomic restart control,”was presented at <I>The 7th International Conference on Autonomic and Trusted Computing (ATC 2010)</I>, Xi'an, China, October 26--29, 2010. 
+   <LI>H. Okamura, H. Kishitani and T. Dohi,“Application of deterministic annealing EM algorithm to Markovian arrival parameter estimation,”was presented at <I>The 2nd International Symposium on Multidisciplinary Emerging Networks & Systems (MENS-2010)</I>, Xi'an, China, October 26--29, 2010. 
+   <LI>K. Hari and T. Dohi,“Sensitivity analysis of random port hopping,”was presented at <I>The 2nd International Symposium on Multidisciplinary Emerging Networks & Systems (MENS-2010)</I>, Xi'an, China, October 26--29, 2010. 
+   <LI>H. Okamura and T. Dohi,“Performance-aware software rejuvenation strategies in a queueing system,”was presented at The 2nd International Workshop on Software Aging and Rejuvenation (WoSAR 2010)</I>, San Jose, USA, November 1--4, 2010. 
+   <LI>H. Okamura, Y. Etani and T. Dohi,“A multi-factor software reliability moel based on logistic regression,”was presented at <I>The 21st IEEE International Symposium on Software Reliability Engineering (ISSRE-2010)</I>, San Jose, USA, November 1--4, 2010. 
+   <LI>B. Zhou, H. Okamura and T. Dohi, “Enhancing performance of random testing through Markov chain Monte Carlo methods,”was presented at <I>2010 IEEE 12th International Symposium on High Assurance Systems Engineering</I>, Fast Abstract, San Jose, USA, November 1--4, 2010. 
+   <LI>S. Inoue, K. Kurokawa, Y. Kakuda and T. Dohi, “A method to prolong the lifetime of sensor netwworks by adding new sensor nodes to energy-consumed areas,”was presented at <I>The 2nd International Symposium on Aware Computing (ISAC-2010)</I>, Taina, Taiwan, November 1--4, 2010. 
+   <LI>T. Dohi, N. Kaio and S. Osaki,“A stochastic profit model under repair-limit replacement program with imperfect repair,”was presented at <I>The 4th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2010)</I>, Wellington, New Zealand, December 2--4, 2010. 
+   <LI>T. Dohi, H. Okamura and S. Osaki,“Transient analysis of software availability models with rejuvenation,”was presented at <I>The 4th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2010)</I>, Wellington, New Zealand, December 2--4, 2010. 
+   <LI>T. Ishii, T. Dohi and H. Okamura,“Applying least equares estimation to software reliability prediction,”was presented at <I>The 4th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2010)</I>, Wellington, New Zealand, December 2--4, 2010. 
+   <LI>T. Dohi, H. Okamura and K. S. Trivedi,“Comparing software cost rate models with rejuvenation,”was presented at <I>The 4th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2010)</I>, Wellington, New Zealand, December 2--4, 2010.
+   <LI>H. Okamura, T. Dohi and S. Osaki,“A dynamic programming approach for sequential preventive maintenance policies,”was presented at <I>The 4th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2010)</I>, Wellington, New Zealand, December 2--4, 2010.
+   <LI>H. Okamura, T. Dohi and K. S. Trivedi,“An improvement of EM algorithm for PH distyributions with group data,”was presented at <I>The 4th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2010)</I>, Wellington, New Zealand, December 2--4, 2010.
+   <LI>K. Yamana, H. Okamura and T. Dohi,“A note on quasi-Monte Carlo simulation for non-homogeneous Markov chains,”was presented at <I>The 4th Asia-Pacific International Symposium on Advanced Reliability and Maintenance Modeling (APARM 2010)</I>, Wellington, New Zealand, December 2--4, 2010.
+   <LI>H. Okamura and T. Dohi,“Estimating computer virus propagation based on Markovian arrival processes,”was presented at <I>The 16th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC-2010)</I>, Tokyo, Japan, December 13--15, 2010. 
+   <LI>A. Izumi, T. Dohi and N. Kaio,“Deadlock detection scheduling for distributed processes in the presence of system failures,”was presented at <I>The 16th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC-2010)</I>, Tokyo, Japan, December 13--15, 2010. 
+   <LI>T. Fujii, T. Dohi, H. Okamura and T. Fujiwara,“A software accerelated life testing model,”was presented at <I>The 16th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC-2010)</I>, Tokyo, Japan, December 13--15, 2010. 
+
+【国内会議口頭発表】
+
+  <LI>岡村寛之，岡野俊之, 土肥正,“ソフトウェアメトリクスを考慮したソフトウェア信頼性評価,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 50--51, 東京, 3月4日--5日, 2010. 
+  <LI>A. Izumi, T. Dohi and N. Kaio,“Deadlock detection scheduling for distributed processes in the presence of system failures,”日本オペレーションズ・リサーチ学会秋季研究発表会アブストラクト集, pp. ?--?, 福島, 9月16日--17日, 2010. 
+  <LI>岡村寛之，土肥正,“多変量位相分布のパラメータ推定手法,”日本オペレーションズ・リサーチ学会秋季研究発表会アブストラクト集, pp. ?--?, 福島, 9月16日--17日, 2010. 
+  <LI>金石俊雄, 土肥正,“核推定法に基づいたソフトウェア故障データの解析,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 110, no. 62, pp. 31--36, 鳥取, 5月28日, 2010. 
+  <LI>恵谷勇介, 岡村寛之, 土肥正,“動的なテスト環境要因を考慮したソフトウェア信頼性評価に関する一考察,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 110, no. 62, pp. 37--42, 鳥取, 5月28日, 2010. 
+  <LI>別所典明, 土肥正,“クラスタシステムに対する多重障害からの回復技術 ～ 歪チェックポイントモデルの厳密解法 ～,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 110, no. 62, pp. 49--54, 鳥取, 5月28日, 2010. 
+  <LI>徳實賢山, 岡村寛之, 土肥正,“セキュリティパッチによる保守を伴うソフトウェアシステムに対するセキュリティ評価,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 110, no. 62, pp. 55--60, 鳥取, 5月28日, 2010. 
+  <LI>和泉暁和, 土肥正, 海生直人,“システム障害の発生を考慮した分散プロセスのデッドロック検出スケジューリング,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 110, no. 159, pp. 31--36, 山形, 7月30日, 2010. 
+  <LI>岡村寛之, 土肥正,“単体テストデータを用いたソフトウェア信頼性評価に関する一考察,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 110, no. 345, pp. 17--21, 東京, 12月17日, 2010. 
+  <LI>金石俊雄, 土肥正,“ソフトウェアテストにおける残存フォールト数の推定～パラメトリックブートストラップ法～,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 110, no. 345, pp. 23--28, 東京, 12月17日, 2010. 
+
+
+2009年度
+
+【学術雑誌掲載論文】
+
+  <LI>K. Ohishi, H. Okamura and T. Dohi,“Gompertz software reliability model: estimation algorithm and empirical validation,”<I>Journal of Systems and Software</I>, vol. 82, 535--543, 2009. 
+  <LI>T. Ozaki, T. Dohi and N. Kaio,“Numerical computation algorithms for sequential checkpoint placement,”<I>Performance Evaluation</I>, vol. 66, pp. 311--326, 2009. 
+  <LI>K. Rinsaka and T. Dohi,“Estimating the optimal software rejuvenation schedule with small sample data,”<I>Quality Technology and Quantitative Management Journal</I>, vol. 6, no. 1, pp. 55--65, 2009. 
+  <LI>Y. Sakai, K. Rinsaka and T. Dohi,“A cyber-attack detection model based on multivariate analyses,”<I>IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences (A)</I>, vol. E92-A, no. 7, pp. 1585--1592, 2009. 
+  <LI>H. Okamura and T. Dohi,“Software reliability modeling based on capture-recapture sampling,”<I>IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences (A)</I>, vol. E92-A, no. 7, pp. 1615--1622, 2009. 
+  <LI>K. Tateishi, H. Okamura and T. Dohi, “Transient analysis of internet-worm propagation based on simple birth and death process,”<I>International Journal of Reliability and Quality Performance</I>, vol. 1, no. 1, pp. 1--9, 2009. 
+  <LI>H. Okamura, T. Dohi and K. S. Trivedi, “Markovian arrival process parameter estimation with group data,”<I>IEEE/ACM Transactions on Networking</I>, vol. 17, no. 4, pp. 1326--1339, 2009. 
+  <LI>B. C. Giri and T. Dohi,“Cost-effective ordering policies for inventory systems with emergency order,”<I>Computers & Industrial Engineering</I>, vol. 57, pp. 1336--1341, 2009. 
+  <LI>B. C. Giri and T. Dohi,“Quantifying the risk in age and block replacement policies,”<I>Journal of the Operational Research Society</I>, vol. 20, pp. 1151--1158, 2009. 
+
+【査読付国際会議論文】
+
+  <LI>T. Uemura and T. Dohi,“A security match management model,”<I>Proceedings of The IASTED International Conference on Software Engineering</I>, pp. 114--119, ACTA Press, 2009.
+  <LI>X. Xiao and T. Dohi,“On equilibrium distribution properties in software reliability modeling,”<I>Proceedings of 4th International Conference on Availability, Reliability and Security (ARES 2009)</I>, pp. 158--165, IEEE CPS, 2009. 
+  <LI>R. Fujimoto, H. Okamura and T. Dohi,“Security evaluation of an intrusion tolerant system with MRSPNs,”<I>Proceedings of 4th International Conference on Availability, Reliability and Security (ARES 2009)</I>, pp. 427--432, IEEE CPS, 2009. 
+  <LI>T. Fujii and T. Dohi,“Statistical failure analysis of a web server system,”<I>Proceedings of 4th International Conference on Availability, Reliability and Security (ARES 2009)</I>, pp. 554--559, IEEE CPS, 2009. 
+  <LI>L.-Z. Jin and Tadashi Dohi,“Non-homogeneous inverse Gaussian software reliability models,”<I>Proceedings of 7th International Conference on Quality Software (QSIC 2009)</I>, pp. 444--451, IEEE CPS, 2009. 
+  <LI>H. Okamura and T. Dohi,“Faster maximum likelihood estimation algorithms for Markovian arrival processes”<I>Proceedings of 6th International Conference on Quantitative Evaluation of Systems (QEST 2009)</I>, pp. 73--82, IEEE CPS, 2009. 
+  <LI>H. Okamura, M. Tokuzane and T. Dohi,“Optimal security patch release timing under non-homogeneous vulnerability-discovery processes,”<I>Proceedings of 20th International Symposium on Software Reliability Engineering (ISSRE'09)</I>, pp. 120--128, IEEE CPS, 2009.
+  <LI>X. Xiao and T. Dohi,“Wavelet-based approach for estimating software reliability,”<I>Proceedings of 20th International Symposium on Software Reliability Engineering (ISSRE'09)</I>, pp. 11--20, IEEE CPS, 2009.
+  <LI>T. Uemura, T. Dohi and N. Kaio,“Availability analysis of a scalable intrusion tolerant architecture with two detection modes,”<I>Cloud Computing (CloudCom 2009)</I> (M. G. Jaatun, G. Zhao and C. Rong, eds.), Lecture Notes in Computer Science, vol. 5931, pp. 178--189, Springer-Verlag, 2009.
+  <LI>H. Okamura and T. Dohi,“A Bayesian inference tool for NHPP-based software reliability assessment,”<I>Future Generation Information Technology 2009 (FGIT 2009)</I> (Y.-H. Lee, T.-H. Kim, W.-C. Fang and D. Slezak, eds.), Lecture Notes in Computer Science, vol. 5899, pp. 226--237, Springer-Verlag, 2009.
+  <LI>H. Okamura and T. Dohi,“An EM algorithm for record value statistics models in software reliability estimation,”<I>Advances in Software Engineering & Its Applications (ASEA 2009)</I> (D. Slezak, T.-H. Kim, A. Kiumi, T. Jiang, J. Verner ans S. Abrahao, eds.), Communications in Computer and Information Science, vol. 59, pp. 288--295, Springer-Verlag, 2009.
+  <LI>X. Xiao and T. Dohi,“An experimental evaluation of error rate in a web server system,”<I>Advances in Software Engineering & Its Applications (ASEA 2009)</I> (D. Slezak, T.-H. Kim, A. Kiumi, T. Jiang, J. Verner ans S. Abrahao, eds.), Communications in Computer and Information Science, vol. 59, pp. 272--279, Springer-Verlag, 2009.
+  <LI>S. Mizoguchi and T. Dohi,“A refined non-parametric algorithm for sequential software reliability estimation,”<I>Advances in Software Engineering & Its Applications (ASEA 2009)</I> (D. Slezak, T.-H. Kim, A. Kiumi, T. Jiang, J. Verner ans S. Abrahao, eds.), Communications in Computer and Information Science, vol. 59, pp. 330--337, Springer-Verlag, 2009.
+
+【査読付国内会議論文】
+
+  <LI>岡村寛之, 土肥正,“再始動アルゴリズム：最適性と統計的推定 ,”先進的計算基盤システムシンポジウム (SACSIS 2009) 論文集, pp. 399--406, 広島 (May 28--29, 2009).
+
+【書籍】
+
+　<LI>T. Dohi, S. Osaki and K. Sawaki (eds.), <I>Recent Advances in Stochastic Operations Research II</I>, World Scientific, Singapore, 2009 (ISBN: 981-279-166-3). 
+  <LI>K. Rinsaka and T. Dohi,“Effective algorithms to estimate the optimal software rejuvenation schedule under censoring”，<I>Recent Advances in Stochastic Operations Research II</I> (T. Dohi, S. Osaki and K. Sawaki, eds.), pp. 225--242, World Scientific, Singapore, 2009.
+  <LI>T. Dohi, N. Kaio and S. Osaki,“Stochastic profit models under repair-limit replacement program”，<I>Recent Advances in Stochastic Operations Research II</I> (T. Dohi, S. Osaki and K. Sawaki, eds.), pp. 139--150, World Scientific, Singapore, 2009.
+  <LI>土肥正,“4章 信頼性理論における確率論的基礎”，「EE Text 信頼性・安全性工学」（道上勉, 向殿政男 編）, pp. 65--91, オーム社, 東京, 2009.
+  <LI>土肥正,“信頼性と保全性”，「数理科学辞典」, 第2版（広中平祐 編）, 部門 VI OR, 6 節, pp. 703--709, 丸善, 東京, 2009. 
+
+【基調講演・招待講演】
+
+   <LI>T. Dohi,“Application of stochastic maintenance models to dependable computing,”was presented at <I>Research Seminar in School of Management & Economics, Beijing Institute of Technology</I> (Invited Talk), Beiging, China, December 4, 2009.
+
+【国際会議口頭発表】
+
+   <LI>T. Uemura and T. Dohi,“A security match management model,”was presented at <I>The IASTED International Conference on Software Engineering</I>, Innsbruck, Austria, February 17-19, 2009. 
+   <LI>X. Xiao and T. Dohi,“On equilibrium distribution properties in software reliability modeling,”was presented at <I>4th International Conference on Availability, Reliability and Security (ARES 2009)</I>, Fukuoka, Japan, March, 16-19 2009. 
+   <LI>R. Fujimoto, H. Okamura and T. Dohi,“Security evaluation of an intrusion tolerant system with MRSPNs,”was presented at <I>4th International Conference on Availability, Reliability and Security (ARES 2009)</I>, Fukuoka, Japan, March, 16-19 2009. 
+   <LI>T. Fujii and T. Dohi,“Statistical failure analysis of a web server system,”was presented at <I>The 4th International Workshop on Dependability Aspects on Data Warehousing and Mining applications (DAWAM 2009)</I>, in conjunction with <I>4th International Conference on Availability, Reliability and Security (ARES 2009)</I>, Fukuoka, Japan, March, 16-19 2009. 
+   <LI>L.-Z. Jin and Tadashi Dohi,“Non-homogeneous inverse Gaussian software reliability models,”was presented at <I>The 7th International Conference on Quality Software (QSIC 2009)</I>, Jeju, Korea, August 24-25, 2009. 
+   <LI>H. Okamura and T. Dohi,“Faster maximum likelihood estimation algorithms for Markovian arrival processes,”was presented at <I>The 6th International Conference on Quantitative Evaluation of Systems (QEST 2009)</I>, Budapest, Hungary, September 13-16, 2009.
+   <LI>H. Okamura and T. Dohi,“Optimal security patch release timing under non-homogeneous vulnerability-discovery processes,”was presented at <I>The 20th International Symposium on Software Reliability Engineering (ISSRE'09)</I>, Bengalulu-Mysuru, India, November 16--19, 2009.
+   <LI>X. Xiao and T. Dohi,“Wavelet-based approach for estimating software reliability,”was presented at <I>The 20th International Symposium on Software Reliability Engineering (ISSRE'09)</I>, Bengalulu-Mysuru, India, November 16--19, 2009.
+   <LI>T. Uemura, T. Dohi and N. Kaio,“Availability analysis of a scalable intrusion tolerant architecture with two detection modes,”was presented at <I>The 1st International Conference on Cloud Computing (CloudCom 2009)</I>, Beijing, China, December 1--4, 2009. 
+   <LI>H. Okamura, T. Hirata and T. Dohi,“A Bayesian inference tool for NHPP-based software reliability assessment,”was presented at <I>The 1st International Conference on AFuture Generation Information Technology (FGIT 2009)</I>, Jeju, Korea, December 10--12, 2009.
+   <LI>H. Okamura and T. Dohi,“An EM algorithm for record value statistics models in software reliability estimation,”was presented at <I>2009 International Conference on Advanced Software Engineering & Its Applications (ASEA 2009)</I>, Jeju, Korea, December 10--12, 2009.
+   <LI>X. Xiao and T. Dohi,“An experimental evaluation of error rate in a web server system,”was presented at <I>2009 International Conference on Advanced Software Engineering & Its Applications (ASEA 2009)</I>, Jeju, Korea, December 10--12, 2009.
+   <LI>S. Mizoguchi and T. Dohi,“A refined non-parametric algorithm for sequential software reliability estimation,”was presented at <I>2009 International Conference on Advanced Software Engineering & Its Applications (ASEA 2009)</I>, Jeju, Korea, December 10--12, 2009.
+
+【国内会議口頭発表】
+
+  <LI>林坂弘一郎, 土肥 正,“ノンパラメトリック予測推論に基づいたソフトウェアの最適若化方策ー3ステップ適応的スケジューリングー,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 248--249, 筑波, 3月17日--18日, 2009. 
+  <LI>藤井稔也, 土肥 正, 岡村寛之，藤原隆次“ソフトウェア加速寿命試験モデルの適用ガイドライン,”日本オペレーションズ・リサーチ学会秋季研究発表会アブストラクト集, pp. 18--19, 長崎, 9月9日--10日, 2009. 
+  <LI>山名健太, 岡村寛之, 土肥正,“変分近似によるマルコフ連鎖の最適シミュレーション分布の推定,”日本オペレーションズ・リサーチ学会秋季研究発表会アブストラクト集, pp. 193--194, 長崎, 9月9日--10日, 2009. 
+  <LI>藤本隆太郎, 岡村寛之, 土肥正,“多変量位相型分布を用いたMRSPNの近似解析,”平成21年度電気・情報関連学会中国支部第60回連合大会講演論文集, p. 1-6, 広島, 10月17日, 2009.
+  <LI>河合理恵, 岡村寛之, 土肥正 ,“一般化EM法を用いた並列処理によるHMM学習の高速化,”平成21年度電気・情報関連学会中国支部第60回連合大会講演論文集, p. 20-2, 広島, 10月17日, 2009.
+  <LI>B. Zhou, H. Okamura and T. Dohi ,“Random testing based on Markov chain Monte Carlo method,”平成21年度電気・情報関連学会中国支部第60回連合大会講演論文集, p. 26-42, 広島, 10月17日, 2009.
+  <LI>藤井稔也, 土肥正, 岡村寛之, 藤原隆次,“ソフトウェア加速寿命試験モデルに基づいたユーザ受入テストの検証,”平成21年度電気・情報関連学会中国支部第60回連合大会講演論文集, p. 26-43, 広島, 10月17日, 2009.
+  <LI>山名健太, 岡村寛之, 土肥正,“変分近似による離散時間マルコフ連鎖の最適シミュレーション分布の推定,”平成21年度電気・情報関連学会中国支部第60回連合大会講演論文集, p. 26-44, 広島, 10月17日, 2009.
+  <LI>高木聡, 岡村寛之, 土肥正,“P2Pネットワークにおける確率的フラッディングの最適性に関する考察,”平成21年度電気・情報関連学会中国支部第60回連合大会講演論文集, p. 26-45, 広島, 10月17日, 2009.
+  <LI>肖 霄, 土肥正,“正規変換を伴わないウェーブレットに基づいたソフトウェア信頼性評価,”平成21年度電気・情報関連学会中国支部第60回連合大会講演論文集, p. 26-46, 広島, 10月17日, 2009.
+  <LI>箱崎亮太, 土肥正,“ブートストラップ法によるソフトウェア信頼性評価に関する考察,”平成21年度電気・情報関連学会中国支部第60回連合大会講演論文集, p. 26-47, 広島, 10月17日, 2009.
+  <LI>張康三郎, 土肥正,“ランダムポートホッピングに基づいた対DoS攻撃プロトコルの性能評価モデル,”平成21年度電気・情報関連学会中国支部第60回連合大会講演論文集, p. 26-48, 広島, 10月17日, 2009.
+  <LI>平田拓水, 岡村寛之, 土肥正 ,“混合ガンマ分布を用いたベイズ推定によるソフトウェア信頼性評価,”平成21年度電気・情報関連学会中国支部第60回連合大会講演論文集, p. 26-56, 広島, 10月17日, 2009.
+  <LI>張康三郎, 土肥正,“ランダムポートホッピングの性能評価,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 109, no.67, pp. 1--6, 広島, 5月29日, 2009. 
+  <LI>肖霄, 土肥正,“ウェーブレットに基づいたソフトウェア信頼性評価に関する考察,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 109, no.67, pp. 7--12, 広島, 5月29日, 2009. 
+  <LI>山名健太, 岡村寛之, 土肥正,“準モンテカルロ法による非定常マルコフ連鎖シミュレーションに関する考察,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 109, no.67, pp. 31--36, 広島, 5月29日, 2009. 
+  <LI>溝口真太郎, 土肥正,“ソフトウェア信頼性のノンパラメトリック推定に関する考察,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 109, no. 94, pp. 23--28, 東京, 6月19日, 2009. 
+  <LI>箱崎亮太, 土肥正,“ブートストラップ法によるソフトウェア信頼性評価に関する考察,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 109, no. 161, pp. 35--39, 旭川, 7月31日, 2009. 
+  <LI>藤本隆太郎, 岡村寛之, 土肥正,“MRSPNによるセキュリティシステムの性能評価,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 109, no. 161, pp. 59--64, 旭川, 7月31日, 2009. 
+  <LI>岡村寛之, 土肥正,“マルコフ型到着過程を用いたソフトウェア信頼性モデルの統一化,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 109, no. 232, pp. 13--19, 博多, 10月16日, 2009. 
+  <LI>岡村寛之, 岡野俊之, 土肥正,“静的ソフトウェアメトリクスを考慮したソフトウェア信頼性評価,”第6回ディペンダブルシステムシンポジウム (DSS 2009) (日本ソフトウェア科学会ディペンダブルシステム研究会), pp. 35--42, 大阪, 12月14日-15日, 2009. 
+
+
+2008年度
+
+【学術雑誌掲載論文】
+
+  <LI>K. Iwamoto, T. Dohi and N. Kaio,“Estimating periodic software rejuvenation schedule in discrete operational circumstance,”<I>IEICE Transactions on Information & Systems (D)</I>, vol. E91-D, no. 1, pp. 23--31, 2008. 
+  <LI>植村俊和, 土肥正,“DoS攻撃に対する耐侵入システムのコスト有効性分析,”電子情報通信学会論文誌 (A), vol. J91-A, no.2, pp. 223-232, 2008. 
+  <LI>T. Ishii, T. Fujiwara and T. Dohi,“Bivariate extension of discrete software reliability modeling with number of test casess,”<I>International Journal of Reliability, Quality and Safety Engineering</I>, vol. 15, no. 1, pp. 1-17, 2008.
+  <LI>H. Okamura and T. Dohi,“Software reliability modeling based on mixed Poisson distributions,”<I>International Journal of Reliability, Quality and Safety Engineering</I>, vol. 15, no. 1, pp. 9-32, 2008.
+  <LI>B. C. Giri and T. Dohi,“Determining EMQ for an unreliable manufacturing system in discrete time setting,”<I>International Journal of Operational Research</I>, vol. 3, no. 5, pp. 557--574, 2008. 
+  <LI>K. Iwamoto , T. Dohi and N. Kaio,“Discrete repair-cost limit replacement policies with/without imperfect repair,”<I>Asia-Pacific Journal of Operational Research</I>, vol. 25, no. 2, pp. 735--751, 2008. 
+
+【解説論文】
+
+  <LI>植村俊和，土肥正,“耐侵入システムの設計と評価～確率モデルを中心に～”，日本信頼性学会誌（学会誌特集：「信頼性・保全性・安全性の事例：情報処理・ソフトウェア編」信頼性ハンドブック出版から10年を経てー）, vol. 30, no. 3, pp. 223--234, 2008. 
+
+【査読付国際会議論文】
+
+  <LI>T. Uemura and T. Dohi,“Optimizing security measures in an intrusion tolerant database system,”<I>Service Availability: 5th International Service Availability Symposium (ISAS 2008)</I> (T. Nanya, F. Maruyama, A. Pataricza and M. Malek, eds.), Lecture Notes in Computer Science, vol. 5017, pp. 26--42, Springer-Verlag, 2008. 
+  <LI>H. Okamura and T. Dohi,“Analysis of a software system with rejuvenation, restoration and checkpointing,”<I>Service Availability: 5th International Service Availability Symposium (ISAS 2008)</I> (T. Nanya, F. Maruyama, A. Pataricza and M. Malek, eds.), Lecture Notes in Computer Science, vol. 5017, pp. 110--128, Springer-Verlag, 2008. 
+  <LI>H. Eto, T. Dohi and J. Ma,“Simulation-based optimization approach for software cost model with rejuvenation,”<I>The 5th International Conference on Autonomic and Trusted Computing (ATC 2008)</I> (C. Rong, M. G. Jaatun, F. E. Sandnes, L. T. Yang and J. Ma, eds.), Lecture Notes in Computer Science, vol. 5060, pp. 206--218, Springer-Verlag, 2008. 
+  <LI>Y. Sakai, K. Rinsaka and T. Dohi,“Latent class analysis model for cyber-attack detection,”<I>Proceedings of 2008 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2008)</I>, pp. 79--86, McGraw-Hill, Taiwan, 2008. 
+  <LI>T. Dohi, N. Shibata and N. Kaio, “Estimating an economic testing policy in discrete-time burn-in circumstance,”<I>Proceedings of 2008 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2008)</I>, pp. 273--280, McGraw-Hill, Taiwan, 2008. 
+  <LI>H. Okamura and T. Dohi,“A repair-limit replacement policy with retry,”<I>Proceedings of 2008 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2008)</I>, pp. 289--296, McGraw-Hill, Taiwan, 2008. 
+  <LI>T. Dohi and S. Osaki, “Estimating renewal functions: a neural network-based approach,”<I>Proceedings of 2008 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2008)</I>, pp. 414--421, McGraw-Hill, Taiwan, 2008. 
+  <LI>L. Z. Jin and T. Dohi, “How good is gamma process modeling for software reliability assessment,”<I>Proceedings of 2008 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2008)</I>, pp. 567--574, McGraw-Hill, Taiwan, 2008. 
+  <LI>K. Rinsaka and T. Dohi,“Adaptive software rejuvenation schedule based on non-parametric predictive inference: an expected cost model,”<I>Proceedings of 2008 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2008)</I>, pp. 591--598, McGraw-Hill, Taiwan, 2008. 
+  <LI>Y. Yamaguchi, H. Okamura and T. Dohi,“Estimating a mixture of Erlang distributions based on variational Bayes,”<I>Proceedings of 2008 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2008)</I>, pp. 619--626, McGraw-Hill, Taiwan, 2008. 
+  <LI>T. Uemura, T. Dohi and N. Kaio, “Availability modeling of an intrusion tolerant system with preventive maintenance,”<I>Proceedings of 2008 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2008)</I>, pp. 655--662, McGraw-Hill, Taiwan, 2008. 
+  <LI>H. Okamura and T. Dohi,“Availability optimization in operational software system with aperiodic time-based rejuvenation scheme,”<I>Proceedings of 19th International Symposium on Software Reliability Engineering Workshop (WoSAR'08)</I>, 6 pages, IEEE CPS, 2008.
+  <LI>K. Rinsaka and T. Dohi,“Non-parametric predictive inference of adaptive software rejuvenation schedule,”<I>>Proceedings of 19th International Symposium on Software Reliability Engineering Workshop (WoSAR'08)</I>, 6 pages, IEEE CPS, 2008.
+  <LI>T. Ishii and T. Dohi, “A new paradigm for software reliability modeling -- from NHPP to NHGP -- ,”<I>Proceedings of 14th Pacific Rim International Symposium on Dependable Computing (PRDC'08)</I>, pp. 224--231, IEEE CPS, 2008.
+  <LI>H. Okamura and T. Dohi,“Hyper-Erlang software reliability model,”<I>Proceedings of 14th Pacific Rim International Symposium on Dependable Computing (PRDC'08)</I>, pp. 232--239, IEEE CPS, 2008.
+
+
+【査読付国内会議論文】
+
+【書籍】
+
+  <LI>S.-H. Sheu and T. Dohi (eds.), <I>Advanced Reliability Modeling III -- Global Aspect of Reliability and Maintainability</I>, McGraw Hill, Taipei, 2008 (ISBN: 978-986-157-577-3). 
+
+【基調講演・招待講演】
+
+【国際会議口頭発表】
+
+   <LI>T. Uemura and T. Dohi,“Optimizing security measures in an intrusion tolerant database system,”was presented at <I>5th International Service Availability Symposium (ISAS 2008)</I>, Tokyo, Japan, May 19--21, 2008. 
+   <LI>H. Okamura and T. Dohi,“Analysis of a software system with two failure modes: rejuvenation, restoration and checkpointing,”was presented at <I>5th International Service Availability Symposium (ISAS 2008)</I>, Tokyo, Japan, May 19--21, 2008. 
+   <LI>H. Eto, T. Dohi and J. Ma,“Simulation-based optimization approach for software cost model with rejuvenation,”was presented at <I>The 5th International Conference on Autonomic and Trusted Computing (ATC 2008)</I>, Oslo, Norway, June 23--25, 2008.
+   <LI>T. Dohi and S. Osaki,“Estimating renewal functions: a neural network-based approach,”was presented at <I>2008 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2008)</I>, Taichung, Taiwan, October 23-25, 2008. 
+   <LI>L. Z. Jin and T. Dohi,“How good is gamma process modeling for software reliability assessment,”was presented at <I>2008 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2008)</I>, Taichung, Taiwan, October 23-25, 2008. 
+   <LI>T. Uemura, T. Dohi and N. Kaio,“Availability modeling of an intrusion tolerant system with preventive maintenance,”was presented at <I>2008 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2008)</I>, Taichung, Taiwan, October 23-25, 2008. 
+   <LI>T. Dohi, N. Shibata and N. Kaio,“Estimating an economic testing policy in discrete-time burn-in circumstance,”was presented at <I>2008 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2008)</I>, Taichung, Taiwan, October 23-25, 2008. 
+   <LI>Y. Yamaguchi, H. Okamura and T. Dohi,“Estimating a mixture of Erlang distributions based on variational Bayes,”was presented at <I>2008 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2008)</I>, Taichung, Taiwan, October 23-25, 2008. 
+   <LI>H. Okamura and T. Dohi,“A repair-limit replacement policy with retry,”was presented at <I>2008 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2008)</I>, Taichung, Taiwan, October 23-25, 2008. 
+   <LI>K. Rinsaka and T. Dohi,“Adaptive software rejuvenation schedule based on non-parametric predictive inference: an expected cost model,”was presented at <I>2008 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2008)</I>, Taichung, Taiwan, October 23-25, 2008. 
+   <LI>K. Rinsaka, Y. Sakai and T. Dohi,“Latent class analysis model for cyber-attack detection,”was presented at <I>2008 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2008)</I>, Taichung, Taiwan, October 23-25, 2008. 
+   <LI>K. Rinsaka and T. Dohi,“Non-parametric predictive inference of adaptive software rejuvenation schedule,”was presented at <I>The 1st International Workshop on Software Aging and Rejuvenationg (WoSAR'08)</I>, in conjunction with <I>19th International Symposium on Software Reliability Engineering (ISSRE'08)</I>, Seattle, USA, November 11, 2008. 
+   <LI>H. Okamura and T. Dohi,“Availability optimization in operational software system with aperiodic time-based rejuvenation scheme,”was presented at <I>The 1st International Workshop on Software Aging and Rejuvenationg (WoSAR'08)</I>, in conjunction with <I>19th International Symposium on Software Reliability Engineering (ISSRE'08)</I>, Seattle, USA, November 11, 2008. 
+   <LI>T. Ishii and T. Dohi,“A new paradigm for software reliability modeling -- from NHPP to NHGP -- ,”was presented at <I>14th Pacific Rim International Symposium on Dependable Computing (PRDC'08)</I>, Taipei, Taiwan, December 15-17, 2008. 
+   <LI>H. Okamura and T. Dohi,“Hyper-Erlang software reliability model,”was presented at <I>14th Pacific Rim International Symposium on Dependable Computing (PRDC'08)</I>, Taipei, Taiwan, December 15-17, 2008. 
+
+【国内会議口頭発表】
+
+  <LI>岡村寛之，藤本隆太郎, 土肥正,“MRSPN の位相型近似に関する考察,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 16--17, 京都, 3月25日--26日, 2008. 
+  <LI>酒井悠人, 林坂弘一郎, 土肥正,“潜在クラス分析に基づいた不正アクセス検知モデルの提案,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 20--21, 京都, 3月25日--26日, 2008. 
+  <LI>T. Dohi and H. Okamura,“Determinimg system restart interval,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 152--153, 京都, 3月25日--26日, 2008. 
+  <LI>岡村寛之，徳實賢山, 土肥正,“最適セキュリティパッチマネジメントに関する考察,”日本オペレーションズ・リサーチ学会秋季研究発表会アブストラクト集, pp. 96--97, 札幌, 9月10日--11日, 2008. 
+  <LI>金林柱, 土肥正,“非定常ガンマ過程に基づいたソフトウェア信頼性評価 II -- 連続状態モデル --,”日本オペレーションズ・リサーチ学会秋季研究発表会アブストラクト集, pp. 98--99, 札幌, 9月10日--11日, 2008. 
+  <LI>K. Rinsaka and T. Dohi,“NPI-based adaptive software rejuvenation strategies under expected cost criterion,”日本オペレーションズ・リサーチ学会秋季研究発表会アブストラクト集, pp. 102--103, 札幌, 9月10日--11日, 2008. 
+  <LI>岡村寛之, 徳實賢山, 土肥正,“脆弱性ライフサイクルとユーザプロファイルを考慮したソフトウェアシステムのセキュリティ評価,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 108, no. 72, pp. 13--17, 神戸, 5月30日, 2008. 
+  <LI>植村俊和, 土肥正, 海生直人,“IMS-based VoIP ネットワークシステムの定量的セキュリティ分析,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 108, no. 72, pp. 19--24, 神戸, 5月30日, 2008. 
+  <LI>岡村寛之, 土肥正,“混合アーランソフトウェア信頼性モデル,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 108, no. 125, pp. 7--12, 帯広, 7月11日, 2008. 
+  <LI>肖霄, 土肥正,“ウェブサーバシステムにおけるエラー率の実験的評価,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 108, no. 125, pp. 13--18, 帯広, 7月11日, 2008. 
+  <LI>林坂弘一郎, 土肥正,“コスト有効性に基づいたソフトウェアの適応的若化スケジューリング,”第25回電子情報通信学会アシュアランスシステム研究会技術研究報告, pp. 8-15, 神戸, 11月14日, 2008. 
+  <LI>岡村寛之, 土肥正,“マルコフ変調ポアソン過程によるコンピュータウィルス増殖過程の推定,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 108, no. 349, pp. 11--16, 東京, 12月12日, 2008. 
+  <LI>岡村寛之, 徳實賢山, 土肥正,“脆弱性ライフサイクルとユーザプロファイルを考慮したソフトウェアシステムのセキュリティ評価,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 108, no. 72, pp. 13--17, 神戸, 5月30日, 2008. 
+  <LI>植村俊和, 土肥正, 海生直人,“IMS-based VoIP ネットワークシステムの定量的セキュリティ分析,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 108, no. 72, pp. 19--24, 神戸, 5月30日, 2008. 
+  <LI>岡村寛之, 土肥正,“混合アーランソフトウェア信頼性モデル,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 108, no. 125, pp. 7--12, 帯広, 7月11日, 2008. 
+  <LI>肖霄, 土肥正,“ウェブサーバシステムにおけるエラー率の実験的評価,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 108, no. 125, pp. 13--18, 帯広, 7月11日, 2008. 
+  <LI>林坂弘一郎, 土肥正,“コスト有効性に基づいたソフトウェアの適応的若化スケジューリング,”第25回電子情報通信学会アシュアランスシステム研究会技術研究報告, pp. 8-15, 神戸, 11月14日, 2008. 
+  <LI>岡村寛之, 土肥正,“マルコフ変調ポアソン過程によるコンピュータウィルス増殖過程の推定,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 108, no. 349, pp. 11--16, 東京, 12月12日, 2008. 
+
+2007年度
+
+【学術雑誌掲載論文】
+
+  <LI>B. C. Giri, T. Dohi and N. Kaio,“Discrete-time spare ordering policy with randomized lead times and discounting,”<I>International Transactions in Operational Research</I>, vol. 13, no. 6, pp. 561--576, 2007.
+  <LI>T. Dohi, N. Kaio and S. Osaki,“Estimating cost-effective checking request policies,”<I>Quality Technology and Quantitative Management</I>, vol. 4, no. 2, pp. 1--13, 2007.
+  <LI>B. C. Giri and T. Dohi,“Inspection scheduling for imperfect production processes under free repair warranty contract,”<I>European Journal of Operational Research</I>, vol. 183, pp. 238--252, 2007.
+  <LI>T. Dohi, N. Kaio and S. Osaki,“Optimal (T, S)-policies in a discrete-time opportunity-based age replacement: an empirical study,”<I>International Journal of Industrial Engineering</I>, vol.14, no. 4, 340--347, 2007. 
+  <LI>K. Shibata, K. Rinsaka and T. Dohi,“Dynamic software reliability modeling with discrete-test metrics; how good is it?,”<I>International Journal of Industrial Engineering</I>, vol.14, no. 4, 332--339, 2007. 
+
+【解説論文】
+
+  <LI>岡村寛之, 土肥正,“位相型確率分布の標準化とパラメータ推定の実際”，オペレーションズ・リサーチ (特集：信頼性--温故知新--), vol. 52, no. 7, pp. 383--389, 2007. 
+
+【査読付国際会議論文】
+
+  <LI>T. Dohi, N. Kaio and S. Osaki,“Stochastic profit models under repair-limit replacement program,”<I>Proceedings of 2007 International Workshop on Recent Advances in Stochastic Operations Research (RASOR'07)</I>, pp. 27--34, 2007. 
+  <LI>H. Okamura, T. Sakoh and T. Dohi,“A note on Markov chain Monte Carlo for software reliability models with group data,”<I>Proceedings of 2007 International Workshop on Recent Advances in Stochastic Operations Research (RASOR'07)</I>, pp. 221--228, 2007. 
+  <LI>K. Rinsaka and T. Dohi,“Effective algorithms for the optimal software rejuvenation schedule under censoring,”<I>Proceedings of 2007 International Workshop on Recent Advances in Stochastic Operations Research (RASOR'07)</I>, pp. 243--250, 2007. 
+  <LI>K. Rinsaka and T. Dohi,“A faster estimation algorithm for periodic preventive rejuvenation schedule maximizing system availability,”<I>Service Availability: 4th International Service Availability Symposium (ISAS 2007)</I> (M. Malek, M. Reitenspiess and A. van Moorsel, eds.), Lecture Notes in Computer Science, vol. 4526, pp. 94--104, Springer-Verlag, 2007. 
+  <LI>H. Okamura, M. Grottke, T. Dohi and K. S. Trivedi,“Variational Bayesian approach for interval estimation of NHPP-based software reliability models,”<I>Proceedings of 2007 International Conference on Dependable Systems and Networks (DSN-2007)</I>, pp. 698--707, IEEE CPS, 2007. 
+  <LI>N. Shibata, K. Iwamoto, T. Dohi and N. Kaio,“Estimating discrete-time stochastic profit models with preventive/corrective maintenance,”<I>CD-ROM Proceedings of 5th International Conference on Mathematical Methods in Reliability -- Methodology and Practice -- (MMR 2007)</I>, 11 pages, 2007. 
+  <LI>H. Okamura and T. Dohi,“Confidence intervals of software release time based on Bayesian estimation,”<I>CD-ROM Proceedings of 5th International Conference on Mathematical Methods in Reliability -- Methodology and Practice -- (MMR 2007)</I>, 9 pages, 2007. 
+  <LI>K. Rinsaka, K. Shibata and T. Dohi,“Empirical stopping rule for testing a software - theory and application -,”<I>CD-ROM Proceedings of 5th International Conference on Mathematical Methods in Reliability -- Methodology and Practice -- (MMR 2007)</I>, 8 pages, 2007. 
+  <LI>L. Zhang, H. Okamura and T. Dohi,“Performance evaluation for automatic protection switching in CDMA-TDD wireless communication system,”<I>Human-Computer Interaction: 12th International Conference on Human-Computer Interaction (HCI'07) Part IV</I> (J. A. Jacko, ed.), Lecture Notes in Computer Science, vol. 4553, pp. 1200--1209, Springer-Verlag, 2007. 
+  <LI>T. Ishii, T. Dohi and H. Okamura,“Bivariate software fault-detection models,”<I>Proceedings of 31st Annual International Computer Software and Applications Conference (COMPSAC 2007)</I>, pp. 535--538, IEEE CPS, 2007. 
+  <LI>H. Okamura, Y. Kamahara and T. Dohi,“Estimating Markov-modulated compound Poisson process,”<I>Proceedings of 2nd International Conference on Performance Evaluation Methodologies and Tools (VALUETOOLS 2007)</I>, 8 pages, ACM, 2007. 
+  <LI>K. Rinsaka and T. Dohi,“Non-parametric predictive inference of preventive rejuvenation schedule in operational software systems,”<I>Proceedings of The 18th International Symposium on Software Reliability Engineering (ISSRE'07)</I>, pp. 247--256, IEEE CPS, 2007.
+  <LI>H. Okamura, K. Tateishi and T. Dohi,“Statistical inference of computer virus propagation using non-homogeneous Poisson processes,”<I>Proceedings of The 18th International Symposium on Software Reliability Engineering (ISSRE'07)</I>, pp. 149--158, IEEE CPS, 2007.
+  <LI>K. Shibata, K. Rinsaka, T. Dohi and H. Okamura, “Quantifying software maintainability based on a fault-detection/correction model,”<I>Proceedings of 13th Pacific Rim International Symposium on Dependable Computing (PRDC'07)</I>, pp. 35--42, IEEE CPS, 2007.
+  <LI>K. Shibata, K. Rinsaka and T. Dohi,“PISRAT: Proportional intensity-based software reliability assessment tool,”<I>Proceedings of 13th Pacific Rim International Symposium on Dependable Computing (PRDC'07)</I>, pp. 43--52, IEEE CPS, 2007.
+  <LI>T. Uemura and T. Dohi,“Quantitative evaluation of intrusion tolerant systems subject to DoS attacks via semi-Markov cost models,”<I>Emerging Directions in Embedded and Ubiquitous Computing: International Conference EUC 2007 Workshops</I> (M. K. Denko, C.-S. Shih, K.-C. Li, S.-L. Tsao, Q.-A. Zeng, S.-H. Park, Y.-B. Ko, S.-H. Hung and J.-H. Park, eds.), Lecture Notes in Computer Science, vol. 4809, pp. 31--42, Springer-Verlag, 2007.
+
+【査読付国内会議論文】
+
+
+
+【書籍】
+
+  <LI>T. Dohi, S. Osaki and K. Sawaki (eds.), <I>Proceedings of 2007 International Workshop on Recent Advances in Stochastic Operations Research</I>, Systems Reliability Engineering Laboratory, Department of Information Engineering, Hiroshima University, Japan, 2007 (ISBN: ????). 
+  <LI>R. Sato, Y. Fujimoto and T. Dohi (eds.), <I>Proceedings of International Seminar on Durability and Lifecycle Evaluation of Concrete Structures 2007</I>, Structural Safety and Reliability Project Research Center of Hiroshima University, Japan, 2007 (ISBN: 978-4-902813-07-4). 
+
+【基調講演・招待講演】
+
+<LI>土肥正,“ソフトウェア信頼性工学とは,”第1回 SONY ソフトウェアテストワークショップ (招待講演), 東京, 9月28日, 2007.
+
+【国際会議口頭発表】
+
+  <LI>T. Dohi, N. Kaio and S. Osaki,“Stochastic profit models under repair-limit replacement program,”will be presented at <I>2007 International Workshop on Recent Advances in Stochastic Operations Research (RASOR'07)</I>, Nagoya, Japan, March, 5--6, 2007. 
+  <LI>K. Rinsaka and T. Dohi,“Effective algorithms for the optimal software rejuvenation schedule under censoring,”will be presented at <I>2007 International Workshop on Recent Advances in Stochastic Operations Research (RASOR'07)</I>, Nagoya, Japan, March, 5--6, 2007. 
+  <LI>H. Okamura, T. Sakoh and T. Dohi,“A note on Markov chain Monte Carlo for software reliability models with group data,”will be presented at <I>2007 International Workshop on Recent Advances in Stochastic Operations Research (RASOR'07)</I>, Nagoya, Japan, March, 5--6, 2007. 
+  <LI>K. Rinsaka and T. Dohi,“A faster estimation algorithm for periodic preventive rejuvenation schedule maximizing system availability,”was presented at <I>The 4th International Service Availability Symposium (ISAS 2007)</I>, Durham, New Hampshire, USA, May, 21--22, 2007. 
+  <LI>H. Okamura, M. Grottke, T. Dohi and K. S. Trivedi,“Variational Bayesian approach for interval estimation of NHPP-based software reliability models,”was presented at <I>The International Conference on Dependable Systems and Networks (DSN-2007)</I>, Edinburgh, UK, June, 25--28, 2007. 
+  <LI>H. Okamura and T. Dohi,“Confidence intervals of software release time based on Bayesian estimation,”was presented at <I>5th International Conference on Mathematical Methods in Reliability -- Methodology and Practice (MMR-2007)</I>, Glasgow, UK, July, 1--4, 2007.  
+  <LI>K. Rinsaka, K. Shibata and T. Dohi,“Empirical stopping rule for testing a software - theory and application -,”was presented at <I>5th International Conference on Mathematical Methods in Reliability -- Methodology and Practice (MMR-2007)</I>, Glasgow, UK, July, 1--4, 2007.  
+  <LI>N. Shibata, K. Iwamoto, T. Dohi and N. Kaio,“Estimating discrete-time stochastic profit models with preventive/corrective maintenance,”was presented at <I>5th International Conference on Mathematical Methods in Reliability -- Methodology and Practice (MMR-2007)</I>, Glasgow, UK, July, 1--4, 2007.  
+  <LI>L. Zhang, H. Okamura and T. Dohi,“Performance evaluation for automatic protection switching in CDMA-TDD wireless communication system,”was presented at <I>The 12th International Conference on Human-Computer Interaction (HCI'07)</I>, Beijing, China, July 22 --27, 2007. 
+  <LI>T. Ishii, T. Dohi and H. Okamura,“Bivariate software fault-detection models,”was presented at <I>31st Annual International Computer Software and Applications Conference (COMPSAC 2007)</I>, Beijing, China, July 24 --27, 2007. 
+  <LI>H. Okamura, Y. Kamahara and T. Dohi,“Estimating Markov-modulated compound Poisson process,”was presented at <I>2nd International Conference on Performance Evaluation Methodologies and Tools (VALUETOOLS 2007)</I>, Nantes, France, October 23--25, 2007.
+  <LI>K. Rinsaka and T. Dohi,“Non-parametric predictive inference of preventive rejuvenation schedule in operational software systems,”was presented at <I>18th International Symposium on Software Reliability Engineering (ISSRE'07)</I>, Trollhattan, Sweden, November 5--9, 2007.
+  <LI>H. Okamura, K. Tateishi and T. Dohi,“Statistical inference of computer virus propagation using non-homogeneous Poisson processes,”was presented at <I>18th International Symposium on Software Reliability Engineering (ISSRE'07)</I>, Trollhattan, Sweden, November 5--9, 2007.
+  <LI>K. Shibata, K. Rinsaka and T. Dohi,“PISRAT: Proportional intensity-based software reliability assessment tool,”was presented at <I>13th Pacific Rim International Symposium on Dependable Computing (PRDC'07)</I>, Melbourne, Australia, December 17--19, 2007.
+   <LI>K. Shibata, K. Rinsaka, T. Dohi and H. Okamura, “Quantifying software maintainability based on a fault-detection/correction model,”was presented at <I>13th Pacific Rim International Symposium on Dependable Computing (PRDC'07)</I>, IEEE Computer Society Press, Melbourne, Australia, December 17--19, 2007.
+  <LI>T. Uemura and T. Dohi,“ Quantitative evaluation of intrusion tolerant systems subject to DoS attacks via semi-Markov cost models,”was presented at <I>The 2nd International Workshop on Trustwortiness, Reliability and Services in Ubiquitous and Sensor Networks (TRUST 2007)</I>, in conjunction with <I>The 2007 IFIP International Conference on Embedded and Ubiquitous Computing (EUC 2007)</I>, Taipei, Taiwan, Decembder 17--20, 2007.  
+
+【国内会議口頭発表】
+
+  <LI>岡村寛之, 蒲原雄也, 土肥 正,“マルコフ変調複合ポアソン過程に対する推定アルゴリズム,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 30--31, 鳥取, 3月28日--29日, 2007. 
+  <LI>石井智孝, 土肥正,“最小二乗推定に基づいたソフトウェア信頼性評価,”日本オペレーションズ・リサーチ学会秋季研究発表会アブストラクト集, pp. 52--53, 鳥取, 3月28日--29日, 2007. 
+  <LI>林坂弘一郎, 石丸雅章, 土肥 正,“適応的核推定に基づいた最適ソフトウェア若化スケジューリング,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 172--173, 鳥取, 3月28日--29日, 2007. 
+  <LI>石井智孝, 土肥正,“非定常ガンマ過程に基づいたソフトウェア信頼性評価ーNHPPからNHGPへー,”日本オペレーションズ・リサーチ学会秋季研究発表会アブストラクト集, pp. 78--79, 東京, 9月27日--28日, 2007. 
+  <LI>山口祐介, 岡村寛之, 土肥正,“変分ベイズによる混合アーラン分布の推定,”日本オペレーションズ・リサーチ学会秋季研究発表会アブストラクト集, pp. 82--83, 東京, 9月27日--28日, 2007. 
+  <LI>植村俊和, 土肥正,“耐侵入データベースシステムのアベイラビリティ評価に関する考察,”平成19年度電気・情報関連学会中国支部第58回連合大会講演論文集, p. 351, 東広島, 10月20日, 2007.
+  <LI>金林柱, 土肥正,“ソフトウェア強度過程に関する一考察,”平成19年度電気・情報関連学会中国支部第58回連合大会講演論文集, p. 352, 東広島, 10月20日, 2007.
+  <LI>佐光哲哉, 岡村寛之, 土肥正,“指数形ソフトウェア信頼性モデルのベイズ推定におけるMCMCサンプリング手法の比較,”平成19年度電気・情報関連学会中国支部第58回連合大会講演論文集, p. 353, 東広島, 10月20日, 2007.
+  <LI>蒲原雄也, 岡村寛之, 土肥 正,“個数データによるマルコフ到着過程のパラメータ推定アルゴリズムに関する評価,”平成19年度電気・情報関連学会中国支部第58回連合大会講演論文集, p. 354, 東広島, 10月20日, 2007.
+  <LI>沢津橋政人, 岡村寛之, 土肥正,“路線価評価のためのWebアプリケーション開発,”平成19年度電気・情報関連学会中国支部第58回連合大会講演論文集, p. 355, 東広島, 10月20日, 2007.
+  <LI>酒井悠人, 林坂弘一郎, 土肥正,“潜在クラスモデルを用いた不正アクセス検知,”平成19年度電気・情報関連学会中国支部第58回連合大会講演論文集, p. 390, 東広島, 10月20日, 2007.
+  <LI>柴田和也，林坂弘一郎，土肥正,“PISRAT: Proportional intensity-based software reliability assessment tool,”第20回電子情報通信学会アシュアランスシステム研究会技術研究報告, pp. 9-16, 横浜, 3月9日, 2007. 
+  <LI>酒井悠人, 林坂弘一郎, 土肥正,“多変量解析を用いた不正アクセス検知モデルの提案,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 107, no. 43, pp. 1--6, 東広島, 5月18日, 2007. 
+  <LI>蒲原雄也, 岡村寛之, 土肥正,“マルコフ変調複合ポアソン過程に基づいたパケットプロファイルによる統計的侵入検知,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 107, no. 43, pp. 7--12, 東広島, 5月18日, 2007. 
+  <LI>植村俊和, 土肥正,“セミマルコフコストモデルに基づいたDoS攻撃に対する耐侵入システムの評価,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 107, no. 43, pp. 13--18, 東広島, 5月18日, 2007. 
+  <LI>佐光哲哉, 岡村寛, 土肥正,“ベイズ推定に基づいたソフトウェアリリース時間の信頼区間,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 107, no. 43, pp. 31--36, 東広島, 5月18日, 2007. 
+  <LI>T. Sakoh, H. Okamura and T. Dohi,“A statistical approach for software release problem,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 107, no. 137, pp. 27--32, 北見, 7月13日, 2007. 
+  <LI>T. Ishii, T. Dohi and H. Okamura,“Bivariate software fault-detection models,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 107, no. 137, pp. 33--38, 北見, 7月13日, 2007. 
+
+
+
+2006年度
+
+【学術雑誌掲載論文】
+
+  <LI>岡村寛之，宮内聡, 土肥正,“マルコフ決定過程による Web ページランキングアルゴリズムの提案,'' 電子情報通信学会論文誌 (D-I), vol. J89-D, no. 2, pp. 210--219, 2006. 
+  <LI>K. Iwamoto, T. Dohi, H. Okamura and N. Kaio,“Discrete-time cost analysis for a telecommunication billing application with rejuvenation,”<I>Computers & Mathematics with Applications</I>, vol. 51, no. 2, pp. 335--344, 2006.
+  <LI>T. Dohi, A. Ashioka, N. Kaio and S. Osaki,“Statistical estimation algorithms for some repair--limit replacement scheduling problems under earning rate criteria,”<I>Computers & Mathematics with Applications</I>, vol. 51, no. 2, pp. 345--356, 2006.
+  <LI>H. Okamura, A. Murayama and T. Dohi,“A unified parameter estimation algorithm for discrete software reliability models,”<I>Opsearch</I>, vol. 42, no. 4, pp. 355--377, 2006.
+  <LI>岡村寛之, 古村仁志, 土肥正,“傾向曲線に基づいたソフトウェア信頼性モデルに対するパラメータ推定,”情報処理学会論文誌, vol. 47, no. 3, pp. 897--905, 2006. 
+  <LI>T. Dohi, H. Suzuki and S. Osaki,“Transient cost analysis of non-Markovian software systems with rejuvenation,”<I>International Journal of Performability Engineering</I>, vol. 2, no. 3, pp. 233--243, 2006.
+  <LI>B. C. Giri and T. Dohi,“Cost-effective production policy for a stochastic unreliable manufacturing system,”<I>IMA Journal of Management Mathematics</I>, vol. 17, pp. 209--223, 2006. 
+  <LI>T. Ozaki, T. Dohi, H. Okamura and N. Kaio,“Distribution-free checkpoint placement algorithms based on min-max principle,”<I>IEEE Transactions on Dependable and Secure Computing</I>, vol. 3, no. 2, pp. 130--140, 2006.
+  <LI>石井智隆, 土肥正,“2次元 NHPP に基づいたテスト労力依存型ソフトウェア信頼性モデル,”電子情報通信学会論文誌 (D-I), vol. J89-D, no. 8, pp. 1684--1694, 2006. 
+  <LI>岡村寛之，立石和也, 土肥正,“非同次ポアソン過程によるコンピュータウィルス増殖に関する統計モデル,”電子情報通信学会論文誌 (D-I), vol. J89-D, no. 8, pp. 1729--1738, 2006. 
+  <LI>H. Okamura, K. Iwamoto and T. Dohi,“A dynamic programming algorithm for software rejuvenation scheduling under distributed computation circumstance,”<I>Journal of Computer Science</I>, vol. 2, no. 6, pp. 505--512, 2006. 
+  <LI>H. Eto and T. Dohi,“Determining the optimal software rejuvenation schedule via semi-Markov decision process,”<I>Journal of Computer Science</I>, vol. 2, no. 6, pp. 528--534, 2006. 
+  <LI>H. Okamura, K. Iwamoto and T. Dohi,“A DP-based optimal checkpointing algorithm for real-time appications,”<I>International Journal of Reliability, Quality and Safety Engineering</I>, vol. 13. no. 4, pp. 323--340, 2006. 
+  <LI>B. C. Giri and T. Dohi,“Optimal inspection schedule in an imperfect EMQ model with free repair warranty policy,”<I>Journal of the Operations Research Society of Japan</I>, vol. 49, no. 3, pp. 222--237, 2006. 
+  <LI>B. C. Giri and T. Dohi,“Optimal lot sizing for an unreliable manufacturing system under cost-effectiveness criterion,”<I>Asian Pacific Management Review Journal</I>, vol. 11, no. 3, pp. 187--193, 2006. 
+  <LI>T. Dohi, T. Danjou and N. Kaio,“Determining the optimal delivery schedule of spare units via NPV approach,”<I>Asian Pacific Management Review Journal</I>, vol. 11, no. 4, pp. 205--212, 2006.
+  <LI>K. Iwamoto, T. Dohi and N. Kaio,“Estimating discrete-time periodic software rejuvenation schedules under cost effectiveness criterion,”<I>International Journal of Reliability, Quality and Safety Engineering</I>, vol. 13, no. 6, pp. 565--580, 2006.
+
+【解説論文】
+
+  <LI>土肥正,“逐次点検問題とその周辺”，オペレーションズ・リサーチ (OR研究の最前線), vol. 51, no. 5, pp. 291--297, 2006.
+  <LI>岡村寛之, 土肥正,“アーキテクチャに基づいたソフトウェア信頼性モデルの動向”，日本信頼性学会誌（論文誌特集：情報システムの信頼性・保全性）, vol. 28, no. 8, pp. 537--545, 2006. 
+
+【査読付国際会議論文】
+
+  <LI>H. Eto and T. Dohi,“Analysis of a service degradation model with preventive rejuvenation,”<I>Service Availability: 3rd International Service Availability Symposium (ISAS 2006)</I> (D. Penkler, M. Reitenspiess and F. Tam, eds.), Lecture Notes in Computer Science, vol. 4328, pp. 17--29, Springer-Verlag, 2006. 
+  <LI>T. Dohi, N. Kaio and S. Osaki,“Optimal (T, S)-policies in a discrete-time opportunity-based age replacement: an empirical study,”<I>Proceedings of 2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006)</I>, pp. 219--226, World Scientific, Singapore, 2006. 
+  <LI>K. Iwamoto, T. Dohi and N. Kaio,“Discrete repair-cost limit replacement policies,”<I>Proceedings of 2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006)</I>, pp. 243--250, World Scientific, Singapore, 2006. 
+  <LI>K. Iwamoto, T. Maruo, H. Okamura and T. Dohi,“Aperiodic optimal checkpoint sequence under steady-state system availability criterion,”<I>Proceedings of 2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006)</I>, pp. 251--258, World Scientific, Singapore, 2006. 
+  <LI>T. Ishii, T. Fujiwara and T. Dohi,“Bivariate extension of software reliability modeling with number of test cases,”<I>Proceedings of 2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006)</I>, pp. 395--402, World Scientific, Singapore, 2006. 
+  <LI>H. Okamura and T. Dohi,“Software reliability modeling based on mixed Poisson distributions,”<I>Proceedings of 2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006)</I>, pp. 427--434, World Scientific, Singapore, 2006. 
+  <LI>K. Rinsaka and T. Dohi,“Estimating the optimal software rejuvenation schedule with small sample data,”<I>Proceedings of 2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006)</I>, pp. 443--450, World Scientific, Singapore, 2006. 
+  <LI>K. Shibata, K. Rinsaka and T. Dohi,“Incorporating dynamic software metrics data in software reliability assessment,”<I>Proceedings of 2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006)</I>, pp. 451--458, World Scientific, Singapore, 2006. 
+  <LI>H. Goto, H. Okamura and T. Dohi,“A note on parameter estimation for phase-type distribution in canonical form,”<I>Proceedings of 2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006)</I>, pp. 577--584, World Scientific, Singapore, 2006. 
+  <LI>K. Tateishi, H. Okamura and T. Dohi,“Transient analysis of Internet-worm propagation based on simple birth-and-death processes,”<I>Proceedings of 2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006)</I>, pp. 676--683, World Scientific, Singapore, 2006. 
+  <LI>K. Rinsaka, K. Shibata and T. Dohi,“Proportional intensity-based software reliability modeling with time-dependent metrics,”<I>Proceedings of The 30th Annual International Computer Software and Applications Conference (COMPSAC 2006)</I>, pp. 405--410, IEEE CPS, 2006.
+  <LI>T. Dohi, T. Ozaki and N. Kaio,“Optimal sequential checkpoint placement with equality constraints,”<I>Proceedings of The 2nd IEEE International Symposium on Dependable Autonomic and Secure Computing (DASC' 06)</I>, pp. 77--84, IEEE CPS, 2006.
+  <LI>T. Ando, H. Okamura and T. Dohi,“Estimating Markov modulated software reliability models via EM algorithm,”<I>Proceedings of The 2nd IEEE International Symposium on Dependable Autonomic and Secure Computing (DASC' 06)</I>, pp. 111--118, IEEE CPS, 2006.
+  <LI>K. Shibata, K. Rinsaka and T. Dohi,“Metrics-based software reliability models using non-homogeneous Poisson processes,”<I>Proceedings of The 17th International Symposium on Software Reliability Engineering (ISSRE'06)</I>, pp. 52--61, IEEE CPS, 2006.
+  <LI>H. Okamura, H. Furumura and T. Dohi,“On the effect of fault removal in software testing --- Bayesian reliability estimation approach ---,”<I>Proceedings of The 17th International Symposium on Software Reliability Engineering (ISSRE'06)</I>, pp. 247--255, IEEE CPS, 2006.
+  <LI>H. Okamura and T. Dohi,“Building phase-type software reliability models,”<I>Proceedings of The 17th International Symposium on Software Reliability Engineering (ISSRE'06)</I>, pp. 289--298, IEEE Computer Society Press, 2006.
+  <LI>H. Okamura, T. Sakoh and T. Dohi,“Variational Bayesian approach for exponential software reliability model,”<I>Proceedings of 10th IASTED International Conference on Software Engineering and Applications</I>, pp. 82--87, ACTA Press, 2006.
+  <LI>H. Ishii and T. Dohi,“Two-dimensional software reliability modeling,”<I>Proceedings of 12th Pacific Rim International Symposium on Dependable Computing (PRDC'06)</I>, pp. 3--10, IEEE Computer Society Press, Los Alamitos, 2006. 
+
+
+【査読付国内会議論文】
+
+
+【書籍】
+
+  <LI>W. Y. Yun and T. Dohi (eds.), <I>Advanced Reliability Modeling II -- Reliability Testing and Improvement</I>, World Scientific, Singapore, 2006 (ISBN: 981-256-758-5). 
+  <LI>R. Sato, Y. Fujimoto and T. Dohi (eds.), <I>Proceedings of International Seminar on Durability and Lifecycle Evaluation of Concrete Structures 2006</I>, Structural Safety and Reliability Project Research Center of Hiroshima University, Japan, 2006 (ISBN: 4-902813-06-8). 
+  <LI>T. Dohi, S. Osaki and K. Sawaki (eds.), <I>Recent Advances in Stochastic Operations Research</I>, World Scientific, Singapore, 2006 (ISBN: 981-256-704-6). 
+
+【基調講演・招待講演】
+
+   <LI>土肥正,“ディペンダビリティ評価研究の現状,”JST 研究開発戦略センター「情報システムのディペンダビリティ評価」に関するワークショップ (招待講演), 東京, 11月24日--25日, 2006.
+
+【国際会議口頭発表】
+
+  <LI> H. Eto and T. Dohi,“Analysis of a service degradation model with preventive rejuvenation,”was presented at <I>3rd International Service Availability Symposium (ISAS 2006)</I>, Helsinki, Finland, May 15--16, 2006. 
+  <LI> T. Dohi, N. Kaio and S. Osaki,“Optimal (T, S)-policies in a discrete-time opportunity-based age replacement: an empirical study,”was presented at <I>2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006)</I>, Busan, Korea, August 24--25, 2006. 
+  <LI> K. Iwamoto, T. Dohi and N. Kaio,“Discrete repair-cost limit replacement policies,”was presented at <I>2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006)</I>, Busan, Korea, August 24--25, 2006. 
+  <LI> K. Iwamoto, T. Maruo, H. Okamura and T. Dohi,“Aperiodic optimal checkpoint sequence under steady-state system availability criterion,”was presented at <I>2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006)</I>, Busan, Korea, August 24--25, 2006. 
+  <LI> T. Ishii, T. Fujiwara and T. Dohi,“Bivariate extension of software reliability modeling with number of test cases,”was presented at <I>2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006)</I>, Busan, Korea, August 24--25, 2006. 
+  <LI> H. Okamura and T. Dohi,“Software reliability modeling based on mixed Poisson distributions,”was presented at <I>2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006)</I>, Busan, Korea, August 24--25, 2006. 
+  <LI> K. Rinsaka and T. Dohi,“Estimating the optimal software rejuvenation schedule with small sample data,”was presented at <I>2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006)</I>, Busan, Korea, August 24--25, 2006. 
+  <LI> K. Shibata, K. Rinsaka and T. Dohi,“Incorporating dynamic software metrics data in software reliability assessment,”was presented at <I>2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006)</I>, Busan, Korea, August 24--25, 2006. 
+  <LI> H. Goto, H. Okamura and T. Dohi,“A note on parameter estimation for phase-type distribution in canonical form,”was presented at <I>2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006)</I>, Busan, Korea, August 24--25, 2006. 
+  <LI> K. Tateishi, H. Okamura and T. Dohi,“Transient analysis of Internet-worm propagation based on simple birth-and-death processes,”was presented at <I>2006 Asian International Workshop on Advanced Reliability Modeling (AIWARM 2006)</I>, Busan, Korea, August 24--25, 2006. 
+  <LI>K. Rinsaka, K. Shibata and T. Dohi,“Proportional intensity-based software reliability modeling with time-dependent metrics,”was presented at <I>The 30th Annual International Computer Software and Applications Conference (COMPSAC 2006)</I>, Chicago, USA, September 18--21, 2006.
+  <LI>T. Dohi, T. Ozaki and N. Kaio,“Optimal sequential checkpoint placement with equality constraints,”was presented at <I>The 2nd IEEE International Symposium on Dependable Autonomic and Secure Computing (DASC'06)</I>, Indianapolis, USA, September 29--October 1, 2006.
+  <LI>T. Ando, H. Okamura and T. Dohi,“Estimating Markov modulated software reliability models via EM algorithm,”was presented at <I>The 2nd IEEE International Symposium on Dependable Autonomic and Secure Computing (DASC'06)</I>, Indianapolis, USA, September 29--October 1, 2006.
+  <LI>H. Okamura, H. Furumura and T. Dohi,“On the effect of fault removal in software testing --- Bayesian reliability estimation approach ---,”was presented at <I>The 17th International Symposium on Software Reliability Engineering (ISSRE'06)</I>, Raleigh, USA, November 6--11, 2006. 
+  <LI>H. Okamura and T. Dohi,“Building phase-type software reliability models,”was presented at <I>The 17th International Symposium on Software Reliability Engineering (ISSRE'06)</I>, Raleigh, USA, November 6--11, 2006. 
+  <LI>K. Shibata, K. Rinsaka and T. Dohi,“Metrics-based software reliability models using non-homogeneous Poisson processes,”was presented at <I>The 17th International Symposium on Software Reliability Engineering (ISSRE'06)</I>, Raleigh, USA, November 6--11, 2006. 
+  <LI>H. Okamura, T. Sakoh and T. Dohi,“Variational Bayesian approach for exponential software reliability model,”was presented at <I>10th IASTED International Conference on Software Engineering and Applications</I>, Dallas, USA, November 13--15, 2006. 
+  <LI>H. Ishii and T. Dohi,“Two-dimensional software reliability modeling,”was presented at <I>12th Pacific Rim International Symposium on Dependable Computing (PRDC'06)</I>, Riverside, USA, December 18--20, 2006.
+
+【国内会議口頭発表】
+
+  <LI>岡村寛之, 宮内聡, 土肥 正,“Web 情報検索におけるマルコフ決定過程に基づいたランキングアプローチ,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 208--209, 東京, 3月14日--15日, 2006. 
+  <LI>林坂弘一郎, 土肥 正,“核密度推定に基づいた最適ソフトウェア若化スケジュールの推定,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 252--253, 東京, 3月14日--15日, 2006. 
+  <LI>土肥正, 岩本一樹, 海生直人,“離散時間修理限界取替え方策とその推定アルゴリズム,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 254--255, 東京, 3月14日--15日, 2006. 
+  <LI>林坂弘一郎, 土肥 正,“可変核推定による最適ソフトウェア若化スケジューリング,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 268--269, 名古屋, 9月12日--13日, 2006. 
+  <LI>林坂弘一郎, 柴田和也, 土肥 正,“時系列メトリクスに基づいたソフトウェア信頼性,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 270--271, 名古屋, 9月12日--13日, 2006. 
+  <LI>土肥正, 海生直人, 尾崎俊治,“Optimal (T, S)-policies in a discrete-time opportunity-based age replacement,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 272--273, 名古屋, 9月12日--13日, 2006. 
+  <LI>酒井悠人, 林坂弘一郎, 土肥正,“多変量解析に基づいたマルコフ型攻撃検知手法の提案,”平成18年度電気・情報関連学会中国支部第57回連合大会講演論文集, p. 81, 岡山, 10月21日, 2006.
+  <LI>沢津橋政人, 岡村寛之, 林坂弘一郎, 土肥正,“教育プログラム制に基づいた学部教育支援システムの開発に向けて,”平成18年度電気・情報関連学会中国支部第57回連合大会講演論文集, p. 224, 岡山, 10月21日, 2006.
+  <LI>佐光哲哉, 岡村寛之, 土肥正,“変分ベイズ法によるソフトウェア信頼性モデルのパラメータ推定アルゴリズム,”平成18年度電気・情報関連学会中国支部第57回連合大会講演論文集, p. 295, 岡山, 10月21日, 2006.
+  <LI>林坂弘一郎, 土肥正,“ソフトウェアの最適若化スケジューリングに対するノンパラメトリック予測推論,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 106, no. 76, pp. 19--24, 徳島, 5月26日, 2006. 
+  <LI>岡村寛之, 佐光哲哉, 土肥正,“不完全デバッグモデルのパラメータ推定は可能か？,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 106, no. 76, pp. 25--30, 徳島, 5月26日, 2006. 
+  <LI>T. Ozaki, T. Dohi and N. Kaio,“Optimal checkpoint placement with equality constraints: exact and approximate solutions,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 106, no. 76, pp. 31--36, 徳島, 5月26日, 2006. 
+  <LI>林坂弘一郎, 土肥正,“ノンパラメトリック予測推論に基づいたソフトウェアの最適若化スケジューリング　～ 期待費用モデル ～,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 106, no. 159, pp. 25--30, 稚内, 7月14日, 2006. 
+  <LI>土肥正,“国際会議報告:ISAS2006に出席して,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 106, no. 159, pp. 31--36, 稚内, 7月14日, 2006. 
+  <LI>林坂弘一郎, 土肥正,“コスト有効性に基づいたソフトウェア最適若化スケジュールの推定　～ ノンパラメトリック予測推論アプローチ ～,”第18回電子情報通信学会アシュアランスシステム研究会技術研究報告, pp. 42-47, 神戸, 7月24日, 2006. 
+  <LI>土肥正,“国際会議報告:ISAS2006に出席して,”第18回電子情報通信学会アシュアランスシステム研究会技術研究報告, pp. 42-47, 神戸, 7月24日, 2006. 
+
+2005年度
+
+【学術雑誌掲載論文】
+
+  <LI>B. C. Giri, W. Y. Yun and T. Dohi,“Optimal design of unreliable production/inventory systems with variable production rate,”<I>European Journal of Operational Research</I>, vol. 162, pp. 372--386, 2005. 
+  <LI>B. C. Giri, W. Y. Yun and T. Dohi,“Optimal lot sizing in an unreliable two-stage serial production/inventory system,”<I>International Transactions in Operational Research</I>, vol. 12, pp. 63--82, 2005.
+  <LI>岡村寛之，安藤光昭，土肥正,“表計算ソフトウェアによるソフトウェア信頼性評価ツール (SRATS) の開発,”電子情報通信学会論文誌 (D-I), vol. J88-D-I, no. 2, pp. 205--214, 2005.
+  <LI>B. C. Giri and T. Dohi,“Exact formulation of stochastic EMQ model for an unreliable production system,”<I>Journal of the Operational Research Society</I>, vol. 56, pp. 563--575, 2005. 
+  <LI>B. C. Giri and T. Dohi,“Computational aspects of an extended EMQ model with variable production rate,”<I>Computers & Operations Research</I>, vol. 32, pp. 3143--3161, 2005. 
+  <LI>林坂弘一郎，土肥正,“ソフトウェア開発プロジェクトにおける最適テスト/保守設計,”電子情報通信学会論文誌 (A), vol. J88-A, no. 8, pp. 953--961, 2005 [K. Rinsaka and T. Dohi,“Optimal testing/maintenance design in a software development project,”<I>Electronics and Communications in Japan, Part 3</I>, vol. 89, no. 8, pp. 1--9, 2006].
+  <LI>K. Rinsaka and T. Dohi,“Determination of optimal warranty period in a software development project,”<I>International Journal of Quality and Reliability Management</I>, vol. 22, no. 7, pp. 715--730, 2005. 
+  <LI>B. C. Giri, T. Dohi and N. Kaio,“Discrete-time spare ordering policy with lead time and discounting,”<I>Journal of Quality in Maintenance Engineering</I>, vol. 11, no. 3, pp. 191--205, 2005. 
+  <LI>K. Rinsaka and T. Dohi,“Determining the discrete warranty period in a software development project,”<I>Asian Pacific Management Review Journal</I>, vol. 10, no. 4, pp. 225--232, 2005. 
+  <LI>K. Rinsaka and T. Dohi,“Behavioral analysis of fault-torellant software systems with rejuvenation,”<I>IEICE Transactions on Information and Systems (D)</I>, vol. E88-D, no. 12, pp. 2681--2690, 2005.
+  <LI>H. Okamura, S. Miyahara and T. Dohi,“Rejuvenating communication network system with burst arrival,”<I>IEICE Transactions on Communications (B)</I>, vol. E88-B, no. 12, pp. 4498--4506, 2005. 
+
+【解説論文】
+
+  <LI>岡村寛之, 土肥正,“ソフトウェア信頼性評価における統計手法の動向”，日本信頼性学会誌（学会誌特集：ソフトウェア信頼性工学の新展開）, vol. 27, no. 7, pp. 449--460, 2005. 
+
+【査読付国際会議論文】
+
+  <LI>H. Okamura, K. Tsuruta and T. Dohi,“An architecture-based software reliability model with finite number of faults,”<I>Proceedings of 9th IASTED International Conference on Software Engineering</I>, pp, 20--25, ACTA Press, 2005. 
+  <LI>H. Okamura, S. Miyahara and T. Dohi,“Effect of preventive rejuvenation in communication network system with burst arrival,”<I>Proceedings of The 7th International Symposium on Autonomous Decentralized Systems (ISADS 2005)</I>, pp. 151--158, IEEE CPS, 2005.
+  <LI>K. Rinsaka and T. Dohi,“Behavioral analysis of a fault-torellant software system with rejuvenation,”<I>Proceedings of The 7th International Symposium on Autonomous Decentralized Systems (ISADS 2005)</I>, pp. 159--166, IEEE CPS, 2005.
+  <LI>H. Eto and T. Dohi,“Optimality of control-limit type of software rejuvenation policy,”<I>Proceedings of IEEE 11th International Conference on Parallel and Distributed Systems (ICPDS-2005)</I>, vol. II, pp. 483--487, IEEE CPS, 2005.
+  <LI>H. Okamura, K. Iwamoto and T. Dohi,“A dynamic programming algorithm for software rejuvenation scheduling under distributed computation circumstance,”<I>Proceedings of IEEE 11th International Conference on Parallel and Distributed Systems (ICPDS-2005)</I>, vol. II, pp. 493--497, IEEE CPS, 2005.
+  <LI>K. Ohishi, H. Okamura and T. Dohi,“Gompertz software reliability model and its application,”<I>Proceedings of 29th Annual International Computer Software and Application Conference (COMPSAC 2005)</I>, pp. 405--410, IEEE CPS, 2005.
+  <LI>H. Okamura, K. Iwamoto and T. Dohi,“A DP-based optimal checkpointing algorithm for a real time system,”<I>Proceedings of 11th International Conference on Reliability and Quality in Design (ISSAT 2005)</I>, pp. 22--26, 2005. 
+  <LI>T. Dohi, N. Kaio and S. Osaki,“Discrete-time opportunistic replacement policies and their application,”<I>Proceedings of International Workshop on Recent Advances in Stochastic Operations Research (RASOR'05)</I>, pp. 18--25, 2005.
+  <LI>H. Okamura, H. Goto and T. Dohi,“EM algorithms for fitting Markovian arrival processes to time-interval sampling data,”<I>Proceedings of International Workshop on Recent Advances in Stochastic Operations Research (RASOR'05)</I>, pp. 203--210, 2005.
+  <LI>K. Rinsaka and T. Dohi,“Estimating age replacement policies with a small sample data,”<I>Proceedings of International Workshop on Recent Advances in Stochastic Operations Research (RASOR'05)</I>, pp. 219--226, 2005.
+  <LI>N. Kobayashi and T. Dohi,“Bayesian perspective of optimal checkpoint placement,”<I>Proceedings of 9th IEEE International Symposium on High Assurance Systems Engineering (HASE 2005)</I>, pp. 143--159, IEEE CPS, 2005.
+  <LI>H. Okamura, N. Kobayashi and T. Dohi,“Markovian modeling and analysis of Internet worm propagation,”<I>Proceedings of 16th International Symposium on Software Reliability Engineering (ISSRE'05)</I>, pp. 149--158, IEEE CPS, 2005.
+  <LI>K. Iwamoto, T. Dohi and N. Kaio,“Monitoring the health condition of ubiquitous systems: rejuvenation v.s. recovery,”<I>Embedded and Ubiquitous Computing: International Conference EUC 2005 Workshops: UISW, NCUS, SecUbiq, USN, and TAUES</I> (T. Enokido, L. Yan, B. Xiao, D. Kim, Y. Dai and L. T. Yang, eds.), Lecture Notes in Computer Science, vol. 3823, pp. 1283--1292, Springer-Verlag, 2005.  
+  <LI>H. Okamura and T. Dohi,“Performance evaluation of power-aware communication network devices,”<I>Embedded and Ubiquitous Computing: International Conference EUC 2005</I> (L. T. Yang, M. Amamiya, Z. Liu, M. Guo and F. J. Rammig, eds.), Lecture Notes in Computer Science, vol. 3824, pp. 245--254, Springer-Verlag, 2005. 
+  <LI>T. Dohi, H. Suzuki and S. Osaki,“Transient cost analysis of non-Markovian software systems with rejuvenation,”<I>Proceedings of International Conference on Reliability and Safety Engineering (ICNCRESE 2005)</I>, pp. 351--362, 2005. 
+  <LI>H. Okamura, M. Ito and T. Dohi,“A subordinated Markov chain model for assessing software safety,”<I>Proceedings of International Conference on Reliability and Safety Engineering (ICNCRESE 2005)</I>, pp. 363--373, 2005. 
+
+【査読付国内会議論文】
+
+
+【書籍】
+
+　<LI>T. Dohi, S. Osaki and K. Sawaki (eds.), <I>Proceedings of 2005 International Workshop on Recent Advances in Stochastic Operations Research</I>, Systems Reliability Engineering Laboratory, Department of Information Engineering, Hiroshima University, Japan, 2005 (ISBN: 4-939146-03-0). 
+  <LI>土肥正, 藤本由紀夫, 佐藤良一 (編), 2005 安全性・信頼性ワークショップ講演論文集, 構造安全・信頼性プロジェクト研究センター, 広島大学, 2005 (ISBN: 4-93146-04-9). 
+  <LI>T. Dohi, N. Kaio and S. Osaki,“Cost-effective analysis of optimal order-replacement policies”, <I>Advances in Ranking and Selection, Multiple Comparisons and Reliability</I> (N. Balakrishnan, N. Kannan and H. N. Nagaraja, eds.), pp. 267--301, Birkhauser, Boston, 2005.
+  <LI>H. Okamura, T. Dohi and S. Osaki,“Some remarks on Littlewood software reliability model”，<I>Quality, Reliability and Information Technology -- Trends and Future Directions</I> (P. K. Kapur and A. K. Verma, eds.), pp. 143--157, Narosa Publishing House, New Delhi, 2005. 
+  <LI>T. Dohi and N. Kaio,“Repair-limit replacement program in industrial maintenance -- renewal reward process modeling”，<I>Applied Economic Informatics and Systems Sciences</I> (T. Tokimasa, S. Hiraki and N. Kaio, eds.), pp. 157--172, Kyushu University Press, Fukuoka, 2005. 
+  <LI>B. C. Giri and T. Dohi,“Discrete-time stochastic EMQ models with machine breakdown and repair”，<I>Reliability Modeling, Analysis and Optimization</I> (H. Pham, ed.), pp. 81--106, World Scientific, Singapore, 2006. 
+  <LI>T. Dohi, N. Kaio and S. Osaki,“Discrete-time opportunistic replacement policies and their application”，<I>Recent Advances in Stochastic Operations Research</I> (S. Osaki, T. Dohi and K. Sawaki, eds.), pp. 81--100, World Scientific, Singapore, 2005.
+  <LI>K. Rinsaka and T. Dohi,“Estimating age replacement policies with small sample data”，<I>Recent Advances in Stochastic Operations Research</I> (S. Osaki, T. Dohi and K. Sawaki, eds.), pp. 145--158, World Scientific, Singapore, 2005.
+
+【基調講演・招待講演】
+
+   <LI>土肥正,ソフトウェア信頼性評価における最近の話題,”第2回ソフトウェア信頼性研究会ワークショップ (The 10th Forum on Reliable Computer Software: FORCE 2005) (招待講演), 富山, 6月6日-7日, 2005. 
+   <LI>T. Dohi,“Optimal inspection strategies and thier computational aspect: survey and application,”was presented at <I>International Conference on Reliability and Safety Engineering (ICNCRESE 2005)</I> (Invited Talk), Bhubaneswar, India, December 21--23, 2005.
+
+【国際会議口頭発表】
+
+  <LI>H. Okamura, K. Tsuruta and T. Dohi,“An architecture-based software reliability model with finite number of faults,”was presented at <I>9th IASTED International Conference on Software Engineering</I>, Innsbrucxk, Austria, February 15--17, 2005. 
+  <LI>K. Rinsaka and T. Dohi,“Behavioral analysis of a fault-torellant software system with rejuvenation,”was presented at <I>The 7th International Symposium on Autonomous Decentralized Systems (ISADS 2005)</I>, Chengdu, China, April 4--6, 2005. 
+  <LI>H. Okamura, S. Miyahara and T. Dohi,“Effect of preventive rejuvenation in communication network system with burst arrival,”was presented at <I>The 7th International Symposium on Autonomous Decentralized Systems (ISADS 2005)</I>, Chengdu, China, April 4--6, 2005.
+  <LI>H. Okamura, H. Kobayashi and T. Dohi,“Extinction time distribution of internet worms in stochastic kill-signal model,”was presented at <I>The International Conference on Dependable Systems and Networks (DSN 2005)</I> (Fast Abstract), Yokohama, Japan, June 28-- July 1, 2005. 
+  <LI>H. Eto and T. Dohi,“Optimality of control-limit type of software rejuvenation policy,”was presented at <I>First International Workshop on Reliability and Autonomic Management in Parallel and Distributed Systems (RAMPDS)</I>, in conjunction with  <I>IEEE 11th International Conference on Parallel and Distributed Systems</I> (ICPDS-2005), Fukuoka, Japan, July 20 -- 22, 2005. 
+  <LI>H. Okamura, K. Iwamoto and T. Dohi,“A dynamic programming algorithm for software rejuvenation scheduling under distributed computation circumstance,”was presented at <I>First International Workshop on Reliability and Autonomic Management in Parallel and Distributed Systems (RAMPDS)</I>, in conjunction with <I>IEEE 11th International Conference on Parallel and Distributed Systems</I> (ICPDS-2005), Fukuoka, Japan, July 20 -- 22, 2005. 
+  <LI>K. Ohishi, H. Okamura and T. Dohi,“Gompertz software reliability model and its application,”was presented at <I>The 29th Annual International Computer Software and Application Conference (COMPSAC 2005)</I>, Edinburgh, UK, July 25 -- 28, 2005. 
+  <LI>H. Okamura, K. Iwamoto and T. Dohi,“A DP-based optimal checkpointing algorithm for a real time system,”was presented at <I>11th International Conference on Reliability and Quality in Design (ISSAT 2005)</I>, St. Louis, USA, August 4 -- 6, 2005.
+  <LI>T. Dohi, N. Kaio and S. Osaki,“Discrete-time opportunistic replacement policy and its application,”was presented at <I>International Workshop on Recent Advances in Stochastic Operations Research</I>, Canmore, Canada, August 25 --26, 2005.
+  <LI>K. Rinsaka and T. Dohi,“Estimating age replacement policies with a small sample data,” was presented at <I>International Workshop on Recent Advances in Stochastic Operations Research</I>, Canmore, Canada, August 25 --26, 2005. 
+  <LI>H. Okamura, H. Goto and T. Dohi,“EM algorithms for fitting Markovian arrival processes to time-interval sampling data,”was presented at <I>International Workshop on Recent Advances in Stochastic Operations Research</I>, Canmore, Canada, August 25 --26, 2005. 
+  <LI>N. Kobayashi and T. Dohi,“Bayesian perspective of optimal checkpoint placement,”was presented at <I>9th IEEE International Symposium on High Assurance Systems Engineering (HASE 2005)</I>, Heidelberg, Germerny, October 12--14, 2005. 
+  <LI>K. Iwamoto, T. Dohi and N. Kaio,“Estimating periodic software rejuvenation schedule in discrete operational circumstance,”was presented at <I>9th IEEE International Symposium on High Assurance Systems Engineering (HASE 2005)</I> (Fast Abstract), Heidelberg, Germerny, October 12--14, 2005. 
+  <LI>H. Okamura, N. Kobayashi and T. Dohi,“Markovian modeling and analysis of Internet worm propagation,”was presented at <I>16th International Symposium on Software Reliability Engineering (ISSRE 2005)</I>, Chicago, USA, November 1--4, 2005. 
+  <LI> K. Iwamoto, T. Dohi and N. Kaio,“Monitoring the health condition of ubiquitous systems: rejuvenation v.s. recovery,”was presented at <I>First IFIP Workshop on Trusted and Autonomic Ubiquitous and Embedded Systems (TAUES '05)</I>, in conjunction with <I>The 2005 IFIP International Conference on Embedded and Ubiquitous Computing (EUC '05)</I>, Nagasaki, Japan, December 6--9, 2005.  
+  <LI>H. Okamura and T. Dohi,“Performance evaluation of power-aware communication network devices,”was presented at <I>The 2005 IFIP International Conference on Embedded and Ubiquitous Computing (EUC '05)</I>, Nagasaki, Japan, December 6--9, 2005.
+  <LI>T. Dohi, H. Suzuki and S. Osaki,“Transient cost analysis of non-Markovian software systems with rejuvenation,”was presented at <I>International Conference on Reliability and Safety Engineering (ICNCRESE 2005)</I>, Bhubaneswar, India, December 21--23, 2005.
+  <LI>H. Okamura, M. Ito and T. Dohi,“A subordinated Markov chain model for assessing software safety,”was presented at <I>International Conference on Reliability and Safety Engineering (ICNCRESE 2005)</I>, Bhubaneswar, India, December 21--23, 2005.
+
+【国内会議口頭発表】
+
+  <LI>安田修，岡村寛之, 土肥正，尾崎俊治,“表計算ソフトウェアによる路線価評価システムの開発,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 8--9, 東京, 3月16日--17日, 2005.
+  <LI>木南智規，林坂弘一郎，藤原隆次，土肥正,“ソフトウェアメトリクスに基づいた信頼性評価モデル,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 136--137, 東京, 3月16日--17日, 2005.
+  <LI>ビブハス C. ギリ，土肥正,“無償修理保証契約下での不完全 EMQ モデルと最適点検スケジュール,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 256--257, 東京, 3月16日--17日, 2005.
+  <LI>岡村寛之，立石和也, 土肥正,“確率的 SIS モデルによるコンピュータウィルス増殖過程の推定,”日本オペレーションズ・リサーチ学会春季研究発表会アブストラクト集, pp. 258--259, 東京, 3月16日--17日, 2005.
+  <LI>石井智隆，土肥正,“2次元ソフトウェア信頼性モデル,”電子情報通信学会2005年総合大会講演論文集 (一般講演), p. 205, 大阪, 3月21日--24日, 2005.
+  <LI>岡村寛之，土肥正,“フォールト検出数データによる位相型ソフトウェア信頼性モデルのパラメータ推定,”日本オペレーションズ・リサーチ学会秋季研究発表会アブストラクト集, pp. 82--83, 神戸, 9月14日--15日, 2005. 
+  <LI>林坂弘一郎，土肥正,“少数サンプルに基づいた年齢取替方策の推定,”日本オペレーションズ・リサーチ学会秋季研究発表会アブストラクト集, pp. 96--97, 神戸, 9月14日--15日, 2005. 
+  <LI>尾崎達也, 土肥正, 海生直人,“チェックポイント配置問題におけるパフォーマビリティ解析,”日本オペレーションズ・リサーチ学会秋季研究発表会アブストラクト集, pp. 98--99, 神戸, 9月14日--15日, 2005. 
+  <LI>L. Zhang, H. Okamura and T. Dohi,“Performance evaluation for automatic protection switching in CDMA-TDD wireless communication system,”平成17年度電気・情報関連学会中国支部第56回連合大会講演論文集, p. 28, 福山, 10月22日, 2005.
+  <LI>衛藤浩幸, 土肥正,“ソフトウェア若化スケジューリングのためのオンライン適応アルゴリズム,”平成17年度電気・情報関連学会中国支部第56回連合大会講演論文集, p. 122, 福山, 10月22日, 2005.
+  <LI>古村仁志，岡村寛之,“プロフィールの相関を考慮した静的ソフトウェア信頼性評価手法に対するベイズアプローチ,”平成17年度電気・情報関連学会中国支部第56回連合大会講演論文集, p. 123, 福山, 10月22日, 2005.
+  <LI>立石和也, 岡村寛之，土肥正,“拡散過程によるコンピュータウィルス増殖の予測に関する考察,”平成17年度電気・情報関連学会中国支部第56回連合大会講演論文集, p. 124, 福山, 10月22日, 2005.
+  <LI>柴田和也，林坂弘一郎，土肥正,“マルコフ型ソフトウェア信頼性モデルに基づいた納期制約付最適リリース方策,”平成17年度電気・情報関連学会中国支部第56回連合大会講演論文集, p. 125, 福山, 10月22日, 2005.
+  <LI>石井智隆，土肥正,“2次元ソフトウェア信頼性モデルに基づく最適リリース問題,”平成17年度電気・情報関連学会中国支部第56回連合大会講演論文集, p. 126, 福山, 10月22日, 2005.
+  <LI>後藤弘樹, 岡村寛之，土肥正,“マルコフ変調ポアソン過程のパラメータ推定アルゴリズムに関する性能評価,”平成17年度電気・情報関連学会中国支部第56回連合大会講演論文集, p. 127, 福山, 10月22日, 2005.
+  <LI>岩本一樹，岡村寛之，土肥正,“最適チェックポイント配置のチェックポイントオーバーヘッドに関する感度分析,”平成17年度電気・情報関連学会中国支部第56回連合大会講演論文集, p. 128, 福山, 10月22日, 2005.
+  <LI>宮内聡，岡村寛之，土肥正,“ユーザのページ巡回行動を考慮したマルコフ決定過程によるWebページランキングアルゴリズム,”平成17年度電気・情報関連学会中国支部第56回連合大会講演論文集, p. 213, 福山, 10月22日, 2005.
+  <LI>立石和也, 岡村寛之，土肥正,“非同次ポアソン過程によるコンピュータウィルス増殖に関する統計モデル,”第14回電子情報通信学会アシュアランスシステム研究会技術研究報告, pp. 3-9, 東広島, 3月4日, 2005. 
+  <LI>後藤弘樹, 岡村寛之，土肥正,“ベイジアンネットワークによるメールフィルタリングの再構築,”第14回電子情報通信学会アシュアランスシステム研究会技術研究報告, pp. 10-16, 東広島, 3月4日, 2005. 
+  <LI>石井智隆，土肥正,“2次元ソフトウェア信頼性モデル,”第14回電子情報通信学会アシュアランスシステム研究会技術研究報告, pp. 36-43, 東広島, 3月4日, 2005. 
+  <LI>岩本一樹，岡村寛之，土肥正,“マルコフ連鎖モンテカルロ法による最適チェックポイントの生成,”第14回電子情報通信学会アシュアランスシステム研究会技術研究報告, pp. 44-49, 東広島, 3月4日, 2005. 
+  <LI>鈴木裕昭, 土肥正, 海生直人,“ソフトウェア若化を伴うアベイラビリティモデルの過渡解析,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 105, no. 101, pp. 13--18, 神戸, 5月27日, 2005. 
+  <LI>林坂弘一郎，土肥正,“秤の点検計画を策定するための統計的方法,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 105, no. 101, pp. 25--30, 神戸, 5月27日, 2005. 
+  <LI>岡村寛之, 土肥正,“傾向曲線に基づいたソフトウェア信頼性モデルのパラメータ推定,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 105, no. 101, pp. 31--36, 神戸, 5月27日, 2005. 
+  <LI>T. Ozaki, T. Dohi and N. Kaio,“Exact computation algorithms for sequential checkpoint placement,”電子情報通信学会技術研究報告 (信頼性研究会), vol. 105, no. 187, pp. 41--46, 釧路, 7月15日, 2005. 
