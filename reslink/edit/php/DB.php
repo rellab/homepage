@@ -1,9 +1,9 @@
 <?php
 
-$url = "hosting-msql.huc.hiroshima-u.ac.jp";
-$user = "rel";
-$pass = "rz1QWwUv";
-$db = "rel";
+$url = "localhost:3306";
+$user = "h0261_rel";
+$pass = "K885pit@";
+$db = "h0261_rel";
 $tbl = "conference";
 
 ?>
