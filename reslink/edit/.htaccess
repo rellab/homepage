@@ -1,4 +1,4 @@
-AuthUserFile /subhome/rel.hiroshima-u.ac.jp/reslink.userpasswd
+AuthUserFile /var/www/vhosts/rel.hiroshima-u.ac.jp/reslink.userpasswd
 AuthGroupFile /dev/null
 AuthName Administrator
 AuthType Basic
