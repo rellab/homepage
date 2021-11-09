@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule ^/(.*)$ http://iceccs2022.xsrv.jp/$1 [L,R=301]
+RewriteRule ^(.*)$ http://iceccs2022.xsrv.jp/$1 [L,R=301]
